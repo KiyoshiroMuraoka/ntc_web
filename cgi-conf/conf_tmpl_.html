@@ -1,0 +1,36 @@
+<!--
+     Copyright (C) 2001-2004 NTT Bizlink Corporation. All rights reserved.
+     Produced by M.Kawabe
+-->
+<HTML>
+ <HEAD>
+  <TITLE>メールフォーム</TITLE>
+ </HEAD>
+ <META HTTP-EQUIV='Content-type' CONTENT='text/html; charset=Shift_JIS'>
+ <META HTTP-EQUIV='Content-Language' content='ja'>
+ <META HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+ <BODY>
+<BR>
+<BR>
+<CENTER>
+<H1>投稿内容の確認</H1>
+ <TABLE>
+  <TR>
+   <TD><FONT SIZE="-1"><B>以下の内容で送信します。</B></FONT></TD>
+  </TR>
+  <TR>
+   <TD><FONT SIZE="-1"><B>よろしければ、送信ボタンを押してください。</B></FONT></TD>
+  </TR>
+ </TABLE>
+<FORM METHOD="post" ACTION="mailform.cgi">
+<TABLE CELLSPACING=0 BORDER=1 BORDERCOLORLIGHT=black WIDTH="50%">
+[LOOP]
+<TR><TD WIDTH=20%>[$key]</TD>
+<TD>[$value]</TD></TR>
+[/LOOP]
+</TABLE>
+<BR>
+<INPUT NAME='__func__' TYPE='submit' VALUE='　送信　'>
+</FORM>
+</BODY>
+</HTML>

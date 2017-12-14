@@ -1,0 +1,234 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="x-ua-compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Expires" content="604800">
+<meta http-equiv="Content-Language" content="ja" />
+<script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="../js/topslider.js"></script>
+<script type="text/javascript" async src="../js/menu.js"></script><!--メニュー用js-->
+<script type="text/javascript" async src="../js/pagetop.js"></script><!--トップへ戻る用js-->
+<script type="text/javascript" async src="../js/jquery.animate-colors.js"></script>
+<link rel="shortcut icon" href="../img/favicon.ico" />
+<link rel="canonical" href="https://www.technocrats.jp/tatenpo" />
+<meta name="Keywords" content="商品,一括,登録,多店舗計画,多店舗展開,複数店舗,データ移行,商品登録,楽天市場,Yahoo!ショッピング,アマゾン,ビッターズ,マルチドメインカート,楽天,Yahooショッピング,Amazon,bidders,auショッピングモール,au ショッピングモール,MDC,EC CUBE,Eストア,ショップサーブ,ECCUBE,カラーミーショップ,MakeShop,メイクショップ,ebay,助ネコ,ECサイト,Eコマース,越境EC" />
+<meta name="Description" content="新しい出店モールへの商品登録、複数店舗への月々の商品登録が一ヶ所へのデータ入力で終了！多店舗展開や越境ECにも対応！商品定期登録・商品移行サービス" />
+<meta name="msvalidate.01" content="1F1FF59C74E5F762834B23CCE4C2A83D" />
+<meta name="viewport" content="width=device-width, initial-scale=0.38">
+<title>easyster</title>
+<script type="text/javascript">
+function ac(){var r=document.referrer,a=google.loader.ClientLocation;ti=document.title;p=location.href.substring(location.href.lastIndexOf('/')+1, location.href.length);if(a){var e=a.address.region,t=a.address.city,o=a.address.country;}var c={ref:r,region:e,city:t,country:o,page:p,title:ti};jQuery.ajax({async:!0,type:"GET",url:"https://www.technocrats.jp/tatenpo/ac.php",data:c})}
+</script>
+<script type="text/javascript" async src="https://www.google.com/jsapi?callback=ac"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42863547-4', 'auto');
+  ga('send', 'pageview');
+</script>
+<script type="text/javascript">
+$(function(){
+	$(".listbox").hover(
+		function(){$("div:nth-child(2)",this).animate({left:"0px"},200);},
+		function(){$("div:nth-child(2)",this).animate({left:"200px"},200);}
+	);
+	$(".listbox").hover(
+		function(){$("a:nth-child(1)",this).animate({color:'#ffffff'},200);},
+		function(){$("a:nth-child(1)",this).animate({color:'#000000'},200);}
+	);
+});
+</script>
+</head>
+<body class="gray">
+<div class="main topup">
+	<div id="contents">
+	<!--予約エリア-->
+		<div class="topmenu">
+			<img id="toplogo" src="../img/logo1.png">
+			<div class="menulist">
+				<div class="listbox"><a href="#service"><div>service</div></a><div></div></div>
+				<div class="listbox"><a href="#property"><div>function</div></a><div></div></div>
+				<div class="listbox"><a href="#plan"><div>plan</div></a><div></div></div>
+				<div class="listbox"><a href="./contact.html"><div>contact</div></a><div></div></div>
+				<div class="listbox"><a href="#profile"><div>company profile</div></a><div></div></div>
+				<div class="listbox"><a href="#access"><div>access</div></a><div></div></div>
+			</div>
+		</div>
+		<div class="topmain">
+			<div class="toptitle" id="title"><img src="../img/toptitle2.png">
+				<div class="topright"><div class="switch"><a class="linkbtn" href="../index.html">日本語</a><a class="linkbtn" href="#">English</a></div><img src="../img/telen.png"></div>
+			</div>
+			<div class="slider">
+				<div class="sliderbox">
+					<div class="slide" id="slide0"><a href="#service"><img src="../img/ss1.jpg"></a></div>
+					<div class="slide" id="slide1"><a href="#property"><img src="../img/ss3.jpg"></a></div>
+					<div class="slide" id="slide2"><a href="#plan"><img src="../img/ss10.jpg"></a></div>
+					<div class="slide" id="slide3"><a href="./contact.html"><img src="../img/ss9.jpg"></a></div>
+					<div class="slide" id="slide4"><a href="#profile"><img src="../img/ss11.jpg"></a></div>
+					<div class="slide" id="slide5"><a href="#access"><img src="../img/ss12.jpg"></a></div>
+				</div>
+			</div>
+			<div class="slidebtn"></div>
+		</div>
+		<div class="topmain2">
+			<h2>NEWS</h2>
+			<div class="topnews">
+				<img class="top_ec" src="../img/ec_mikata_banner.png">
+				<div class="link1">
+					<a class="reset" href="https://ecnomikata.com/original_news/9098/" target="_blank">June 6,2016 To publication</a><br>
+					<a class="reset" href="https://ecnomikata.com/original_news/8056/" target="_blank">March 10,2016 To publication</a><br>
+					<a class="reset" href="https://ecnomikata.com/original_news/7629/" target="_blank">January 13,2016 To publication</a>
+				</div>
+				<div class="clear"></div>
+				<img class="top_rms" src="../img/rms_logo.png">
+				<div class="link2">Registered to RMS Service Square!</div>
+				<div class="clear"></div>
+			</div>
+			<hr id="service">
+			<h2>service</h2>
+			<div class="tops1">
+				<div>
+					<h3>Regularly item <BR>registration service</h3>
+					<p>Register item at multiple stores on <BR>a designated date</p>
+					<img class="img01" src="../img/imgen02.png">
+				</div>
+			</div>
+			<div class="tops2">
+				<div>
+					<h3>item transfer service</h3>
+					<p>Completely transfer all item data to <BR>another store!</p>
+					<img class="img02" src="../img/img02.png">
+					<div class="clear"></div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
+			<hr id="property">
+			<h2>Service Features</h2>
+			<div id="property1"><img src="../img/round1.png"><br>
+				<strong>Master administration with advisor</strong>
+			</div>
+			<div id="property2"><img src="../img/round2.png"><br>
+				<strong>Joint register a simple and<br> efficient system</strong>
+			</div>
+			<div id="property3"><img src="../img/round3.png"><br>
+				<strong>Create a new shop or transfer in <BR>as short at 3 days~</strong>
+			</div>
+			<div class="clear"></div>
+			<hr id="plan">
+			<h2>3 plans to fit your needs</h2>
+			<div class="topplan">
+				<div id="plan1">
+					<img src="../img/plan3.png"><h3>Lite</h3><br>
+					<span class="plancp1">Curb costs for a reasonable outcome</span><br>
+					<span class="plancp2">Simple registration with the basic template</span><br><br>
+					<span class="plannm">Regular registration of items</span><br><strong>25,000 JPY～/store</strong><br>
+					<span class="plannm">item transfer</span><br><strong>100 JPY/item</strong><br>
+				</div>
+				<div id="plan2">
+					<img src="../img/plan2.png"><h3>Standard</h3><br>
+					<span class="plancp1">Both cost and design are important</span><br>
+					<span class="plancp2">Emphasizing design</span><br><br>
+					<span class="plannm">Regular registration of items</span><br><strong>40,000 JPY～/store</strong><br>
+					<span class="plannm">item transfer</span><br><strong>300 JPY/item</strong><br>
+				</div>
+				<div id="plan3">
+					<img src="../img/plan1.png"><h3>Professional</h3><br>
+					<span class="plancp1">Leave behind other companies with your item page!</span><br>
+					<span class="plancp2">Boarderless, smartphone, SEO</span><br><br>
+					<span class="plannm">Regular registration of items</span><br><strong>Consultation</strong><br>
+					<span class="plannm">item transfer</span><br><strong>Consultation</strong><br>
+				</div>
+			</div>
+			<div class="clear"></div>
+				<div>
+				<div class="planlist">item transfer<br><a class="linkbtn" href="teiki_plan.html#">price list</a></div>
+				<div class="planlist">item transfer<br><a class="linkbtn" href="ikou_plan.html#">price list</a></div>
+				<div class="clear"></div>
+				</div>
+			<div class="clear"></div>
+			<hr id="profile">
+			<h2>company profile</h2>
+			<div class="profile">
+				<table>
+				<tr><td class="t-pro">Companyname</td><td>Nihon Technocrats.co.,ltd.</td></tr>
+				<tr><td class="t-pro">Phone Number</td><td>+81-3-5835-5421</td></tr>
+				<tr><td class="t-pro">Address</td><td>Sanyu bldg1F<br>84Kandasakumagashi,Chiyoda-ku,Tokyo 101-0026,Japan</td></tr>
+				<tr><td class="t-pro">Established</td><td>March 18,2005 </td></tr>
+				</table>
+			</div>
+			<hr id="access">
+			<h2>Access</h2>
+			<center>
+			<div class="mb25"><iframe class="border03" width="638" height="298" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.jp/maps?q=%E6%97%A5%E6%9C%AC%E3%83%86%E3%82%AF%E3%83%8E%E3%82%AF%E3%83%A9%E3%83%BC%E3%83%84%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE&amp;ie=UTF8&amp;hq=%E6%97%A5%E6%9C%AC%E3%83%86%E3%82%AF%E3%83%8E%E3%82%AF%E3%83%A9%E3%83%BC%E3%83%84%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE&amp;hnear=%E6%9D%B1%E4%BA%AC%E9%83%BD%E8%B1%8A%E5%B3%B6%E5%8C%BA&amp;t=m&amp;brcurrent=3,0x60188c0c0b13f54d:0xb630953beee48188,0&amp;source=embed&amp;cid=680963381603514097&amp;ll=35.697066,139.779054&amp;spn=0.551104,0.53833&amp;output=embed&amp;z=16&amp;iwloc=B"></iframe><br>
+			<small><a target="_blank" href="https://maps.google.co.jp/maps?q=%E6%97%A5%E6%9C%AC%E3%83%86%E3%82%AF%E3%83%8E%E3%82%AF%E3%83%A9%E3%83%BC%E3%83%84%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE&amp;ie=UTF8&amp;hq=%E6%97%A5%E6%9C%AC%E3%83%86%E3%82%AF%E3%83%8E%E3%82%AF%E3%83%A9%E3%83%BC%E3%83%84%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE&amp;hnear=%E6%9D%B1%E4%BA%AC%E9%83%BD%E8%B1%8A%E5%B3%B6%E5%8C%BA&amp;t=m&amp;brcurrent=3,0x60188c0c0b13f54d:0xb630953beee48188,0&amp;source=embed&amp;ll=35.697066,139.779054&amp;spn=0.031855,0.050941&amp;z=16&amp;iwloc=A&amp;cid=680963381603514097" style="color:#666;text-align:left">View this map in a larger size</a></small>
+			</div>
+			</center>
+			<!--<h2>作業実績</h2>
+			<div class="jisseki">
+				<div class="case">
+					2016/06/06　商品移行
+					<hr>
+					楽天から楽天へ100商品を移行しました
+				</div>
+			</div>-->
+		</div>
+		<div class="clear"></div>
+	<!--予約エリアここまで-->
+	</div>
+	<!--問い合わせボタンここから-->
+	<img id="openMenu" src="../img/menu.png" alt="メニュー">
+	<div class="b02_slide_in">
+		<div><div>CONTACT</div></div>
+		<div></div>
+		<div><a href="./contact.html">CONTACT</a></div>
+	</div>
+	<div id="layerMenu">
+		<img id="closeMenu" src="../img/menu2.png" alt="閉じる">
+		<ul>
+		<li><a href="index.html#">TOP</a></li>
+		<li><a href="./index.html#service">service</a></li>
+		<li><a href="./index.html#property">function</a></li>
+		<li><a href="./index.html#plan">plan</a></li>
+		<li><a href="./contact.html">contact</a></li>
+		<li><a href="./index.html#profile">company profile</a></li>
+		<li><a href="./index.html#access">access</a></li>
+		</ul>
+	</div>
+	<!--問い合わせボタンここまで-->
+	<!--topへのボタン-->
+</div><!--main end-->
+<address class="copy">
+	<a href="https://www.technocrats.jp/" target="blank">&copy;2012 Nihon Technocrats Corporation All Rights Reserved</a>
+</address>
+</div><!--footer end-->
+<script>
+      var cb = function() {
+        var l = document.createElement('link'); l.rel = 'stylesheet';
+        l.href = '../css/style.css';
+        var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+      };
+      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+          webkitRequestAnimationFrame || msRequestAnimationFrame;
+      if (raf) raf(cb);
+      else window.addEventListener('load', cb);
+</script>
+<script>
+      var cb = function() {
+        var l = document.createElement('link'); l.rel = 'stylesheet';
+        l.href = './en-style.css';
+        var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+      };
+      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+          webkitRequestAnimationFrame || msRequestAnimationFrame;
+      if (raf) raf(cb);
+      else window.addEventListener('load', cb);
+</script>
+</body>
+</html>

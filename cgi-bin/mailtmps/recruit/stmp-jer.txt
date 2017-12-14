@@ -1,0 +1,41 @@
+
+【日本テクノクラーツ株式会社 採用ご応募のご確認】
+
+下記の内容で採用情報より応募がありました。
+内容を確認し、応募者に連絡をしてください。
+
+
+■採用応募者ご登録内容　=============================
+
+・希望職種			：<!--VALUE:job-->
+・経験			　　：<!--VALUE:experience-->
+
+・氏名			　　：<!--VALUE:name-->
+・フリガナ			：<!--VALUE:kana-->
+・生年月日			：西暦 <!--VALUE:birth1--> 年 <!--VALUE:birth2--> 月 <!--VALUE:birth3--> 日
+
+・郵便番号			：〒<!--VALUE:y1--> - <!--VALUE:y2-->
+・住所					：<!--VALUE:ken--><!--VALUE:j1--><!--VALUE:j2-->
+・E-mailアドレス：<!--VALUE:email-->
+・電話番号			：<!--VALUE:tel1-->-<!--VALUE:tel2-->-<!--VALUE:tel3-->
+
+・現職（会社・部署名）:<!--VALUE:position-->
+・職務経歴			：<!--VALUE:career-->
+・最終学歴			：<!--VALUE:academic-->
+・資格・免許		：<!--VALUE:license-->
+・英語力				：自己評価：<!--VALUE:english-->
+									TOEIC：<!--VALUE:toeic-->点
+									TOEIC：<!--VALUE:toefl-->点
+									TOEIC：<!--VALUE:eng-->級
+・プログラミング経験：<!--VALUE:program-->
+・志望理由			：<!--VALUE:reason-->
+・自己PR				：<!--VALUE:pr-->
+・使用経験のある環境及びプログラム言語：<!--VALUE:q1-->
+
+=====================================================
+
+日付: <!--DATE-->
+発信ホスト名: <!--REMOTE_HOST-->
+発信ブラウザ: <!--USER_AGENT-->
+
+---------------------以上-----

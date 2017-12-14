@@ -1,0 +1,338 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style type="text/css">
+body{
+	font-family:Arial,sans-serif;
+	padding: 10px 50px 50px 50px;
+	line-height: 1.5;
+}
+h2 {
+ font-size: 30px;
+ border: solid 1px;
+ border-radius: 10px;
+ padding: 10px;
+}
+h3 {
+ margin-top: 50px;
+ font-size: 30px;
+ border: solid 1px;
+ border-radius: 10px;
+ padding: 10px;
+}
+img{
+ width:100%;
+}
+.photo {
+ margin-bottom: 1px;
+}
+.photo ul {
+ list-style: none;
+ padding:0px;
+ font-size:0px;
+}
+.photo li {
+ width: 50%;
+ display:inline-block;
+ padding:0px;
+ margin;0px;
+}
+#img1[title=""],#img2[title=""],#img3[title=""],#img4[title=""],#img5[title=""],#img6[title=""],#img7[title=""],#img8[title=""],#img9[title=""],#img10[title=""],#img11[title=""],#img12[title=""]{
+	display:none;
+}
+table {
+ border-collapse: collapse;
+ text-align: start;
+ margin: 0px;
+ line-height: 1.5;
+}
+th{
+ display:table-cell;
+ border-top: solid 1px;
+ text-align: left;
+ vertical-align:top;
+ padding: 20px 8px;
+ width: 150px;
+}
+td{
+ border-top: solid 1px;
+ text-align: left;
+ padding: 20px 8px;
+}
+.policy{
+ clear: both;
+}
+.policy li{
+ margin:15px 0px;
+}
+.returns div{
+ padding: 0px 0px 0px 10px;
+}
+.row{
+ display: inline-flex;
+ justify-content: space-between;
+}
+.description {
+ width: 48%;
+}
+.condition {
+ width: 48%;
+}
+.red{
+ font-size:30px;
+ color:red;
+}
+.rank {
+ clear: both;
+}
+
+.rank th{
+ width:150px;
+}
+table {
+ table-layout: fixed;
+ width:100%;
+}
+td {
+ word-wrap:break-word;
+}
+
+@media screen and (max-width: 800px){
+ body{
+  padding: 10px 10px 30px 10px;
+ }
+ h2, h3, .red{
+  font-size: 1em;
+ }
+ th, .rank th{
+  width:30%;
+  word-wrap:break-word;
+ }
+ .row{
+  display:block;
+ }
+ .description, .condition{
+  width:100%;
+ }
+}
+</style>
+  </head>
+  <body>
+    <div class="notice">
+      <h2>International Buyers - Please Note</h2>
+      <ul>
+        <li class="red">Import duties, taxes, and charges are not included in the item price or shipping cost. These charges are the buyer's responsibility.</li><br>
+  <li class="red">Please check with your country's customs office to determine what these additional costs will be prior to bidding or buying.</li>
+      </ul>
+    </div>
+    <div class="itemdescription">
+      <h3>{{title}}</h3>
+      <div class="photo">
+        <ul>
+          <li id="#img1" title="{{picture_url1}}">
+            <img src='https://i.ebayimg.com/00/s/NTAwWDUwMA==/z/g4AAAOSwWv5aBpLr/$_3.JPG?set_id=8800005007'/>
+          </li>
+          <li id="#img2" title="{{picture_url2}}">
+            <img src='https://i.ebayimg.com/00/s/NTAwWDUwMA==/z/vjYAAOSwUwFaBpLr/$_3.JPG?set_id=8800005007'/>
+          </li>
+          <li id="#img3" title="{{picture_url3}}">
+            <img src='{{picture_url3}}'/>
+          </li>
+          <li id="#img4" title="{{picture_url4}}">
+            <img src='{{picture_url4}}'/>
+          </li>
+          <li id="#img5" title="{{picture_url5}}">
+            <img src='{{picture_url5}}'/>
+          </li>
+          <li id="#img6" title="{{picture_url6}}">
+            <img src='{{picture_url6}}'/>
+          </li>
+          <li id="#img7" title="{{picture_url7}}">
+            <img src='{{picture_url7}}'/>
+          </li>
+          <li id="#img8" title="{{picture_url8}}">
+            <img src='{{picture_url8}}'/>
+          </li>
+          <li id="#img9" title="{{picture_url9}}">
+            <img src='{{picture_url9}}'/>
+          </li>
+          <li id="#img10" title="{{picture_url10}}">
+            <img src='{{picture_url10}}'/>
+          </li>
+          <li id="#img11" title="{{picture_url11}}">
+            <img src='{{picture_url11}}'/>
+          </li>
+          <li id="#img12" title="{{picture_url12}}">
+            <img src='{{picture_url12}}'/>
+          </li>
+        </ul>
+      </div>
+      <div class="row">
+        <div class="description">
+          <h3>Description/Specification</h3>
+          <table>
+          <tbody>
+            <tr>
+            <th>Brand Name</th>
+            <td>{{BrandName}}
+            </td>
+            </tr>
+            <tr>
+            <th>Item Name</th>
+            <td>{{ItemName}}
+            </td>
+            </tr>
+            <tr>
+            <th>Material</th>
+            <td>{{Material}}
+            </td>
+            </tr>
+            <tr>
+            <th>Size(Approx)</th>
+            <td>{{Size}}
+            </td>
+            </tr>
+            <tr>
+            <th>Weight</th>
+            <td>{{Weight}}
+            </td>
+            </tr>
+            <tr>
+            <th>Accessories</th>
+            <td>{{Accessory}}
+            </td>
+            </tr>
+            <tr>
+            <th>Instore Code</th>
+            <td>{{InstoreC}}
+            </td>
+            </tr>
+          </tbody>
+          </table>
+        </div>
+        <div class="condition">
+          <h3>Condition</h3>
+          <table>
+          <tbody>
+            <tr>
+            <th>Scratches</th>
+            <td>{{Scratches}}
+            </td>
+            </tr>
+            <tr>
+            <th>Stains</th>
+            <td>{{stains}}
+            </td>
+            </tr>
+            <tr>
+            <th>Remarks</th>
+            <td>{{Remarks}}
+            </td>
+            </tr>
+          </tbody>
+          </table>
+          <table>
+          <tbody>
+            <tr>
+            <th>Total Rank</th>
+            <td>{{TotalRank}}
+            </td>
+            </tr>
+          </tbody>
+          </table>
+          <p>Please take a look at the descriptions and the pictures above to check the condition of the item before the purchase.</p>
+        </div>
+      </div>
+      <div class="rank">
+        <h3>About Rank</h3>
+        <table>
+        <tbody>
+          <tr>
+          <th>N Rank</th>
+          <td>Brand new
+          </td>
+          </tr>
+          <tr>
+          <th>S Rank</th>
+          <td>Almost same as Brand New
+          </td>
+          </tr>
+          <tr>
+          <th>SA Rank</th>
+          <td>Excellent condition : There are a few unnoticeable scratches and stain, A slightly used.
+          </td>
+          </tr>
+          <tr>
+          <th>A Rank</th>
+          <td>Very good condition : There are some slight scratches and stain, Looks a little used
+          </td>
+          </tr>
+          <tr>
+          <th>AB Rank</th>
+          <td>Good condition : There are some noticeable scratches and stain, Looks used
+          </td>
+          </tr>
+          <tr>
+          <th>B Rank</th>
+          <td>Fair condition : There are some noticeable scratches and stain, Looks obviously used
+          </td>
+          </tr>
+          <tr>
+          <th>BC Rank</th>
+          <td>Poor+ condition : There are many noticeable scratches and stain, Looks very used
+          </td>
+          </tr>
+          <tr>
+          <th>C Rank</th>
+          <td>Poor condition : Looks very used, but still usable
+          </td>
+          </tr>
+        </tbody>
+        </table>
+      </div>
+      <div class="policy">
+        <h3>Please read before order</h3>
+        <div>
+          <ul>
+            <li>We are not able to mark the item as 'gifts', or write the value of the items lower than they are on the shipping labels/invoices due to the custom declaration laws.</li>
+            <li>
+              <span style="color:red;">Import duties, taxes, and other additional fees might be charged by your local customs. It is the buyers" responsibility to pay all of the taxes and any other fees.</span></li>
+     <li>If you have any questions about import duties or taxes, please contact the customs office in your country before you purchase or make an offer.</li>
+    </ul>
+   </div>
+   <div class="payment">
+    <h3>Payment & Shipping</h3>
+    <table><tbody>
+     <tr><th>Payment</th><td>We only accept payments through Paypal.<br>
+      We will ship the items out within 3-5 business days after we confirm your payment.</td></tr>
+     <tr><th>Shipping</th><td>	We only ship to PayPal registered address.<br>
+      All items will be shipped from Japan.<br>
+      1. All items will be shipped via FedEx.
+      We will cover the shipping fee and the insurance.</td></tr>
+     <tr><th>Delivery Time</th><td>1. Your item will be shipped out within 3-5 business days after the purchase.<br>
+      2. Items usually takes approximately 5-15 business days to be delivered.<br>
+      3. Items could take a little longer to be delivered due to:<br>
+      a)Bad weathers<br>
+      b)Any events, such as holidays<br>
+      c)The delay at the customs office<br></td></tr>
+    </tbody></table>
+   </div>
+   <div class="returns">
+    <h3>Returns/Cancellation Policies</h3>
+    <ul>
+     <li>We sell our items in Japan at the same time.<br>
+If the item was sold out before your purchase, your order will be cancelled and a full refund will be issued immediately.</li>
+     <li>Buyers are able to request extra pictures of the item they purchased.</li>
+     <li>Buyers are allowed to return the item.<br>
+<div>within 14 days of delivery for a full refund,<br>
+The condition of the product is the same as at the time of sale.(Do not scratch or stain products.)<br>
+However, <span style="color:red;">buyers have to bear the required shipping fee and import tax.</span>
+              <br>Please contact us before starting a return and also provide us the tracking number of the item.</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- end sanitized html -->
+  </body>
+</html>

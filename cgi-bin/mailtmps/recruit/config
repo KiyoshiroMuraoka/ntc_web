@@ -1,0 +1,83 @@
+# 設定ファイル
+#  #はコメント
+#
+
+# 宛先(複数の場合はカンマで区切る)
+#to=info@technocrats.jp,<!--email-->
+#to=marion@lotusandcompanyinc.com,<!--email-->
+to=saiyou@technocrats.jp,<!--email-->
+ 
+# 宛先ホスト名(メールサーバーホスト名)
+tohost=test.co.jp
+# 発信元
+from=<!--email-->,info@technocrats.jp
+# 発信ホスト名(Webサーバーホスト名)
+fromhost=localhost
+
+# サブジェクト
+subject=【日本テクノクラーツ株式会社 採用ご応募のご確認】
+
+# 送信内容テンプレートファイル名
+sendfile=stmp-jer.txt,stmp-rec.txt
+#,stmp-cstm.txt
+
+#CSVファイルテンプレートファイル
+sendfile2=stmp-jer2.txt
+
+#CSVデータファイル
+csvfile=data.cgi
+
+#メールとCSVファイルきりかえ
+#0 ソケット
+#1 メールのみ
+#2 CSVファイルのみ
+#3 メールとCSVファイル
+sendsw=3
+
+# フォーム入力テンプレートファイル名
+formfile=index.html
+
+# エラー画面テンプレートファイル名
+#(省略したときには入力フォーム画面内にエラーが入る)
+errorfile=_error.html
+
+# 確認画面ファイル名(省略したときには直接送る)
+commitfile=_commit.html
+
+# 返礼画面ファイル名
+thanksfile=thanks.html
+
+# 入力必須変数名(複数あるときには空白文字で区切る)
+require=job experience name kana birth1 birth2 birth3 y1 y2 ken j1 email confirm_email tel1 tel2 tel3
+# email
+
+# 制限事項 -は範囲、,は値列挙：
+# 必須項目にあわせて記述する。
+#limit=crd-v:American Express,MasterCard,Visa Card
+limit=email:MAILADDRESS
+#limit=tel:0-999999999999999999999999999999999
+
+# エラーメッセージ：
+# 必須項目にあわせて記述する。
+error=job:希望職種を選択してください。
+error=experience:経験を選択してください。
+error=name:氏名を入力してください。
+error=kana:フリガナを入力してください。
+error=birth1:生年月日を入力してください。
+error=birth2:生年月日を入力してください。
+error=birth3:生年月日を入力してください。
+error=y1:郵便番号を入力してください。
+error=y2:郵便番号を入力してください。
+error=ken:都道府県を選択してください。
+error=j1:住所を入力してください。
+error=email:E-mailアドレスを入力してください。
+error=confirm_email:E-mailアドレスが一致していません。
+error=tel1:電話番号を入力してください。
+error=tel2:電話番号を入力してください。
+error=tel3:電話番号を入力してください。
+
+
+# 確認画面で、ここに入れた値をnameに持つsubmitが送られたときにメール送信。
+# それ以外のときには訂正と見なして入力画面に戻る。省略したときには「ok」となる。
+sendokname=ok
+

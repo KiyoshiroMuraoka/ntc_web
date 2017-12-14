@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<style type="text/css">
+/*コンテンツ全体の幅*/
+.wappar{
+	width:800px;
+	margin:0px auto;
+	line-height:1.5em;
+}
+.wappar > div{
+	margin:30px 0px;
+}
+h2{
+	margin:20px auto 10px auto;
+}
+/*itemphot*/
+/*ギャラリー全体のコンテナ*/
+#stage {
+	position: relative;
+	max-width: 750px;
+	margin: 0 auto;
+	text-align: center;
+}
+/*サムネイルの幅、ポインターを手のひら*/
+#thumbs label img {
+	max-width:110px;
+	cursor: pointer;
+	max-height:100px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate3d(-50%, -50%, 0);
+	     -moz-transform: translate3d(-50%, -50%, 0);
+	           -ms-transform: translate(-50%, -50%);
+	          transform: translate3d(-50%, -50%, 0);
+}
+#thumbs label{
+	width:110px;
+	cursor: pointer;
+	height:100px;
+	display:inline-block;
+	text-align: center;
+	border: 1px solid #dddddd;
+	overflow:hidden;
+	position: relative;
+}
+/*ラジオボタンを非表示に*/
+#r1, #r2, #r3, #r4, #r5, #r6, #r7, #r8, #r9, #r10, #r11, #r12 {
+	display: none;
+}
+/*表示写真の初期配置（全部透明に）とtransition設定*/
+#firstphoto{
+	display:table-cell;
+	text-align: center;
+	vertical-align: middle;
+	width: 650px;
+	height:650px;
+	padding-bottom:10px;
+	left:50px;
+	position: relative;
+}
+#firstphoto > img{
+	max-width: 650px;
+	max-height:650px;
+}
+.photo {
+	position: absolute;
+	left: 50px;
+	top: 0;
+	width: 650px;
+	height:650px;
+}
+.photo img {
+	max-width: 650px;
+	opacity: 0;
+	-webkit-transition: opacity 1s ease;
+	transition: opacity 1s ease;
+	max-height:650px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate3d(-50%, -50%, 0);
+	     -moz-transform: translate3d(-50%, -50%, 0);
+	           -ms-transform: translate(-50%, -50%);
+	          transform: translate3d(-50%, -50%, 0);
+}
+/*チェックされたサムネイルに相当する写真だけを表示*/
+#r1:checked ~ #photo1 img, #r2:checked ~ #photo2 img, #r3:checked ~ #photo3 img, #r4:checked ~ #photo4 img, #r5:checked ~ #photo5 img, #r6:checked ~ #photo6 img, #r7:checked ~ #photo7 img, #r8:checked ~ #photo8 img, #r9:checked ~ #photo9 img, #r10:checked ~ #photo10 img, #r11:checked ~ #photo11 img, #r12:checked ~ #photo12 img {
+	opacity: 1;
+	z-index:10;
+}
+#r1:checked ~ #firstphoto img, #r2:checked ~ #firstphoto img, #r3:checked ~ #firstphoto img, #r4:checked ~ #firstphoto img, #r5:checked ~ #firstphoto img, #r6:checked ~ #firstphoto img, #r7:checked ~ #firstphoto img, #r8:checked ~ #firstphoto img, #r9:checked ~ #firstphoto img, #r10:checked ~ #firstphoto img, #r11:checked ~ #firstphoto img, #r12:checked ~ #firstphoto img {
+	opacity: 0;
+	-webkit-transition: opacity 1s ease;
+	transition: opacity 1s ease;
+}
+#img1[title=""],#img2[title=""],#img3[title=""],#img4[title=""],#img5[title=""],#img6[title=""],#img7[title=""],#img8[title=""],#img9[title=""],#img10[title=""],#img11[title=""],#img12[title=""]{
+	display:none;
+}
+/*itemphoto end*/
+.spec table{
+	width:500px;
+	margin:0px auto;
+}
+.spec th{
+	background-color:#6E6E6E;
+	color:#ffffff;
+	width:150px;
+}
+.spec td{
+	border-bottom:solid 1px #333333;
+	padding:5px 10px;
+}
+.greeting, .tax, .note, .payment, .policy, .shipping, .caution{
+	border-top:solid 1px #000000;
+	border-bottom:solid 1px #000000;
+	padding:0px 20px;
+}
+@media screen and (max-width:880px) {
+	.wappar{
+		width:100%;
+	}
+	.spec table{
+		width:100%;
+	}
+	#stage {
+		width:100%;
+	}
+	#firstphoto {
+		width:800px;
+		height:500px;
+		left:0px;
+	}
+	#firstphoto > img {
+            max-width: 100%;
+	}
+	.photo {
+		width:100%;
+		height:500px;
+		left:0px;
+	}
+	.photo img {
+		max-width: 100%;
+		max-height:500px;
+	}
+}
+</style>
+</head>
+<body>
+<div class="wappar">
+<div class="greeting">
+<h2>Bringing otaku culture from Akihabara to the world !</h2>
+<p>We are ASTOP, with two physical stores in Japan's hobby mecca of Akihabara.<br>
+We offer authentic, legitimate Items only, backed by the discernment of our Japanese staff.<br>
+We are generally open every day of the year, so if you have any questions about anything at all, please feel free to contact us using our Comment form.</p>
+</div>
+<!-- itemphoto area -->
+    <div id="stage">
+      <input type="radio" id="r1" name="gal">
+      <input type="radio" id="r2" name="gal">
+      <input type="radio" id="r3" name="gal">
+      <input type="radio" id="r4" name="gal">
+      <input type="radio" id="r5" name="gal">
+      <input type="radio" id="r6" name="gal">
+      <input type="radio" id="r7" name="gal">
+      <input type="radio" id="r8" name="gal">
+      <input type="radio" id="r9" name="gal">
+      <input type="radio" id="r10" name="gal">
+      <input type="radio" id="r11" name="gal">
+      <input type="radio" id="r12" name="gal">
+      <div id="firstphoto"><img src="../test-img/testphoto7.jpg"></div>
+      <div id="photo1" class="photo"><img src="../test-img/testphoto7.jpg"></div>
+      <div id="photo2" class="photo"><img src="../test-img/testphoto2.jpg"></div>
+      <div id="photo3" class="photo"><img src="../test-img/testphoto3.jpg"></div>
+      <div id="photo4" class="photo"><img src="../test-img/testphoto4.jpg"></div>
+      <div id="photo5" class="photo"><img src="../test-img/testphoto5.jpg"></div>
+      <div id="photo6" class="photo"><img src="../test-img/testphoto6.jpg"></div>
+      <div id="photo7" class="photo"><img src="../test-img/testphoto1.jpg"></div>
+      <div id="photo8" class="photo"><img src="../test-img/testphoto8.jpg"></div>
+      <div id="photo9" class="photo"><img src="../test-img/testphoto9.jpg"></div>
+      <div id="photo10" class="photo"><img src="../test-img/testphoto10.jpg"></div>
+      <div id="photo11" class="photo"><img src="../test-img/testphoto11.jpg"></div>
+      <div id="photo12" class="photo"><img src="../test-img/testphoto12.jpg"></div>
+      <div style="padding:0 0;"></div>
+      <div id="thumbs">
+        <label for="r1" id="img1" title="{{picture_url1}}"><img src="../test-img/testphoto7.jpg"></label>
+        <label for="r2" id="img2" title="{{picture_url2}}"><img src="../test-img/testphoto2.jpg"></label>
+        <label for="r3" id="img3" title="{{picture_url3}}"><img src="../test-img/testphoto3.jpg"></label>
+        <label for="r4" id="img4" title="{{picture_url4}}"><img src="../test-img/testphoto4.jpg"></label>
+        <label for="r5" id="img5" title="{{picture_url5}}"><img src="../test-img/testphoto5.jpg"></label>
+        <label for="r6" id="img6" title="{{picture_url6}}"><img src="../test-img/testphoto6.jpg"></label>
+        <label for="r7" id="img7" title="{{picture_url7}}"><img src="../test-img/testphoto1.jpg"></label>
+        <label for="r8" id="img8" title="{{picture_url8}}"><img src="../test-img/testphoto8.jpg"></label>
+        <label for="r9" id="img9" title="{{picture_url9}}"><img src="../test-img/testphoto9.jpg"></label>
+        <label for="r10" id="img10" title="{{picture_url10}}"><img src="../test-img/testphoto10.jpg"></label>
+	<label for="r11" id="img11" title="{{picture_url11}}"><img src="../test-img/testphoto11.jpg"></label>
+	<label for="r12" id="img12" title="{{picture_url12}}"><img src="../test-img/testphoto12.jpg"></label>
+      </div>
+    </div>
+    <!-- itemphoto area end -->
+<div class="spec">
+	<table>
+	<tr><th>name</th><td>{{name}}</td></tr>
+	<tr><th>title of product</th><td>{{title}}</td></tr>
+	<tr><th>manufacturer</th><td>{{manufacturer}}</td></tr>
+	<tr><th>condition1</th><td>{{condition1}}</td></tr>
+	<tr><th>condition2</th><td>{{condition2}}</td></tr>
+	<tr><th>height of body</th><td>{{heightboddy}}</td></tr>
+	<tr><th>material</th><td>{{material}}</td></tr>
+	<tr><th>released date</th><td>{{released}}</td></tr>
+	<tr><th>notes</th><td>{{notes}}</td></tr>
+	</table>
+</div>
+<div class="tax">
+<h2>Customs Tax<br>
+International Buyers Please Note</h2>
+<p>Import duties, taxes, and charges are not included in the item price or shipping cost. These charges are the buyer's responsibility.</p>
+<p>Please check with your country's customs office to determine what these additional costs will be prior to bidding or buying.</p>
+<p>Customs fees are normally charged by the shipping company or collected when you pick the item up. These fees are not additional shipping charges.</p>
+</div>
+<div class="note">
+<h2>Please Note</h2>
+<p>We won't under-value merchandise or mark the item as a gift on customs forms.<br>
+Doing that is against U.S. and international laws.<br>
+We only ship to PayPal registered address.<br>
+Please contact us if you reside in countries in which we do not specify shipping service and cost.<br>
+Please be aware that delivery could be delay depending on customs inspection, in case of natural disasters, and other reasons such as postal strikes.</p>
+</div>
+<div class="payment">
+<h2>Payment</h2>
+<p>We only Accept PayPal.<br>
+The item will be shipped within <b>3</b> business day after the payment has received</p>
+</div>
+<div class="policy">
+<h2>Return Policy</h2>
+<p>We accept the returns.<br>
+After receiving the item, contact seller within <b>14</b> days.<br>
+Please see more details on Shipping and payments tab.<br></p>
+</div>
+<div class="shipping">
+<h2>Shipping</h2>
+<p>We will endeavor to ship your items within <b>3</b>&nbsp;day of your purchase.<br>
+However, please be aware that there are some cases in which shipping will take longer than usual. These cases include the business holidays of our Approved Shipping Carriers, as well as periods during which there are a large number of shipments, such as the Christmas season.Estimated delivery times can also vary depending on your country of residence and shipping method.For more detailed information on shipping, please send us a comment with the name of your country/region.<br></p>
+<p>economy shipping : SAL (japan post)</p>
+</div>
+<div class="caution">
+<h3>Item</h3>
+<p>We deal mainly in items such as figures, both new and used.<br>
+Regarding used items, in the event that the item has any damage, defects, or flaws: We will always list all of these, but if you have any concerns you would like addressed, please send your questions via our Comment form before purchasing.</p>
+<h3>Concerning the Prize</h3>
+<p>These are prizes from crane games like those made by SEGA and TAITO.<br>
+They are not for sale on the market and therefore have no established price.</p>
+<h3>Concerning the "Made in China" Tag</h3>
+<p>The majority of figures produced in Japan are made in China.<br>
+This simply shows the country in which the item was made. The Items we carry are all genuine products designed and manufactured by Japanese companies so you have nothing to fear.</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,617 @@
+* { /*ファイル全体*/
+	margin: 0px;
+
+}
+body { /*表示部分のデフォルト設定*/
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 0.875em;
+}
+a img {
+    border-style:none;
+}
+#voice1,#voice2,#voice3,#voice4,#voice5,#voice6{
+    background-color: #000;
+    opacity: 0.6;
+}
+#voice1:hover,#voice2:hover,#voice3:hover,#voice4:hover,#voice5:hover,#voice6:hover {
+    opacity: 1.0;
+}
+#back-top {
+	margin-left: 890px;
+	overflow: hidden;
+	position: fixed;
+	z-index: 1000;
+	bottom: 20px;
+	right: 1%;
+}
+#back-top a {
+	font-size: 26px;
+	line-height: 50px;
+	text-decoration: none;
+	display: block;
+	height: 80px;
+	width: 80px;
+	margin-bottom: 7px;
+	position: relative;
+	color: #600;
+}
+a {
+text-decoration: none;
+}
+.top{ /*トップ画像*/
+	background-image:url(img/sky.jpg);
+	background-position:center center;
+	background-repeat:no-repeat;
+	-moz-background-size:100% auto;
+	background-size:100% auto;
+	height: 500px;
+	padding: 50px 0px 50px 0px;
+}
+.sample{ 
+	height: 100px;
+	width: 100px;
+	background-color: #0033FF;
+}
+.white{ /*文字色　白*/
+	color: #fff;
+}
+.center{ /*文字中央揃え*/
+	text-align: center;
+	vertical-align: middle;
+}
+.voiceleft{ /*文字右寄せ*/
+	text-align: left;
+	vertical-align: middle;
+	padding: 0px 0px 0px 150px;
+}
+.left{ /*文字右寄せ*/
+	text-align: left;
+	vertical-align: middle;
+}
+.right{ /*文字右寄せ*/
+	text-align: right;
+	vertical-align: middle;
+}
+.tb {
+	display: table;
+	table-layout: fixed;
+	width: 700x;
+	border-collapse:separate;
+	border-spacing:10px 0;
+}
+.tb span {
+	display: table-cell;
+	vertical-align:middle;
+	text-align:center;
+}
+h1{
+	font-family: "Bookman Old Style";
+	font-size:40px;
+}
+.catchcopy{
+	font-family: "Meiryo";
+	font-size: 1.25em;
+	font-weight: bold;
+	line-height: 200%;
+}
+.pc{
+	background-image:url(img/pc.jpg);
+	background-size: cover;
+	background-position:center center;
+}
+.hand{
+	background-image:url(img/hand.jpg);
+	background-size: cover;
+	background-position:center center;
+	margin: 0px 50px 0px 50px;
+}
+.calendar{
+	background-image:url(img/calendar.jpg);
+	background-size: cover;
+	background-position:center center;
+}
+.syainbutton{
+	background-image:url(img/syain.jpg);
+	background-size: cover;
+	background-position:center center;
+}
+.peag{ /*アイコンサイズ指定*/
+	height: 150px;
+	width: 200px;
+}
+.box{
+	width: 800px;
+	margin: 50px auto;
+}
+.boxsosiki{
+	width: 450px;
+	margin: 50px auto;
+}
+.staffbox{
+	width: 700px;
+	margin: 50px auto;
+}
+.reset{
+	clear:both;
+}
+.voice{ /*社員の声　画像*/
+	background-image:url(img/voice.jpg);
+	background-position:center center;
+	background-repeat:no-repeat;
+	-moz-background-size:100% auto;
+	background-size:100% auto;
+	height: 100px;
+	padding: 50px 0px 50px 0px;
+	font-size:2em;
+}
+h2{
+	display:inline;
+}
+.icon{
+	height: 125px;
+	width: 125px;
+	float : left;
+	margin: 20px 0px 0px 0px;
+}
+.comment{ 
+     padding: 10px 10px;
+     border-radius:4px;
+     border:1px solid #222;
+     box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+     float : right;
+	width: 530px;
+	border-radius: 10px;        /* CSS3草案 */  
+    -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 10px;   /* Firefox用 */  
+    padding:5px;
+    margin: 20px 0px 0px 0px;
+
+}
+.futoji{
+	font-weight: bold;
+}
+.facebook{
+	width: 150px;
+	margin: 0px auto;
+}
+.sun{ /*会社概要画像*/
+	background-image:url(img/sun.jpg);
+	background-position:center center;
+	background-repeat:no-repeat;
+	-moz-background-size:100% auto;
+	background-size:100% auto;
+	height: 500px;
+	padding: 50px 0px 50px 0px;
+}
+.black{ /*文字色　黒*/
+	color: #000;
+
+}
+.organization chart{ /*組織図*/
+	background-image:url(img/organization chart2.jpg);
+	background-position:center center;
+	background-repeat:no-repeat;
+	-moz-background-size:100% auto;
+	background-size:100% auto;
+	height: 150px;
+	padding: 50px 0px 50px 0px;
+}
+
+.top2{/*画面下アイコン用*/
+	background-image:url(img/top.jpg);
+	background-size: cover;
+	height:50px;
+	width:150px;
+	background-position:center center;
+}
+.pc2{/*画面下アイコン用*/
+	background-image:url(img/pc2.jpg);
+	background-size: cover;
+	height:50px;
+	width:150px;
+	background-position:center center;
+}
+.hand2{/*画面下アイコン用*/
+	background-image:url(img/hand2.jpg);
+	background-size: cover;
+	height:50px;
+	width:150px;
+	background-position:center center;
+}
+.calendar2{/*画面下アイコン用*/
+	background-image:url(img/calendar2.jpg);
+	background-size: cover;
+	height:50px;
+	width:150px;
+	background-position:center center;
+}
+.hidari {
+  float: left;
+  margin: 50px 50px 50px 100px
+}
+@font-face {/*吹き出しアイコン*/
+  font-family: 'typicons';
+  src: url("fonts/typicons.eot");
+  src: url("fonts/typicons.eot?#iefix") format('embedded-opentype'),
+       url("fonts/typicons.woff") format('woff'),
+       url("fonts/typicons.ttf") format('truetype'),
+       url("fonts/typicons.svg#typicons") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.wrap{
+  width: 300px;
+  margin: 0 auto;
+  padding: 50px 100px 50px 100px;
+  color: #fff;
+  text-align: center;
+}
+.wrap li{/*アイコンを横並びにする*/
+  list-style: none;
+  float: left;
+  margin: 0;
+  padding: 0 8px;/*アイコンとアイコンの幅*/
+}
+.wrap a{/*アイコン*/
+  display: block;
+  position: relative;
+  width: 34px;
+  height: 34px;
+  padding: 5px;
+  border-radius: 50%;
+  background: #87CEEB;
+  transition: .3s;
+}
+.wrap a:hover{
+  background: #87CEEB;
+}
+.wrap a:before {
+  font-family: 'typicons';
+  font-style: normal;
+  font-weight: normal;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  line-height: 1;
+}
+.IND:before { content:url(img/desk2.png); }/*アイコンの上に載せる画像*/
+.KIS:before { content:url(img/kaisya2.png); }
+.BSY:before { content:url(img/hand1-3.png); }
+.SKJ:before { content:url(img/calendar1-3.png); }
+.VOI:before { content:url(img/voice05.png); }
+.wrap a span{
+  position: absolute;
+  opacity: 0;
+  top: -50px;
+  left: -20px;
+  width: 60px;
+  padding: 10px;
+  border-radius: 2px;
+  background: #196090;
+  color: #fff;
+  font-size: 12px;
+  line-height: 1;
+  transition: .3s;
+}
+.wrap a span:after{/*吹き出し*/
+  position: absolute;
+  top: 100%;
+  left: 34px;
+  height: 0;
+  width: 0;
+  border: 6px solid transparent;
+  border-top: 6px solid #196090;
+  content: "";
+}
+.wrap a:hover span{
+  opacity: 1;
+  top: -40px;
+}
+
+#menu div {/*吹き出し*/
+  position: relative;
+}
+
+.arrow_box {
+  text-align: left;
+  vertical-align: middle;
+  display: none;
+  position: absolute;
+  padding: 10px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;  
+  border-radius: 6px;
+  background: #333;
+  color: #fff;
+}
+
+.arrow_box:after {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -10px;
+  border: solid transparent;
+  border-color: rgba(51, 51, 51, 0);
+  border-bottom-color: #333;
+  border-width: 10px;
+  pointer-events: none;
+  content: " ";
+}
+
+span:hover + p.arrow_box {
+  display: block;
+}
+.center{/*画像を中央へ*/
+ text-align: center;
+}
+#syain {
+	padding-top: 100px;
+}
+/* ここからstyle2加筆 */
+.ske{/*テーブルすべてを中央揃え、セル隙間なし*/
+	margin-left: auto;
+	margin-right: auto;
+	padding: 25px 0px 50px 0px;
+	border-spacing: 0px;
+}
+
+table td:hover{
+    background-color: #A9BCF5;
+    -o-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+.tbsaiyou{ /*採用スケジュール表*/
+	border-collapse: collapse;
+	text-align: left;
+	line-height: 1.5;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 25px 0px 50px 0px;
+	border-spacing: 0px;
+}
+table.tbsaiyou .even {
+	background-color:#efefef;
+}
+.tbtoumei{/*セル透過文字白*/
+   background-color: rgba( 241, 231, 255, 0.3 );
+   color: #FFF;
+}
+.tbiro{
+	background-color:#d1ccff;
+}
+.youkou{ /*募集要項画像*/
+	background-image:url(img/bosyu.jpg);
+	background-position:center center;
+	background-repeat:no-repeat;
+	-moz-background-size:100% auto;
+	background-size:100% auto;
+	height: 350px;
+	padding: 50px 0px 50px 0px;
+}
+.white{ /*文字色　白*/
+	color: #fff;
+}
+.center{ /*文字中央揃え*/
+	text-align: center;
+	vertical-align: middle;
+}
+.boxre{
+	margin: 0px 0px 100px 0px;
+}
+.box2re{
+	margin: 100px 0px 100px 0px;
+}
+.box3re{ /*styleのboxと同じ設定*/
+	width: 700px;
+	margin: 50px auto;
+}
+.bosyu{ /*募集要項タイトル*/
+	background-color: #b0c4de;	
+	padding: 15px 125px 15px 125px;
+
+}
+.kurotitle{ /*黒背景タイトル*/
+	background-color: #000000;
+	padding: 15px 125px 15px 125px;
+
+}	
+.entry{ /*エントリー方法　画像*/
+	background-image:url(img/entry.jpg);
+	background-position:center center;
+	background-repeat:no-repeat;
+	-moz-background-size:100% auto;
+	background-size:100% auto;
+	height: 250px;
+	padding: 100px 0px 50px 0px;
+}
+.entrymozi{ /*エントリー方法タイトル*/
+	background-color:#000;
+	padding: 15px 125px 15px 125px;
+
+}
+.syorui1_2{
+    width: 372px;
+    margin: 0 auto;
+}
+.syorui1{ 
+	float:left;
+	border:solid;
+    border-color:#4169e1;
+
+	width: 160px;
+	border-radius: 10px;        /* CSS3草案 */  
+    -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 10px;   /* Firefox用 */  
+    padding:5px;
+	margin: 0px 10px 0px 0px;
+}
+.syorui2{ 
+	float:left;
+	border:solid;
+    border-color:#4169e1;
+
+	width: 160px;
+	border-radius: 10px;        /* CSS3草案 */  
+    -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 10px;   /* Firefox用 */  
+    padding:5px;
+	margin: 0px auto
+}
+.mensetu1{ 
+	float:left;
+	border:solid;
+    border-color:#b0c4de;
+
+	width: 160px;
+	border-radius: 10px;        /* CSS3草案 */  
+    -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 10px;   /* Firefox用 */  
+    padding:5px;
+	margin: 0px 10px 0px 0px;
+}
+.yazirusi{ 
+	float:left;
+
+	width: 160px;
+    padding:10px;
+	margin: 0px auto;
+}
+.mensetu2{ 
+	border:solid;
+    border-color:#b0c4de;
+
+	width: 350px;
+	border-radius: 10px;        /* CSS3草案 */  
+    -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 10px;   /* Firefox用 */  
+    padding:5px;
+	margin: 0px auto
+}
+.naitei{ 
+	border:solid;
+    border-color:#4169e1;
+    background: #1e5799; /* Old browsers */
+	background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+	width: 350px;
+	border-radius: 10px;        /* CSS3草案 */  
+    -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 10px;   /* Firefox用 */  
+    padding:5px;
+	margin: 0px auto
+}
+.voiceh1{
+	font-family: "メイリオ";
+	font-size:250%;
+}
+.voiceh2{
+	font-size:120%;
+	vertical-align: middle;
+	margin:0 auto;
+}
+#saiyou {
+	padding-top: 100px;
+	text-align: center;
+}
+/* レスポンシブ対応:ここからスマホ用の調整を足していく */
+@media screen and (max-width: 1000px) {
+	html {
+		zoom: 2;
+		overflow-x : hidden;
+	}
+	img {
+ 	max-width: 100%;
+ 	height: auto;
+	}
+	.entry{ /*エントリー方法　画像*/
+	background-image:url(img/entry.jpg);
+	-moz-background-size:auto 100% ;
+	background-size:auto 100%;
+	height: 250px;
+	padding: 100px 0px 50px 0px;
+	}
+	.top{ /*トップ画像*/
+	background-image:url(img/sky.jpg);
+	-moz-background-size:auto 100% ;
+	background-size:auto 100%;
+	height: 500px;
+	padding: 50px 0px 50px 0px;
+	}
+	.sun{ /*会社概要画像*/
+	background-image:url(img/sun.jpg);
+	-moz-background-size:auto 100% ;
+	background-size:auto 100%;
+	height: 500px;
+	padding: 50px 0px 50px 0px;
+	}
+	.youkou{ /*募集要項画像*/
+	background-image:url(img/bosyu.jpg);
+	-moz-background-size:auto 100% ;
+	background-size:auto 100%;
+	height: 350px;
+	padding: 50px 0px 50px 0px;
+	}
+	.voice{ /*社員の声　画像*/
+	background-image:url(img/voice.jpg);
+	-moz-background-size:auto 100% ;
+	background-size:auto 100%;
+	height: 100px;
+	padding: 50px 0px 50px 0px;
+	font-size:2em;
+	}
+	.hidari {
+	float: none;
+	margin: 50px 0px 0px 150px
+	}
+	.voiceleft{ /*文字右寄せ*/
+	text-align: left;
+	vertical-align: middle;
+	padding:10px;
+	}
+	.box{
+	width: 100%;
+	margin: 10px auto;
+	}
+	.voiceh2{
+	font-size:90%;
+	vertical-align: middle;
+	text-align: center;
+	}
+	.voiceh1{
+	font-family: "メイリオ";
+	font-size:180%;
+	text-align: center;
+	}
+	.staffbox{
+	max-width:100%;
+	}
+	.ske{/*テーブルすべてを中央揃え、セル隙間なし*/
+	width:100%;
+	table-layout: fixed;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 25px 0px 50px 0px;
+	border-spacing: 0px;
+	}
+	.wrap{
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+	color: #fff;
+	text-align: center;
+}
+}

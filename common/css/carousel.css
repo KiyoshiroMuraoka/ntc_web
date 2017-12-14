@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+.carouselWrapper {
+	background:#F00;
+}
+.carousel {
+	width: 659px;
+	height:213px;
+	position: relative;
+}
+.carousel ul {
+	width: 599px;
+	list-style: none;
+	display: block;
+	margin: 0 ;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 29px;
+}
+.carousel li {
+	display: block;
+	width: 285px;
+	height: 213px;
+	padding: 0;
+	margin: 0 29px 0 0;
+	float: left;
+	cursor:pointer;
+}
+.carousel li:hover {
+	opacity:0.6;
+}
+.carousel .prevButton,
+.carousel .nextButton {
+	position: absolute;
+	top:0;
+}
+.carousel .prevButton {
+	left: 0;
+	width:29px;
+	height: 213px;
+	background:#FFF;
+}
+.carousel .prevButton img {
+	margin-top:82px;
+	margin-left:5px;
+}
+.carousel .nextButton {
+	left: 628px;
+	width:29px;
+	height: 213px;
+	background:#FFF;
+}
+.carousel .nextButton img {
+	margin-top:82px;
+	margin-left:10px;
+}
+
+
+
+
+
+/*----------------------------------------------------------------------------*/
+.zoom {
+	height:404px;
+	position:relative;
+}
+#detail02-02 .zoom {
+	height:418px;
+}
+.zoom .closeZoom {
+	position:absolute;
+	right:0
+}
+		
+		
+		
+.carouselzoom {
+	width: 560px;
+	height:359px;
+	position: relative;
+}
+.carouselzoom ul {
+	width: 560px;
+	list-style: none;
+	display: block;
+	margin: 0 0 0 47px;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 40px;
+}
+.carouselzoom li {
+	display: block;
+	width: 480px;
+	height: 359px;
+	padding: 0;
+	margin: 0 0 0 0;
+	float: left;
+}
+.carouselzoom .prevButton,
+.carouselzoom .nextButton {
+	position: absolute;
+	top:0;
+}
+.carouselzoom .prevButton {
+	left: 47px;
+	width:40px;
+	height: 359px;
+}
+.carouselzoom .prevButton img {
+	margin-top:150px;
+	margin-left:0px;
+}
+.carouselzoom .nextButton {
+	left: 520px;
+	left: 567px;
+	width:40px;
+	height: 359px;
+	text-align:right;
+}
+.carouselzoom .nextButton img {
+	margin-top:150px;
+	margin-left:0;
+}
+
+
+/*----------------------------------------------------------------------------*/
+.pagination {
+	clear:both;
+	text-align:center;
+	padding-top:364px;
+	width:560px;
+	height:12px;
+	margin-left:47px;
+}
+.pagination a {
+	background:url(../images/ic07.png) no-repeat 0 0;
+	width:12px;
+	height:12px;
+	overflow:hidden;
+	display:inline-block;
+	margin:0 2px 0 3px;
+}
+.pagination a.selected {
+	background:url(../images/ic07.png) no-repeat 0 -12px;
+}
+.pagination a span {
+	display:none;
+}
+
+
+
+/*----------------------
+clearfix
+------------------------*/
+.carouselzoom:after,
+.carousel:after {
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	content: ".";
+}
+
+.carouselzoom,
+.carousel {
+	zoom: 1;
+}

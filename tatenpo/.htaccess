@@ -1,0 +1,7 @@
+AddOutputFilterByType DEFLATE text/html text/plain text/xml text/javascript text/css
+
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresDefault "access plus 1 weeks"
+ExpiresByType text/javascript "access plus 1 weeks"
+</IfModule>

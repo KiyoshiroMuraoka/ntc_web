@@ -1,0 +1,125 @@
+<HTML>
+ <HEAD>
+  <TITLE>[$bbs_name]</TITLE>
+ </HEAD>
+ <META HTTP-EQUIV='Content-type' CONTENT='text/html; charset=Shift_JIS'>
+ <META HTTP-EQUIV='Content-Language' content='ja'>
+ <META HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+ <BODY BACKGROUND='wall.gif'>
+ <TABLE BORDER=0 WIDTH='95%'><TR><TD VALIGN='middle' WIDTH=20>
+  <FORM METHOD="post" ACTION='bbs.cgi'>
+   <INPUT TYPE="hidden" NAME="bbsid" VALUE="[$bbsid]">
+   <INPUT TYPE="hidden" NAME="length" VALUE="[$length]">
+   <INPUT TYPE="hidden" NAME="page" VALUE="[$page]">
+   <INPUT TYPE="submit" VALUE="新規投稿">
+ </TD></FORM><TD ALIGN="CENTER">
+<!-- 以下の行は削除しないで下さい。掲示板が動かなくなります。 -->
+ [$form_start]
+ <FONT SIZE="+2"><B>[$bbs_name]</B></FONT></TD></TR>
+ </TABLE>
+ <HR>
+ [$message]
+ <TABLE BORDER=0>
+  <TR><TD BGCOLOR="#8080FF" ALIGN="CENTER"><B>名前</TD>
+      <TD><INPUT NAME="name" VALUE="[$name]" SIZE=30></TD></TR>
+  <TR><TD BGCOLOR="#8080FF" ALIGN="CENTER"><B>E-mail</TD>
+      <TD><INPUT NAME="mail" VALUE="[$mail]" SIZE=40></TD></TR>
+  <TR><TD BGCOLOR="#8080FF" ALIGN="CENTER"><B>題名</TD>
+      <TD><INPUT NAME="subject" VALUE="[$subject]" SIZE=70></TD></TR>
+  <TR><TD BGCOLOR="#8080FF" ALIGN="CENTER"><B>本文</TD>
+      <TD><TEXTAREA NAME="article" COLS=70 ROWS=8>[$article]</TEXTAREA></TD>
+  <TR><TD BGCOLOR="#8080FF" ALIGN="CENTER"><B>関連URL</TD>
+      <TD><INPUT NAME="url" VALUE="[$url]" SIZE=70></TD></TR>
+  </TR>
+  <TR><TD BGCOLOR="#8080FF" ALIGN="CENTER"><B>パスワード</TD>
+      <TD><INPUT TYPE="password" NAME="passwd" SIZE=20></TD></TR>
+  <TR><TD ALIGN="center" COLSPAN=2 BGCOLOR="#80FF80">
+<!-- 投稿ボタンは以下の INPUT タグの行に続けて記入して下さい。 -->
+<INPUT TYPE="hidden" NAME="func" VALUE="post">
+<INPUT TYPE='submit' VALUE='　投稿　'>
+  </TD></TR>
+ </TABLE>
+ <HR>
+<!-- 以下の行は削除しないで下さい。掲示板が動かなくなります。 -->
+ [$form_end]
+<TABLE WIDTH='95%'>
+<!-- 下記の行は変更しないで下さい。記事の最初を表します。 -->
+<!-- Start of Loop -->
+<TR><TD BGCOLOR='#D0F5FF' COLSPAN=5><SMALL>
+<FONT SIZE=3 COLOR='#4040FF'>[$levelspc][No.[$id]]</FONT>
+    <FONT SIZE=3>　<B>[$subject]</B></FONT></TD>
+</TR>
+<TR>
+    <TD BGCOLOR='#FFFFA0'><SMALL>投稿者　[$mail][$name][$mail_end]</SMALL></TD>
+    <TD BGCOLOR="#FFFFA0"><SMALL>投稿日付 [$date]</SMALL>
+    <!-- 書込み元アドレス:[$host] -->
+    <TD BGCOLOR="#FFFFA0" WIDTH=10>
+<!-- 返信ボタンは以下の FORM/INPUT タグとセットにして下さい。 -->
+    <FORM METHOD="post" ACTION="bbs.cgi">
+      <INPUT TYPE="hidden" NAME="bbsid" VALUE="[$bbsid]">
+      <INPUT TYPE="hidden" NAME="id" VALUE="[$id]">
+      <INPUT TYPE="hidden" NAME="length" VALUE="[$length]">
+      <INPUT TYPE="hidden" NAME="page" VALUE="[$page]">
+      <INPUT TYPE="hidden" NAME="func" VALUE="reply">
+      <INPUT TYPE="submit" VALUE="　返信　">
+    </TD>
+    </FORM>
+<!-- 上記の TD タグの終了は、FORM タグによる改行を防ぐために内側に置いてあります。 -->
+    <TD BGCOLOR="#FFFFA0" WIDTH=10>
+<!-- 修正ボタンは以下の FORM/INPUT タグとセットにして下さい。 -->
+    <FORM METHOD="post" ACTION="bbs.cgi">
+      <INPUT TYPE="hidden" NAME="bbsid" VALUE="[$bbsid]">
+      <INPUT TYPE="hidden" NAME="id" VALUE="[$id]">
+      <INPUT TYPE="hidden" NAME="length" VALUE="[$length]">
+      <INPUT TYPE="hidden" NAME="page" VALUE="[$page]">
+      <INPUT TYPE="hidden" NAME="func" VALUE="update">
+      <INPUT TYPE="submit" VALUE="　修正　">
+    </TD>
+    </FORM>
+<!-- 上記の TD タグの終了は、FORM タグによる改行を防ぐために内側に置いてあります。 -->
+    <TD BGCOLOR="#FFFFA0" WIDTH=10>
+<!-- 削除ボタンは以下の FORM/INPUT タグとセットにして下さい。 -->
+    <FORM METHOD="post" ACTION="bbs.cgi">
+      <INPUT TYPE="hidden" NAME="bbsid" VALUE="[$bbsid]">
+      <INPUT TYPE="hidden" NAME="id" VALUE="[$id]">
+      <INPUT TYPE="hidden" NAME="length" VALUE="[$length]">
+      <INPUT TYPE="hidden" NAME="page" VALUE="[$page]">
+      <INPUT TYPE="hidden" NAME="func" VALUE="delete">
+      <INPUT TYPE="submit" VALUE="　削除　">
+    </TD>
+    </FORM>
+<!-- 上記の TD タグの終了は、FORM タグによる改行を防ぐために内側に置いてあります。 -->
+</TR>
+<TR><TD BGCOLOR="#FFD0FF" COLSPAN=5>[$url]</TD></TR>
+<TR><TD COLSPAN=5>[$article]<BR></TD></TR>
+<TR><TD>　</TD></TR>
+<!-- End of Loop -->
+<!-- 上記の行は変更しないで下さい。記事の最後を表します。 -->
+</TABLE>
+<A HREF='bbs.cgi?bbsid=[$bbsid]&length=[$length]&page=[$p_page]'>前のページへ</A>
+[$dot]
+<A HREF='bbs.cgi?bbsid=[$bbsid]&length=[$length]&page=[$n_page]'>次のページへ</A>
+[$separate]
+<TABLE BORDER=0><TR><TD>
+<FORM METHOD='post' ACTION='bbs.cgi'>
+ <INPUT TYPE='hidden' NAME='bbsid' VALUE='[$bbsid]'>
+ <INPUT TYPE='hidden' NAME='length' VALUE='10'>
+ <INPUT TYPE='submit' VALUE='10件ずつ表示'>
+</TD>
+</FORM>
+<TD>
+<FORM METHOD='post' ACTION='bbs.cgi'>
+ <INPUT TYPE='hidden' NAME='bbsid' VALUE='[$bbsid]'>
+ <INPUT TYPE='hidden' NAME='length' VALUE='30'>
+ <INPUT TYPE='submit' VALUE='30件ずつ表示'>
+</TD>
+</FORM>
+<TD>
+<FORM METHOD='post' ACTION='bbs.cgi'>
+ <INPUT TYPE='hidden' NAME='bbsid' VALUE='[$bbsid]'>
+ <INPUT TYPE='hidden' NAME='length' VALUE='50'>
+ <INPUT TYPE='submit' VALUE='50件ずつ表示'>
+</TD></TR></TABLE>
+</FORM><BR><BR><BR><BR>
+ </BODY>
+</HTML>

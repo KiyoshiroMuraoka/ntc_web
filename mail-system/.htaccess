@@ -1,0 +1,3 @@
+php_value default_charset "UTF-8"
+
+php_flag mbstring.encoding_translation off

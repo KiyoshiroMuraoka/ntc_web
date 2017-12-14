@@ -1,0 +1,1194 @@
+<!doctype html>
+<html lang="ja">
+<!-- InstanceBegin template="/Templates/common.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="index,follow">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>採用情報｜日本テクノクラーツ株式会社</title>
+<!-- InstanceEndEditable -->
+<meta name="keywords" content="日本テクノクラーツ株式会社,テクノクラーツ,NTC,ntc,IT市場,ベンチャー企業,インフラ,システム開発,ユビキタス,テクノロジー,スキル,サービス,ソリューション,エンベデット,ネットワーク,ヘルプデスク,Technocrats,Webアプリケーション,データベース,エンジニア,ERP,組み込み,LSI,ntc,NTC,経験者,経験者採用,プライバシーマーク,Pマーク,プライバシーマーク取得,Pマーク取得,プライバシーマーク取得支援,Pマーク取得支援," />
+<meta name="description" content="業界未経験者だった社員も多い会社です！私たちと一緒に、イノベーションを起こしませんか。日本テクノクラーツ株式会社では、皆様のご応募をお待ちしています。"/>
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="stylesheet" type="text/css" href="../common/css/reset.css" media="all">
+<link rel="stylesheet" type="text/css" href="../common/css/common.css" media="all">
+<script type="text/javascript" src="../common/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="../common/js/common.js"></script>
+<!-- InstanceBeginEditable name="head" -->
+<script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="../common/css/recruitColorbox.css" media="all">
+<link rel="stylesheet" type="text/css" href="../common/css/carousel.css" media="all">
+<script src="../common/js/jquery.colorbox.js"></script>
+<script src="../common/js/jquery.carouFredSel-6.0.4-packed.js"></script>
+<script src="../common/js/carousel.js"></script>
+<script>
+$(document).ready(function(){
+	$(".recruitPop .inline").colorbox({inline:true, width:"800px", height:"750px"});
+	
+	$(".recruitField01, .recruitField02, .recruitField03, .recruitField04 .voice, .recruitField05, .recruitField06, .recruitField07").click(function( ) {
+		if( $(this).find("a").attr('href') ) {
+			var location = $(this).find("a").attr('href');
+			$(this).colorbox({inline:true, href:location, width:"800px", height:"750px"});
+			$('.normal').show();
+			$('.zoom').hide();
+		}
+	});
+	$(".recruitPopWrap").hide();
+	
+	$(".recruitPop .inline").click(function() {
+		var i = 0;
+		$('.numberLink01 li img').each(function(){
+			if( $(this).hasClass("rollover") ){
+				var str = $(this).attr('src');
+				str = str.replace('on.','.');
+				$(this).attr('src',str);
+			}
+		});
+	});
+});
+</script>
+<!-- InstanceEndEditable -->
+<!-- InstanceParam name="category" type="text" value="recruit" -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42863547-2', 'technocrats.jp');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body id="recruit">
+<div class="whiteWrap">
+	<header>
+		<div id="header">
+			<div id="headerInner">
+				<p class="logo"><a href="../index.html"><img src="../common/images/logo01.png" alt="日本テクノクラーツ株式会社" width="250" height="36"></a></p>
+				<div id="siteSearch">
+					<form action="http://www.google.com/cse">
+						<span id="srchtxtBg">
+						<input type="hidden" name="cx" value="002981879892081928293:pkfmkdducru">
+						<input name="q" id="srchtxt" type="text" class="jq-placeholder" title="サイト内検索">
+						</span>
+						<input type="image" src="/common/images/search_bt01.png" id="srchbtn" alt="検索" onMouseOver="this.src='/common/images/search_bt01on.png'" onMouseOut="this.src='/common/images/search_bt01.png'">
+					</form>
+				</div>
+				<nav>
+					<ul id="globalNav">
+						<li><a href="../index.html"><img src="../common/images/nav01.png" width="82" height="40" alt="HOME"></a></li>
+						<li><a href="../solution/index.html"><img src="../common/images/nav02.png" width="193" height="40" alt="ソリューションサービス"></a>
+							<ul class="child01">
+								<li><a href="../solution/system.html"><img src="../common/images/nav01-01.png" width="260" height="91" alt="システムインテグレーション"></a></li>
+								<li><a href="../solution/privacy.html"><img src="../common/images/nav01-02.png" width="260" height="93" alt="プライバシーマーク取得支援"></a></li>
+								<li><a href="../solution/netshop.html"><img src="../common/images/nav01-03.png" width="260" height="95" alt="ネットショップ商品データ移行"></a></li>
+							</ul>
+						</li>
+						<li><a href="../company/index.html"><img src="../common/images/nav03.png" width="96" height="40" alt="会社情報"></a>
+							<ul class="child02">
+								<li><a href="../company/index.html"><img src="../common/images/nav02-01.png" width="260" height="91" alt="会社概要／アクセス"></a></li>
+								<li><a href="../company/policy.html"><img src="../common/images/nav02-03.png" width="260" height="91" alt="企業理念"></a></li>
+							</ul>
+						</li>
+						<li><a href="index.html"><img src="../common/images/nav04.png" width="97" height="40" alt="採用情報"></a>
+							<ul class="child03">
+								<li><a href="index.html"><img src="../common/images/nav03-01.png" width="248" height="95" alt="採用情報　エントリー受付"></a></li>
+							</ul>
+						</li>
+					</ul>
+					<p class="inqBt"><a href="../inquiry/index.html"><img src="../common/images/bt02.png" width="250" height="30" alt="お問い合わせ" class="rollover"></a></p>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<!-- InstanceBeginEditable name="mainContents" -->
+	<div class="recruitImageWrap">
+		<!--<p class="aC mb15"><img src="images/index_ti01.png" width="848" height="66" alt="会社は人生のフィールドだ!!"></p>
+		<p class="aC mb40">よりよい刺激を受けながら、自分を成長させていく。<br>
+			仲間とライバルと共に育っていくことがお客様に満足をもたらし、社会に貢献することになる。<br>
+			そんな会社に身を置くことこそが、人生を充実させる要素。<br>
+			私たちと一緒に、イノベーションを起こしませんか。</p>-->
+		<div class="recruitField01Wrap">
+			<div class="recruitField01">
+				<p class="photo"><img src="images/index_ph01.jpg" width="368" height="138" alt=""></p>
+				<div class="right">
+					<p class="title"><img src="images/index_tx02.png" width="197" height="44" alt="01 求める人物像"></p>
+					<p class="text">日本テクノクラーツ株式会社では幅広いメンバーを求め、経験者・未経験者を問わず積極的な採用活動を行っています。</p>
+					<p class="button"><a class="inline" href="#detail01" onfocus="this.blur();"><img src="images/index_bt02.png" width="46" height="46" alt="" class="rollover"></a></p>
+					<!-- /right --></div>
+				<!-- /recruitField01 --></div>
+			<!-- /recruitField01Wrap --></div>
+		<div class="recruitField02Wrap">
+			<div class="recruitField02">
+				<p class="photo"><img src="images/index_ph02.jpg" width="237" height="278" alt=""></p>
+				<div class="right">
+					<p class="title"><img src="images/index_tx03.png" width="150" height="44" alt="02 社外活動"></p>
+					<p class="text">コミュニケーションを大切にしている弊社では、サークルや社員旅行など社外で交流を深める活動も行っています。</p>
+					<p class="button"><a class="inline" href="#detail02-01" onfocus="this.blur();"><img src="images/index_bt02.png" width="46" height="46" alt="" class="rollover"></a></p>
+					<!-- /right --></div>
+				<!-- /recruitField02 --></div>
+			<!-- /recruitField02Wrap --></div>
+		<div class="recruitField03Wrap">
+			<div class="recruitField03">
+				<p class="photo"><img src="images/index_ph03.jpg" width="136" height="278" alt=""></p>
+				<div class="right">
+					<p class="title"><img src="images/index_tx04.png" width="150" height="44" alt="03 社内活動"></p>
+					<p class="text">技術やパーソナリティを高め、且つその情報を共有するための私達の取り組みです。</p>
+					<p class="button"><a class="inline" href="#detail03" onfocus="this.blur();"><img src="images/index_bt02.png" width="46" height="46" alt="" class="rollover"></a></p>
+					<!-- /right --></div>
+				<!-- /recruitField03 --></div>
+			<!-- /recruitField03Wrap --></div>
+		<div class="recruitField04Wrap">
+			<div class="recruitField04">
+				<p class="mb10"><img src="images/index_tx05.png" width="149" height="44" alt="04 社員の声"></p>
+				<!--<p class="text">日本テクノクラーツでの仕事は、バラエティに富んでいます。全ての社員が、様々なきっかけで入社し、<br>
+					様々な仕事で活躍しています。入社に至った経緯や、どの様にスキルアップしてきたかなど、<br>
+					先輩社員の生の声を集めました！</p>-->
+				<div class="ml10">
+					<div class="voiceWrap">
+						<div class="voice">
+							<p class="photo"><img src="images/index_ph04-01-01.jpg" width="178" height="178" alt=""></p>
+							<div class="right">
+								<p class="text01">スペシャリストとして<br>
+									成長し続けます！</p>
+								<p class="text02">システムワークス統括部<br>
+									デベロプメント<br>
+									ソリューション事業部 部長<br>
+									兼　開発推進第1課 課長　H</p>
+								<p class="button">読む<a class="inline" href="#detail04-01" onfocus="this.blur();"><img src="images/index_bt02.png" width="46" height="46" alt="" class="rollover"></a></p>
+								<!-- /right --></div>
+							<!-- /voice --></div>
+						<!-- /voiceWrap --></div>
+					<div class="voiceWrap">
+						<div class="voice">
+							<p class="photo"><img src="images/index_ph04-02-01.jpg" width="178" height="178" alt=""></p>
+							<div class="right">
+								<p class="text01">技術だけじゃない！<br>
+									仕事の面白さとは</p>
+								<p class="text02">システムワークス統括部<br>
+									クオリティアキュレイト<br>
+									ソリューション事業部 部長<br>
+									兼　評価・検証第1課 課長　T</p>
+								<p class="button">読む<a class="inline" href="#detail04-02" onfocus="this.blur();"><img src="images/index_bt02.png" width="46" height="46" alt="" class="rollover"></a></p>
+								<!-- /right --></div>
+							<!-- /voice --></div>
+						<!-- /voiceWrap --></div>
+				  <div class="voiceWrap">
+					  <div class="voice">
+					    <p class="photo"><img src="images/index_ph04-05-01.jpg" width="178" height="178" alt=""></p>
+					    <div class="right">
+					      <p class="text01">達成感を仲間と<br>
+					        分かち合える会社<br>
+				          <p class="text02">システムワークス統括部<br>
+				            デベロプメントソリューション事業部<br>
+			              Webソリューション課　T</p>
+					      <p class="button">読む<a class="inline" href="#detail04-03" onfocus="this.blur();"><img src="images/index_bt02.png" width="46" height="46" alt="" class="rollover"></a></p>
+					      <!-- /right -->
+				        </div>
+					    <!-- /voice -->
+				      </div>
+					  <!-- /voiceWrap -->
+				  </div>
+					<div class="voiceWrap">
+					  <div class="voice">
+					    <p class="photo"><img src="images/index_ph04-03-01.jpg" width="178" height="178" alt=""></p>
+					    <div class="right">
+					      <p class="text01">ゆっくりでも着実に<br/>
+					        成長していきたい<br>
+				          <p class="text02">システムワークス統括部<br>
+					          インフラソリューション事業部<br>
+					          通信基地局課 課長　U</p>
+					      <p class="button">読む<a class="inline" href="#detail04-04" onfocus="this.blur();"><img src="images/index_bt02.png" width="46" height="46" alt="" class="rollover"></a></p>
+					      <!-- /right -->
+				        </div>
+					    <!-- /voice -->
+				      </div>
+					  <!-- /voiceWrap -->
+				  </div>
+					<div class="voiceWrap">
+					  <div class="voice">
+							<p class="photo"><img src="images/index_ph04-04-01.jpg" width="178" height="178" alt=""></p>
+							<div class="right">
+								<p class="text01">若く活気に溢れた<br/>
+									元気みなぎる会社です</p>
+									
+								<p class="text02">システムワークス統括部<br>
+									インフラソリューション事業部<br>
+									サーバソリューション第1課　K<br>
+									</p>
+								<p class="button">読む<a class="inline" href="#detail04-05" onfocus="this.blur();"><img src="images/index_bt02.png" width="46" height="46" alt="" class="rollover"></a></p>
+								<!-- /right --></div>
+							<!-- /voice --></div>
+						<!-- /voiceWrap --></div>
+				</div>
+				
+				<!-- /recruitField04 --></div>
+			<!-- /recruitField04Wrap --></div>
+		<div class="recruitField05Wrap">
+			<div class="recruitField05">
+				<p class="photo"><img src="images/index_ph08.jpg" width="209" height="122" alt=""></p>
+				<div class="right">
+					<p class="title"><img src="images/index_tx06.png" width="150" height="44" alt="05 募集要項"></p>
+					<p class="text">現在日本テクノクラーツ株式会社では幅広いメンバーを求め、<br>
+				    積極的な採用活動を行っています。</p>
+					<p class="button"><a class="inline" href="#detail05" onfocus="this.blur();"><img src="images/index_bt02.png" width="46" height="46" alt="" class="rollover"></a></p>
+					<!-- /right --></div>
+				<!-- /recruitField05 --></div>
+			<!-- /recruitField05Wrap --></div>
+		<div class="recruitField06Wrap">
+			<div class="recruitField06">
+				<p class="photo"><img src="images/index_ph09.jpg" width="219" height="162" alt=""></p>
+				<div class="right">
+					<p class="title"><img src="images/index_tx07.png" width="222" height="44" alt="06 採用までの流れ"></p>
+					<p class="text">採用の流れをご案内します。<br>
+						エントリーは当社応募フォーム、<br>
+						もしくは各種求人媒体より<br>
+						随時受け付けております。</p>
+					<p class="button"><a class="inline" href="#detail06" onfocus="this.blur();"><img src="images/index_bt02.png" width="46" height="46" alt="" class="rollover"></a></p>
+					<!-- /right --></div>
+				<!-- /recruitField06 --></div>
+			<!-- /recruitField06Wrap --></div>
+		<div class="recruitField07Wrap">
+			<div class="recruitField07">
+				<p class="photo"><img src="images/index_ph10.jpg" width="211" height="123" alt=""></p>
+				<div class="right">
+					<p class="title"><img src="images/index_tx08.png" width="221" height="44" alt="07 よくあるご質問"></p>
+					<p class="text">当社についての事や採用についての<br>
+						よくあるご質問</p>
+					<p class="button"><a class="inline" href="#detail07-01" onfocus="this.blur();"><img src="images/index_bt02.png" width="46" height="46" alt="" class="rollover"></a></p>
+					<!-- /right --></div>
+				<!-- /recruitField07 --></div>
+			<!-- /recruitField07Wrap --></div>
+		<!-- /recruitImageWrap --></div>
+	<!-- ------------------------------------------------------------------------- -->
+	<div class="recruitPopWrap">
+		<div id="detail01" class="recruitPop">
+			<div class="header">
+				<p><img src="images/index_tx02.png" width="197" height="44" alt="01 求める人物像"></p>
+			</div>
+			<div class="scroll01">
+				<p class="ti01">社長からのメッセージ</p>
+				<div class="photo"><img src="images/index_ph11.jpg" width="296" height="197" alt="求める人物像"></div>
+				<div class="text">
+					<p>私は人が最大の財産であると考えています。</p>
+					<p>会社は人の集団です。<br>
+						あたり前の事ですが、誰も何もしなければ会社は機能しませんし、</br>
+						誰もいなくなれば会社は会社でなくなります。</br>
+						多くの人が活躍していれば、</br>
+						業績も良いでしょうし魅力的な集団に映ります。
+					</p>
+					<p>私達はIT技術をより高めて行くことに注力するだけでなく、<br>
+						社内の雰囲気やコミュニケーションをとても大切にしています。
+					</p>
+					<p>新しい人が入社し、新しい風を運んできてくれた時に、</br>
+						歓迎できる仲間たちがいることは日本テクノクラーツの自慢の一つです。
+					</p>
+					<p>お客様や仲間への思いやり、感謝の気持ちを持ち、<br>
+						自分の仕事を楽しみ、いざという時に助け合える会社にしたいと思っているからです。
+					</p>
+					<p>仕事を柔軟に楽しんで、前向きに取り組む人を歓迎したいし、</br>
+						その様な方と一緒に仕事ができれば、私自身ももっと充実すると思います。
+					</p>
+					<p>技術や経験で不安があったとしても、</br>
+						そんな考え方ができる方であれば仲間として成長出来ると思います。
+					</p>
+					<p class="aR">日本テクノクラーツ株式会社</br>
+						代表取締役社長　　石渡　聡</p>
+					<!-- /text --></div>
+				<!-- /scroll01 --></div>
+			<div class="recruitPopFooter">
+				<ul>
+					<li class="current">01.求める人物像</li>
+					<li class="next"><a class="inline" href="#detail02-01" onfocus="this.blur();">02.社外活動</a></li>
+				</ul>
+				<p class="entryButton"><a href="../form/recruit.html"><img src="../common/images/bt12.gif" width="91" height="91" alt="エントリー" class="rollover"></a></p>
+				<!-- /recruitPopFooter --></div>
+			<!-- /recruitPop --></div>
+		<!-- /recruitPopWrap --></div>
+	<!-- ------------------------------------------------------------------------- -->
+	<div class="recruitPopWrap">
+		<div id="detail02-01" class="recruitPop">
+			<div class="header">
+				<p><img src="images/index_tx03.png" width="150" height="44" alt="02 社外活動"></p>
+			</div>
+			<div class="scroll01noscroll">
+				<div class="borderBox02">
+					<div class="borderBox02inner02">
+						<div class="borderBox02inner03">
+							<div class="titleGruop01">
+								<p class="ti06">サークル活動</p>
+								<ul class="numberLink01">
+									<li><img src="images/ic01on.gif" width="25" height="25" alt="1"></li>
+									<li><a class="inline" href="#detail02-02"><img src="images/ic02.gif" width="25" height="25" alt="2" class="rollover"></a></li>
+								</ul>
+							</div>
+							<!-- <p>フットサル、野球、バトミントン、サーフィンなど、社員が自主的にスポーツクラブを作り、活動を行っています。</p> -->
+							<!---------------------------------------->
+							<div class="normal">
+								<div class="carousel">
+									<ul>
+										<li><img src="images/index_ph02-01-01.jpg" alt="" width="285" height="213" /></li>
+										<li><img src="images/index_ph02-01-02.jpg" alt="" width="285" height="213" /></li>
+										<li><img src="images/index_ph02-01-03.jpg" alt="" width="285" height="213" /></li>
+										<li><img src="images/index_ph02-01-04.jpg" alt="" width="285" height="213" /></li>
+									</ul>
+									<p><a id="prev" class="prevButton" href="javascript:void(0);"><img src="../common/images/ic05.png" alt="" width="13" height="28" class="rollover" /></a><a id="next" class="nextButton" href="javascript:void(0);"><img src="../common/images/ic06.png" alt="" width="13" height="28" class="rollover" /></a></p>
+									<!-- /carousel --> 
+								</div>
+								<div class="twoColumnLayout04" style="margin-top:20px;">
+									<div class="colLeft">
+										<p class="aC"><img src="images/index_ph04.jpg" width="263" height="159" alt=""></p>
+										<!-- /colLeft --></div>
+									<div class="colRight">
+										<p class="mt25">社内のサークルに参加したり、自分からブログで募集をして、フットサルや野球、サーフィンなどをしています。フットサルや野球はユニフォームも作っており、同じ時間を共有することで、楽しい「一体感」を味わえ、そこで仕事の悩みを解消するヒントを得ることもあるようです。</p>
+										<!-- /colRight --></div>
+									<!-- /twoColumnLayout04 --></div>
+								<!-- /normal --></div>
+							<!---------------------------------------->
+							<div class="zoom">
+								<p><a class="closeZoom" href="javascript:void(0);"><img src="../common/images/bt16.gif" alt="戻る" width="56" height="25" class="rollover" /></a>
+								<div class="carouselzoom">
+									<ul>
+										<li><img src="images/index_ph02-01-01b.jpg" alt="" width="480" height="359" /></li>
+										<li><img src="images/index_ph02-01-02b.jpg" alt="" width="480" height="359" /></li>
+										<li><img src="images/index_ph02-01-03b.jpg" alt="" width="480" height="359" /></li>
+										<li><img src="images/index_ph02-01-04b.jpg" alt="" width="480" height="359" /></li>
+									</ul>
+									<p><a id="prev" class="prevButton" href="javascript:void(0);"><img src="../common/images/ic08.png" alt="" width="26" height="57" class="rollover" /></a><a id="next" class="nextButton" href="javascript:void(0);"><img src="../common/images/ic09.png" alt="" width="26" height="57" class="rollover" /></a></p>
+									<div class="pagination" id="pagination00"></div>
+									<!-- /carousel --></div>
+								<!-- /zoom --></div>
+							<!---------------------------------------->
+							<div class="twoColumnLayout05" style="margin-top:36px;">
+								<div class="colRight">
+									<p><a class="inline" href="#detail02-02" onfocus="this.blur();">社員旅行についても見る ＞</a></p>
+									<!-- /right --></div>
+								<!-- /twoColumnLayout01 --></div>
+							<!-- /borderBox02inner03 --></div>
+						<!-- /borderBox02inner02 --></div>
+					<!-- /borderBox02 --></div>
+				
+				<!-- /scroll01 --></div>
+			<div class="recruitPopFooter noborder">
+				<ul>
+					<li class="prev"><a class="inline" href="#detail01" onfocus="this.blur();">01.求める人物像</a></li>
+					<li class="current">02.社外活動</li>
+					<li class="next"><a class="inline" href="#detail03" onfocus="this.blur();">03.社内活動</a></li>
+				</ul>
+				<p class="entryButton"><a href="../form/recruit.html"><img src="../common/images/bt12.gif" width="91" height="91" alt="エントリー" class="rollover"></a></p>
+				<!-- /recruitPopFooter --></div>
+			<!-- /recruitPop --></div>
+		<!-- /recruitPopWrap --></div>
+	<!-- ------------------------------------------------------------------------- -->
+	<div class="recruitPopWrap">
+		<div id="detail02-02" class="recruitPop">
+			<div class="header">
+				<p><img src="images/index_tx03.png" width="150" height="44" alt="02 社外活動"></p>
+			</div>
+			<div class="scroll01noscroll">
+				<div class="borderBox02">
+					<div class="borderBox02inner02">
+						<div class="borderBox02inner03">
+							<div class="titleGruop01">
+								<p class="ti06">社員旅行</p>
+								<ul class="numberLink01">
+									<li><a class="inline" href="#detail02-01"><img src="images/ic01.gif" width="25" height="25" alt="2" class="rollover"></a></li>
+									<li><img src="images/ic02on.gif" width="25" height="25" alt="1"></li>
+								</ul>
+							</div>
+							<p>写真をご覧頂くと、フラットな組織でリラックスした雰囲気が分かると思います。</br>それまでの「社員旅行」のイメージが変わり、毎年一度が待ち遠しくなります。</p>
+							<!---------------------------------------->
+							<div class="normal">
+								<div class="carousel">
+									<ul>
+										<li><img src="images/index_ph02-02-01.jpg" alt="" width="285" height="213" /></li>
+										<li><img src="images/index_ph02-02-02.jpg" alt="" width="285" height="213" /></li>
+										<li><img src="images/index_ph02-02-03.jpg" alt="" width="285" height="213" /></li>
+										<li><img src="images/index_ph02-02-04.jpg" alt="" width="285" height="213" /></li>
+										<li><img src="images/index_ph02-02-05.jpg" alt="" width="285" height="213" /></li>
+										<li><img src="images/index_ph02-02-06.jpg" alt="" width="285" height="213" /></li>
+										<li><img src="images/index_ph02-02-07.jpg" alt="" width="285" height="213" /></li>
+										<li><img src="images/index_ph02-02-08.jpg" alt="" width="285" height="213" /></li>
+										<li><img src="images/index_ph02-02-09.jpg" alt="" width="285" height="213" /></li>
+									</ul>
+									<p><a id="prev" class="prevButton" href="javascript:void(0);"><img src="../common/images/ic05.png" alt="" width="13" height="28" class="rollover" /></a><a id="next" class="nextButton" href="javascript:void(0);"><img src="../common/images/ic06.png" alt="" width="13" height="28" class="rollover" /></a></p>
+									<!-- /carousel --> 
+								</div>
+								<p class="aC"><img src="images/index_il10.png" width="600" height="175" alt="これまでの旅行先"></p>
+								<div class="twoColumnLayout05" style="margin-top:-8px;">
+								<div class="colRight">
+									<p><a class="inline" href="#detail02-01" onfocus="this.blur();">スポーツクラブについても見る ＞</a></p>
+									<!-- /right --></div>
+								<!-- /twoColumnLayout01 --></div>
+								<!-- /normal --></div>
+							<!---------------------------------------->
+							<div class="zoom">
+								<p><a class="closeZoom" href="javascript:void(0);"><img src="../common/images/bt16.gif" alt="戻る" width="56" height="25" class="rollover" /></a>
+								<div class="carouselzoom">
+									<ul>
+										<li><img src="images/index_ph02-02-01b.jpg" alt="" width="480" height="359" /></li>
+										<li><img src="images/index_ph02-02-02b.jpg" alt="" width="480" height="359" /></li>
+										<li><img src="images/index_ph02-02-03b.jpg" alt="" width="480" height="359" /></li>
+										<li><img src="images/index_ph02-02-04b.jpg" alt="" width="480" height="359" /></li>
+										<li><img src="images/index_ph02-02-05b.jpg" alt="" width="480" height="359" /></li>
+										<li><img src="images/index_ph02-02-06b.jpg" alt="" width="480" height="359" /></li>
+										<li><img src="images/index_ph02-02-07b.jpg" alt="" width="480" height="359" /></li>
+										<li><img src="images/index_ph02-02-08b.jpg" alt="" width="480" height="359" /></li>
+										<li><img src="images/index_ph02-02-09b.jpg" alt="" width="480" height="359" /></li>
+									</ul>
+									<p><a id="prev" class="prevButton" href="javascript:void(0);"><img src="../common/images/ic08.png" alt="" width="26" height="57" class="rollover" /></a><a id="next" class="nextButton" href="javascript:void(0);"><img src="../common/images/ic09.png" alt="" width="26" height="57" class="rollover" /></a></p>
+									<div class="pagination" id="pagination01"></div>
+									<!-- /carouselzoom --></div>
+									
+									
+									<div class="twoColumnLayout05" style="margin-top:39px;">
+								<div class="colRight">
+									<p><a class="inline" href="#detail02-01" onfocus="this.blur();">スポーツクラブについても見る ＞</a></p>
+									<!-- /right --></div>
+								<!-- /twoColumnLayout01 --></div>
+								
+								
+								
+								<!-- /zoom --> </div>
+							<!---------------------------------------->
+							
+							
+							<!-- /borderBox02inner03 --></div>
+						<!-- /borderBox02inner02 --></div>
+					<!-- /borderBox02 --></div>
+				
+				<!-- /scroll01 --></div>
+			<div class="recruitPopFooter noborder">
+				<ul>
+					<li class="prev"><a class="inline" href="#detail01" onfocus="this.blur();">01.求める人物像</a></li>
+					<li class="current">02.社外活動</li>
+					<li class="next"><a class="inline" href="#detail03" onfocus="this.blur();">03.社内活動</a></li>
+				</ul>
+				<p class="entryButton"><a href="../form/recruit.html"><img src="../common/images/bt12.gif" width="91" height="91" alt="エントリー" class="rollover"></a></p>
+				<!-- /recruitPopFooter --></div>
+			<!-- /recruitPop --></div>
+		<!-- /recruitPopWrap --></div>
+	<!-- ------------------------------------------------------------------------- -->
+	<div class="recruitPopWrap">
+		<div id="detail03" class="recruitPop">
+			<div class="header">
+				<p><img src="images/index_tx04.png" width="150" height="44" alt="03 社内活動"></p>
+			</div>
+			<div class="scroll01noscroll">
+				<div class="borderBox02">
+					<div class="borderBox02inner02">
+						<div class="borderBox02inner03">
+							<div id="detail03LayoutWrap">
+								<div id="detail03Layout01">
+									<div class="photo"><img src="images/index_ph05.jpg" width="112" height="153" alt=""></div>
+									<p class="ti06 mb05">ハンドブック</p>
+									<p>弊社共通の、大切にしたい考え方や知識、ルール、社会常識が一冊に納まっています。会社のすべてが分かり、迷うことなく仕事ができます。さらに、社会人としての参考書でもあります。</p>
+								</div>
+								<div id="detail03Layout02">
+									<p class="ti06 mb05">月例ミーティング</p>
+									<p class="aC"><img src="images/index_ph06.jpg" width="259" height="152" alt=""></p>
+									<p>課ごとに開催していますので、同じ問題意識や課題を話し合える機会です。弊社の基幹会議のひとつですので、会社の政策を課長から説明を受けたり、課としての意見をまとめて部課長会に上げたりしています。</p>
+								</div>
+								<div id="detail03Layout03">
+									<p class="ti06 mb05">社内研修</p>
+									<p>弊社の成長の目標は、技術力+人間性を伸ばしていくことです。</br>そのために必要なマネジメント力と対人折衝力の研修を</br>オリジナルメニューで実施しています。</p>
+									<p><img src="images/index_ph07.jpg" width="308" height="174" alt=""></p>
+								</div>
+								<p id="detail03Layout04"><img src="images/index_ph12.jpg" width="279" height="209" alt=""></p>
+							</div>
+							
+							<!-- /borderBox02inner03 --></div>
+						<!-- /borderBox02inner02 --></div>
+					<!-- /borderBox02 --></div>
+				
+				<!-- /scroll01 --></div>
+			<div class="recruitPopFooter noborder">
+				<ul>
+					<li class="prev"><a class="inline" href="#detail02-01" onfocus="this.blur();">02.社外活動</a></li>
+					<li class="current">03.社内活動</li>
+					<li class="next"><a class="inline" href="#detail04-01" onfocus="this.blur();">04.社員の声</a></li>
+				</ul>
+				<p class="entryButton"><a href="../form/recruit.html"><img src="../common/images/bt12.gif" width="91" height="91" alt="エントリー" class="rollover"></a></p>
+				<!-- /recruitPopFooter --></div>
+			<!-- /recruitPop --> 
+		</div>
+		<!-- /recruitPopWrap --> 
+	</div>
+	
+	<!-- ------------------------------------------------------------------------- -->
+	<div class="recruitPopWrap">
+		<div id="detail04-01" class="recruitPop detail04">
+			<div class="header">
+				<p><img src="images/index_tx05.png" width="149" height="44" alt="04 社員の声"></p>
+			</div>
+			<div class="scroll01">
+				<div class="titleGruop01">
+					<p class="ti02">スペシャリストとして成長し続けます！</p>
+					<ul class="numberLink01">
+						<li><img src="images/ic01on.gif" width="25" height="25" alt="1"></li>
+						<li><a class="inline" href="#detail04-02"><img src="images/ic02.gif" width="25" height="25" alt="2" class="rollover"></a></li>
+						<li><a class="inline" href="#detail04-03"><img src="images/ic03.gif" width="25" height="25" alt="3" class="rollover"></a></li>
+						<li><a class="inline" href="#detail04-04"><img src="images/ic04.gif" width="25" height="25" alt="4" class="rollover"></a></li>
+						<li><a class="inline" href="#detail04-05"><img src="images/ic05.gif" width="25" height="25" alt="5" class="rollover"></a></li>
+					</ul>
+				</div>
+				<div class="twoColumnLayout01 mb20">
+					<div class="left">
+						<p class="mb10"><img src="images/index_ph04-01-01.jpg" width="178" height="178" alt=""></p>
+						<p class="text03">システムワークス統括部<br>
+							デベロプメント<br>
+							ソリューション事業部 部長<br>
+							兼　開発推進第1課 課長　H</p>
+						<p class="mb00"><img src="images/index_ph04-01-02.jpg" width="178" height="178" alt=""></p>
+						<!-- /left --></div>
+					<div class="right">
+						<div class="scroll02">
+							<p class="ti03 mt00">どんどん挑戦できる恵まれた環境。</p>
+							<p>会社の創業間もなく入社させていただきました。今までいくつかの企業で経験を積んできたつもりでしたが、毎日同じ事の繰り返し。自分はこのままでいいのだろうかと自問自答し、転職を考え始めました。そんな時に知ったのが日本テクノクラーツでした。<br>
+						    創業間もない会社だったため、当時はまだ社員も少なく社長を始め先輩社員達と直接議論ができ、モチベーション高く保ちながら、毎日がいろいろな事にチャレンジできる、そんな雰囲気がこの会社にはありました。入社後、自分に合っていたのが、「自分で見つけたテーマに自分でトライする」事ができたところ。もちろん、先輩社員達にフォローはありますが、全て自分の意志でスキルアップできるというのが自分にはとても合っていました。</p>
+							<p class="ti03">仕事が楽しい。だから勉強に打ち込めた。</p>
+							<p>現在は数千人を対象とした某金融機関向けグループウェアのWeb化改修に携わっています。アプリケーションのマイグレーションは計画・準備から検証環境によるテストや新環境の調査、移行、テスト、とフローを踏んで運用開始に至るわけですが、実際の作業ではアプリケーション側の技術知識だけでなく、かなり幅広い技術知識を要求されます。<br>
+						    Web系システムへ移行する場合は、サーバー上での処理が増加する為、ロジックを見直しより効率化された処理にする必要があります。また負荷分散する為に複数のサーバーで構成されていることを意識し、それぞれでデータの整合性が取れるように設計を行います。またセキュリティの知識も必要です。そこで、自己啓発が必須であり、通勤途中や食事中まで参考書を見てスキルの習得に励んでいます。</p>
+							<p class="ti03">個人プレーヤーからチームプレーヤーに</p>
+							<p>今までは個人としてのスキルをどう高めるかをひたすら追い続けてきました。しかし、部長という大役を務めさせていただいている現在、自分のスキル向上と共に部署全体、また、会社全体が今後どうあるべきかも含め考えなければなりません。技術者にとって、自分に興味のある分野の業務の仕事は夢中になり頑張れるものです。今では、私のチームにいる各社員に業務に専念してもらえる様に、できる限り良い環境を提供できるように考えています。これは、会社に何をしてもらうかではなく、自分が会社にとって何ができるのかという、組織の中での自分を高めるモチベーションにもなっています。</p>
+							<p class="ti03">思いは次のステージへ！</p>
+							<p>この業界は、時と場合によりますが、体力勝負の時もしばしばあります。健康管理は仕事をする上で重要な要素です。時にはリフレッシュして次の難問にチャレンジする！いつでも語り合える仲間がこの会社にはたくさんいる。まだまだチャレンジしたいことに自ら挑戦していきたいと思います。</p>
+							<!-- /scroll02 --></div>
+						<!-- /right --></div>
+					<!-- /twoColumnLayout01 --></div>
+				<div class="twoColumnLayout01">
+					<div class="colRight">
+						<p><a class="inline" href="#detail04-02" onfocus="this.blur();">次の社員も見る ＞</a></p>
+						<!-- /right --></div>
+					<!-- /twoColumnLayout01 --></div>
+				
+				<!-- /scroll01 --></div>
+			<div class="recruitPopFooter">
+				<ul>
+					<li class="prev"><a class="inline" href="#detail03" onfocus="this.blur();">03.社内活動</a></li>
+					<li class="current">04.社員の声</li>
+					<li class="next"><a class="inline" href="#detail05" onfocus="this.blur();">05.募集要項</a></li>
+				</ul>
+				<p class="entryButton"><a href="../form/recruit.html"><img src="../common/images/bt12.gif" width="91" height="91" alt="エントリー" class="rollover"></a></p>
+				<!-- /recruitPopFooter --></div>
+			<!-- /recruitPop --></div>
+		<!-- /recruitPopWrap --></div>
+	<!-- ------------------------------------------------------------------------- -->
+	<div class="recruitPopWrap">
+		<div id="detail04-02" class="recruitPop detail04">
+			<div class="header">
+				<p><img src="images/index_tx05.png" width="149" height="44" alt="04 社員の声"></p>
+			</div>
+			<div class="scroll01">
+				<div class="titleGruop01">
+					<p class="ti02">技術だけじゃない！仕事の面白さとは</p>
+					<ul class="numberLink01">
+						<li><a class="inline" href="#detail04-01"><img src="images/ic01.gif" width="25" height="25" alt="2" class="rollover"></a></li>
+						<li><img src="images/ic02on.gif" width="25" height="25" alt="2"></li>
+						<li><a class="inline" href="#detail04-03"><img src="images/ic03.gif" width="25" height="25" alt="3" class="rollover"></a></li>
+						<li><a class="inline" href="#detail04-04"><img src="images/ic04.gif" width="25" height="25" alt="4" class="rollover"></a></li>
+						<li><a class="inline" href="#detail04-05"><img src="images/ic05.gif" width="25" height="25" alt="5" class="rollover"></a></li>
+					</ul>
+				</div>
+				<div class="twoColumnLayout01 mb20">
+					<div class="left">
+						<p class="mb10"><img src="images/index_ph04-02-01.jpg" width="178" height="178" alt=""></p>
+						<p class="text03">システムワークス統括部<br>
+							クオリティアキュレイト<br>
+							ソリューション事業部 部長<br>
+							兼　評価・検証第1課 課長　T</p>
+						<p class="mb00"><img src="images/index_ph04-02-02.jpg" width="178" height="178" alt=""></p>
+						<!-- /left --></div>
+					<div class="right">
+						<div class="scroll02">
+							<p class="ti03 mt00">入社してすぐに</p>
+							<p>私はもともとPCについてあまり詳しくありませんでした。私の場合、入社してすぐ非常に忙しい業務を担当しました。正直入社した感想とか言っていられないほど忙しく、気づいたら何ヶ月も経っていました。経験もない私が鍛えられたのは正にこの期間だと思います。ただ今思えば、この期間が私にとっては自分のスキルを高める濃密な時間になったのは間違いないです。</p>
+							<p class="ti03">評価業務という仕事</p>
+							<p>現在、私は携帯端末の検証・評価業務を行っております。私はその業務を司る部署のリーダーをしています。我々の部署は、品質を管理する課が集まっています。<br>
+						    この業界は、とにかく回転が早い。世の中では通信技術がどんどん発達し、また多くのユーザがスピードの早い通信を利用するようになってきました。今旬な通信である3GやLTE回線などのスマートフォン（携帯端末）の検証がとても増えましたね。現地に行って検証業務を行うことが多いため、地図にも詳しくなりましたよ。</p>
+							<p class="ti03">部署としてのこれから</p>
+							<p>様々な社員がいてそれぞれ個々でスキルを延ばし、ミーティングで共有しています。私はメンバーには、健康を管理し心を健やかにして仕事に向き合う様指導しています。<br>
+							  やはり回転の早い業界ということもあり、難しい仕事に向き合わなければならず、疲れることもあるかもしれません。ただ、適した仕事量をコントロールし、管理することが大事です。頑張り過ぎると誰でも疲れてしまいます。<br>
+						    私達が長くお客様との信頼関係を築くためには、小さなこともコツコツと継続して対応することが、お客様からの評価に繋がると私は考えています。</p>
+							<p class="ti03">入社を希望する方へ</p>
+							<p>パソコンは触れますか？<br>
+							  触れるなら大丈夫！とは言い過ぎかもしれませんが、検証という仕事は内容によって都度違うことが多いです。ただ、とにかく触って確かめる。という内容が主ですので、多くの人が入りやすい業種だと思います。ただ、次から次へと回転していく早さが特徴と言えます。<br>
+							  日本テクノクラーツという会社は、元気のいい会社です。我々の部署は、多くの協力会社と共同で仕事を進めることが多い部署です。どんな仕事もコミュニケーション不足が後々大きな問題につながることがあります。物事を俯瞰で見て、まずは話す事からだと私は思います。<br>
+						    未経験者でも、挑戦しようと思えば問題なくできます。長くいればいるほど、知識が深くなりいろいろな分野でその知識を活かすことが出来るようになります。</p>
+							<!-- /scroll02 --></div>
+						<!-- /right --></div>
+					<!-- /twoColumnLayout01 --></div>
+				<div class="twoColumnLayout01">
+					<div class="colLeft">
+						<p><a class="inline" href="#detail04-01" onfocus="this.blur();">＜ 前の社員も見る</a></p>
+						
+						<!-- /left --></div>
+					<div class="colRight">
+						<p><a class="inline" href="#detail04-03" onfocus="this.blur();">次の社員も見る ＞</a></p>
+						<!-- /right --></div>
+					<!-- /twoColumnLayout01 --></div>
+				
+				<!-- /scroll01 --></div>
+			<div class="recruitPopFooter">
+				<ul>
+					<li class="prev"><a class="inline" href="#detail03" onfocus="this.blur();">03.社内活動</a></li>
+					<li class="current">04.社員の声</li>
+					<li class="next"><a class="inline" href="#detail05" onfocus="this.blur();">05.募集要項</a></li>
+				</ul>
+				<p class="entryButton"><a href="../form/recruit.html"><img src="../common/images/bt12.gif" width="91" height="91" alt="エントリー" class="rollover"></a></p>
+				<!-- /recruitPopFooter --></div>
+			<!-- /recruitPop --></div>
+		<!-- /recruitPopWrap --></div>
+	<!-- ------------------------------------------------------------------------- -->
+	<div class="recruitPopWrap">
+		<div id="detail04-03" class="recruitPop detail04">
+			<div class="header">
+				<p><img src="images/index_tx05.png" width="149" height="44" alt="04 社員の声"></p>
+			</div>
+			<div class="scroll01">
+				<div class="titleGruop01">
+					<p class="ti02">達成感を仲間達と分かち合える会社</p>
+					<ul class="numberLink01">
+						<li><a class="inline" href="#detail04-01"><img src="images/ic01.gif" width="25" height="25" alt="2" class="rollover"></a></li>
+						<li><a class="inline" href="#detail04-02"><img src="images/ic02.gif" width="25" height="25" alt="2" class="rollover"></a></li>
+						<li><img src="images/ic03on.gif" width="25" height="25" alt="3"></li>
+						<li><a class="inline" href="#detail04-04"><img src="images/ic04.gif" width="25" height="25" alt="4" class="rollover"></a></li>
+						<li><a class="inline" href="#detail04-05"><img src="images/ic05.gif" width="25" height="25" alt="5" class="rollover"></a></li>
+					</ul>
+				</div>
+				<div class="twoColumnLayout01 mb20">
+					<div class="left">
+						<p class="mb10"><img src="images/index_ph04-05-01.jpg" width="178" height="178" alt=""></p>
+						<p class="text03">システムワークス統括部<br>
+						  デベロプメントソリューション事業部<br>
+					    Webソリューション課　T</p>
+						<p class="mb00"><img src="images/index_ph04-05-02.jpg" width="178" height="178" alt=""></p>
+						<!-- /left --></div>
+					<div class="right">
+						<div class="scroll02">
+							<p class="ti03 mt00">若さと力強さを感じました</p>
+							<p>以前Webの技術者として務めていた会社を退職した後、転職活動をしている中で、<br>
+							  日本テクノクラーツの求人募集を拝見して応募しました。<br>
+							  面接に行く時は不安もありましたが、2次面接での社長面接は雑談も多く緊張を解いてくれたことを記憶しています。<br>
+						    社長を始め、若いメンバーが多いこともあって、力強さや未来に向かって走って行く力は入社後もそのイメージと変わらず感じます。</p>
+							<p class="ti03">刺激があり、意欲がわきます</p>
+							<p>現在は通信会社向け社内システムの運用や拡張の開発を行っています。<br>
+							  入社２カ月目から今のプロジェクトに参画していますが、<br>
+							  同じ部署でも別のプロジェクトを行っているメンバーがいるので、<br>
+						    技術の交流などはとても刺激になります。<br>
+						    今後、自分たちで発案したものを自社の製品とする取り組みをもっとやっていきたい。<br>
+							どのプロジェクトも障害が起きたり、難しい時期が訪れますが、それを乗り越えた時の達成感は毎回充実し、仲間との打ち上げは必ず盛り上がります。</p>
+							<!-- /scroll02 --></div>
+						<!-- /right --></div>
+					<!-- /twoColumnLayout01 --></div>
+				<div class="twoColumnLayout01">
+					<div class="colLeft">
+						<p><a class="inline" href="#detail04-02" onfocus="this.blur();">＜ 前の社員も見る</a></p>
+						
+						<!-- /left --></div>
+					<div class="colRight">
+						<p><a class="inline" href="#detail04-04" onfocus="this.blur();">次の社員も見る ＞</a></p>
+						<!-- /right --></div>
+					<!-- /twoColumnLayout01 --></div>
+				
+				<!-- /scroll01 --></div>
+			<div class="recruitPopFooter">
+				<ul>
+					<li class="prev"><a class="inline" href="#detail03" onfocus="this.blur();">03.社内活動</a></li>
+					<li class="current">04.社員の声</li>
+					<li class="next"><a class="inline" href="#detail05" onfocus="this.blur();">05.募集要項</a></li>
+				</ul>
+				<p class="entryButton"><a href="../form/recruit.html"><img src="../common/images/bt12.gif" width="91" height="91" alt="エントリー" class="rollover"></a></p>
+				<!-- /recruitPopFooter --></div>
+			<!-- /recruitPop --></div>
+		<!-- /recruitPopWrap --></div>
+	<!-- ------------------------------------------------------------------------- -->
+	<div class="recruitPopWrap">
+		<div id="detail04-04" class="recruitPop detail04">
+			<div class="header">
+				<p><img src="images/index_tx05.png" width="149" height="44" alt="04 社員の声"></p>
+			</div>
+			<div class="scroll01">
+				<div class="titleGruop01">
+					<p class="ti02">ゆっくりでも着実に成長していきたい</p>
+					<ul class="numberLink01">
+						<li><a class="inline" href="#detail04-01"><img src="images/ic01.gif" width="25" height="25" alt="2" class="rollover"></a></li>
+						<li><a class="inline" href="#detail04-02"><img src="images/ic02.gif" width="25" height="25" alt="2" class="rollover"></a></li>
+						<li><a class="inline" href="#detail04-03"><img src="images/ic03.gif" width="25" height="25" alt="3" class="rollover"></a></li>
+						<li><img src="images/ic04on.gif" width="25" height="25" alt="4"></a></li>
+						<li><a class="inline" href="#detail04-05"><img src="images/ic05.gif" width="25" height="25" alt="5" class="rollover"></a></li>
+					</ul>
+				</div>
+				<div class="twoColumnLayout01 mb20">
+					<div class="left">
+						<p class="mb10"><img src="images/index_ph04-03-01.jpg" width="178" height="178" alt=""></p>
+						<p class="text03">システムワークス統括部<br>
+							インフラソリューション事業部<br>
+							通信基地局課 課長　U</p>
+						<p class="mb00"><img src="images/index_ph04-03-02.jpg" width="178" height="178" alt=""></p>
+						<!-- /left --></div>
+					<div class="right">
+						<div class="scroll02">
+							<p class="ti03 mt00">資格試験に見切りをつけ就活</p>
+							<p>それまで私は資格試験に向け勉強を続けていました。しかし、なかなか取得できず、時間ばかりが過ぎる毎日を送っていました。いよいよ資格試験に見切りをつける決心をしたのですが、社会人経験もない自分が入れる会社なんてあるのだろうか？と、模索していました。その時にインターネットで見つけた会社が日本テクノクラーツでした。<br>
+						    先輩社員は、「未経験？社会人経験なし？大丈夫だよ！」（簡単に言うとですが）といった調子で、社会人経験のない私にとてもオープンでした。私は働ける環境さえ決まればその会社の業務を勉強して実務ではやっていけるとの思いがありましたので、開かれた門をくぐりたいと思いました。面接時に迷いは消えました。</p>
+							<p class="ti03">そして入社</p>
+							<p>社会人経験もなかったので、最初は右も左も分かりませんでした。そして慣れるのにも時間がかかりました。初めての業務はとても緊張しましたが、自分に向いている業務に付けたのでうまくやっていくことができました。 <br>
+						    これまで私が携わってきた業務はサーバの監視業務、福祉関係の電子請求に係るヘルプデスク、 携帯用音楽再生装置の検証・テスト、某システムの保守・運用（検証機でのエラーの再現、対処の指示等）です。 これらの仕事の中で、技術的なことは勿論、お客様とのコミュニケーションや人間性も身につけることができたと自負があります。</p>
+							<p class="ti03">着実にやれば、信頼は後からついてくる</p>
+							<p>現在は携帯電話の電波改善プロジェクトに携わっています。<br>
+						    まだまだ勉強の毎日ですがゆっくりでも着実に成長していければと思っています。</p>
+							<p class="ti03">これからも変わらないアットホームな会社に</p>
+							<p>日本テクノクラーツは、発展途上の会社で、従業員も会社規模も年々拡大し続けています。<br>
+							  どんなに会社が大きくなっても、入社当時と変わらない温かみのあるアットホームな雰囲気は保って行きたいと思います。<br>
+							  社員も皆気さくなメンバーが多く、働きやすい環境だと思います。<br>
+						    積極的なコミュニケーションが苦手な人でも、話し下手でも、聞き上手になって気配りのできる人なら、やり方次第で信頼を得る事ができます。私はこれからも、そんな仲間達と切磋琢磨して仕事ができればと思います。</p>
+							<!-- /scroll02 --></div>
+						<!-- /right --></div>
+					<!-- /twoColumnLayout01 --></div>
+				<div class="twoColumnLayout01">
+					<div class="colLeft">
+						<p><a class="inline" href="#detail04-03" onfocus="this.blur();">＜ 前の社員も見る</a></p>
+						
+						<!-- /left --></div>
+					<div class="colRight">
+						<p><a class="inline" href="#detail04-05" onfocus="this.blur();">次の社員も見る ＞</a></p>
+						<!-- /right --></div>
+					<!-- /twoColumnLayout01 --></div>
+				
+				<!-- /scroll01 --></div>
+			<div class="recruitPopFooter">
+				<ul>
+					<li class="prev"><a class="inline" href="#detail03" onfocus="this.blur();">03.社内活動</a></li>
+					<li class="current">04.社員の声</li>
+					<li class="next"><a class="inline" href="#detail05" onfocus="this.blur();">05.募集要項</a></li>
+				</ul>
+				<p class="entryButton"><a href="../form/recruit.html"><img src="../common/images/bt12.gif" width="91" height="91" alt="エントリー" class="rollover"></a></p>
+				<!-- /recruitPopFooter --></div>
+			<!-- /recruitPop --></div>
+		<!-- /recruitPopWrap --></div>
+	<!-- ------------------------------------------------------------------------- -->
+	<div class="recruitPopWrap">
+		<div id="detail04-05" class="recruitPop detail04">
+			<div class="header">
+				<p><img src="images/index_tx05.png" width="149" height="44" alt="04 社員の声"></p>
+			</div>
+			<div class="scroll01">
+				<div class="titleGruop01">
+					<p class="ti02">若く活気に溢れた元気みなぎる会社です</p>
+					<ul class="numberLink01">
+						<li><a class="inline" href="#detail04-01"><img src="images/ic01.gif" width="25" height="25" alt="2" class="rollover"></a></li>
+						<li><a class="inline" href="#detail04-02"><img src="images/ic02.gif" width="25" height="25" alt="2" class="rollover"></a></li>
+						<li><a class="inline" href="#detail04-03"><img src="images/ic03.gif" width="25" height="25" alt="3" class="rollover"></a></li>
+						<li><a class="inline" href="#detail04-04"><img src="images/ic04.gif" width="25" height="25" alt="4" class="rollover"></a></li>
+						<li><img src="images/ic05on.gif" width="25" height="25" alt="4"></a></li>
+					</ul>
+				</div>
+				<div class="twoColumnLayout01 mb20">
+					<div class="left">
+						<p class="mb10"><img src="images/index_ph04-04-01.jpg" width="178" height="178" alt=""></p>
+						<p class="text03">システムワークス統括部<br>
+							インフラソリューション事業部<br>
+							サーバソリューション第1課　K</p>
+						<p class="mb00"><img src="images/index_ph04-04-02.jpg" width="178" height="178" alt=""></p>
+						<!-- /left --></div>
+					<div class="right">
+						<div class="scroll02">
+							<p class="ti03 mt00">最初は右も左もわからず</p>
+							<p>経営陣をはじめ社員の方が皆若く、とても活気に溢れた会社だと思いました。<br>
+							  この勢いのある印象は今でも変わりません。<br>
+							  管理職が若くて、上下関係も感じる事がなく、自分の意見もどんどん上に吸い上げられ、取り上げられるため、意見も言いやすいですし、意欲も自然とでてきます。<br>
+							  最初は右も左も分からない様な状態でした<br>
+							  入社してすぐにサポート業務へ配属されたのですが、業務で使われる言葉が宇宙語にしか思えずとても苦労しました。<br>
+							  「分からないことは聞いてね」と言われても、何がわからないのかがわからない状態。<br>
+						    初めの1カ月は、ハニワ顔をしてボー然としながらも、必死になって宇宙語を解読するために勉強をしました。</p>
+							<p class="ti03">今では</p>
+							<p>銀行のシステム開発に携わっています。現在は、いろいろな銀行システムをつなぐメインハブシステムというサーバを開発・保守しています。プロジェクトでは多くの協力会社と関係をとりながら進めなければならず、最初は戸惑いました。<br>
+						    3年くらい前にプロジェクト・マネジメントを経験し、現場の環境を改善するために、回りのスタッフと相談しながらお客様と交渉するということをしました。スタッフと協調しながら環境を改善していくという業務がとても良い経験になりました。</p>
+							<p class="ti03">応募者へ</p>
+							<p>目標を共有できる人と一体感を感じ、仕事をすることが、<br>
+						    充実感につながると思うのでそういった方と一緒に仕事をしたいと思います。</p>
+							
+							<!-- /scroll02 --></div>
+						<!-- /right --></div>
+					<!-- /twoColumnLayout01 --></div>
+				<div class="twoColumnLayout01">
+					<div class="colLeft">
+						<p><a class="inline" href="#detail04-04" onfocus="this.blur();">＜ 前の社員も見る</a></p>
+						<!-- /left --></div>
+					<!-- /twoColumnLayout01 --></div>
+				
+				<!-- /scroll01 --></div>
+			<div class="recruitPopFooter">
+				<ul>
+					<li class="prev"><a class="inline" href="#detail03" onfocus="this.blur();">03.社内活動</a></li>
+					<li class="current">04.社員の声</li>
+					<li class="next"><a class="inline" href="#detail05" onfocus="this.blur();">05.募集要項</a></li>
+				</ul>
+				<p class="entryButton"><a href="../form/recruit.html"><img src="../common/images/bt12.gif" width="91" height="91" alt="エントリー" class="rollover"></a></p>
+				<!-- /recruitPopFooter --></div>
+			<!-- /recruitPop --></div>
+		<!-- /recruitPopWrap --></div>
+	<!-- ------------------------------------------------------------------------- -->
+	<div class="recruitPopWrap">
+		<div id="detail05" class="recruitPop">
+			<div class="header">
+				<p><img src="images/index_tx06.png" width="150" height="44" alt="05 募集要項"></p>
+			</div>
+			<div class="scroll03">
+				<table class="table02">
+					<tr>
+						<td width="148"><img src="images/index_il06.png" width="129" height="128" alt="募集職種" class="ml06"></td>
+						<td width="256"><ul>
+								<li>Web系アプリケーションエンジニア</li>
+								<li>業務系アプリケーションエンジニア</li>
+								<li>インフラ系エンジニア</li>
+								<li>移動体通信エンジニア</li>
+							</ul></td>
+						<td width="143"><img src="images/index_il07.png" width="129" height="128" alt="諸手当"></td>
+						<td><ul>
+								<li>交通費</li>
+								<li>資格手当</li>
+								<li>育児手当</li>
+							</ul></td>
+					</tr>
+				</table>
+				<table class="mb35">
+					<tr>
+						<td width="241" align="right"><img src="images/index_il08.png" width="129" height="128" alt="資格" class="mr15"></td>
+						<td width="240"><ul>
+								<li>18歳以上</li>
+								<li>学歴、経験不問</li>
+							</ul>
+							<p>※経験者、有資格者優遇</p></td>
+						<td width="143"><img src="images/index_il09.png" width="129" height="128" alt="待遇"></td>
+						<td><ul>
+								<li>昇給年2回</li>
+								<li>決算賞与</li>
+							</ul></td>
+					</tr>
+				</table>
+				<div class="borderBox03">
+					<div class="borderBox03inner">
+						<div class="twoColumnLayout03">
+							<div class="colLeft">
+								<p class="aC mb00 mt15">履歴書を送付される方は、下記同意書をダウンロードしご署名の上、一緒にお送り下さい。</p>
+								
+								<!-- /left --></div>
+							<div class="colRight">
+								<p class="mb00"><a href="pdf/agreement.pdf"><img src="../common/images/bt15.png" width="172" height="47" alt="ダウンロードPDF" class="rollover"></a></p>
+								<!-- /right --></div>
+							<!-- /twoColumnLayout01 --></div>
+						
+						<!-- /borderBox03inner --></div>
+					<!-- /borderBox03 --></div>
+				<p class="ti05">東京ワークライフバランス推進企業として認められました</p>
+				<div class="borderBox03 mb00">
+					<div class="borderBox03inner02">
+						<p class="mb00">平成21年7月3日に東京都産業労働局 雇用就業部労働環境課に両立支援企業を申請しました。<br>
+							同年7月24日にワークライフバランス推進企業として認められ、同年8月11日、当社の情報が東京都の次世代育成推進ＨＰ『東京ワークライフバランス推進企業ナビ　チャオ』に掲載されました。また、千代田区のHPにも掲載されています。</p>
+						<!-- /borderBox03inner --></div>
+					<!-- /borderBox03 --></div>
+				
+				<!-- /scroll03 --></div>
+			<div class="recruitPopFooter">
+				<ul>
+					<li class="prev"><a class="inline" href="#detail04-01" onfocus="this.blur();">04.社員の声</a></li>
+					<li class="current">05.募集要項</li>
+					<li class="next"><a class="inline" href="#detail06" onfocus="this.blur();">06.採用までの流れ</a></li>
+				</ul>
+				<p class="entryButton"><a href="../form/recruit.html"><img src="../common/images/bt12.gif" width="91" height="91" alt="エントリー" class="rollover"></a></p>
+				<!-- /recruitPopFooter --></div>
+			<!-- /recruitPop --></div>
+		<!-- /recruitPopWrap --></div>
+	
+	<!-- ------------------------------------------------------------------------- -->
+	<div class="recruitPopWrap">
+		<div id="detail06" class="recruitPop">
+			<div class="header">
+				<p><img src="images/index_tx07.png" width="222" height="44" alt="06 採用までの流れ"></p>
+			</div>
+			<div class="scroll01">
+				<div class="twoColumnLayout02">
+					<div class="colLeft">
+						<p><img src="images/index_il01.png" width="129" height="163" alt="1 ご応募"></p>
+						<!-- /left --></div>
+					<div class="colRight">
+						<p>エントリーは当社応募フォーム、もしくは各種求人媒体（掲載期間中）より<br>
+						  随時受け付けております。 <br>
+						  メールでも郵送でもお受けしています。<br>
+					    PCをお持ちでない方は、携帯電話での御応募も可能です。</p>
+						<p>電話でのご応募　　　03-5835-5421 【人事部採用担当宛】</p>
+						<p class="mb05">詳しくは、「応募・エントリーはこちらからご応募ください。</p>
+						</p>
+						<!-- /right --></div>
+					<!-- /twoColumnLayout01 --></div>
+				<div class="twoColumnLayout02">
+					<div class="colLeft">
+						<p><img src="images/index_il02.png" width="129" height="163" alt="2 書類選考"></p>
+						<!-- /left --></div>
+					<div class="colRight">
+						<p class="mt35">到着後数日で採否をご連絡します。<br>
+					    ご自身の「良いところ」、将来のご希望やそのために<br>
+					    努力していることなどをご記入ください。</p>
+						<!-- /right --></div>
+					<!-- /twoColumnLayout01 --></div>
+				<div class="twoColumnLayout02">
+					<div class="colLeft">
+						<p><img src="images/index_il03.png" width="129" height="163" alt="3 一次面接"></p>
+						<!-- /left --></div>
+					<div class="colRight">
+						<p class="mt10">面接前の約30分で、アンケート、一般常識・適性診断にご記入いただきます。<br>
+						  これらの内容は、点数よりもお人柄や適正などを知る<br>
+						  データーとさせていただいています。<br>
+						  面接時には、ご自身の「良いところ」、将来のご希望や<br>
+						  そのために努力していることなどをアピールください。</p>
+						<!-- /right --></div>
+					<!-- /twoColumnLayout01 --></div>
+				<div class="twoColumnLayout02">
+					<div class="colLeft">
+						<p><img src="images/index_il04.png" width="129" height="163" alt="4 二次面接"></p>
+						<!-- /left --></div>
+					<div class="colRight">
+						<p class="mt35">一次面接後、1週間以内に採否をご案内いたします。<br>
+					    当社に入社した場合のご本人成長性、<br>
+					    当社の競争性・成長性への貢献度などを検討させていただきます。</p>
+						<!-- /right --></div>
+					<!-- /twoColumnLayout01 --></div>
+				<div class="twoColumnLayout02">
+					<div class="colLeft">
+						<p><img src="images/index_il05.png" width="129" height="128" alt="5 入社決定"></p>
+						<!-- /left --></div>
+					<div class="colRight">
+						<p class="mt50">二次面接後、採否をご案内いたします。</p>
+						<!-- /right --></div>
+					<!-- /twoColumnLayout01 --></div>
+				<!-- /scroll01 --></div>
+			<div class="recruitPopFooter">
+				<ul>
+					<li class="prev"><a class="inline" href="#detail05" onfocus="this.blur();">05.募集要項</a></li>
+					<li class="current">06.採用までの流れ</li>
+					<li class="next"><a class="inline" href="#detail07-01" onfocus="this.blur();">07.よくあるご質問</a></li>
+				</ul>
+				<p class="entryButton"><a href="../form/recruit.html"><img src="../common/images/bt12.gif" width="91" height="91" alt="エントリー" class="rollover"></a></p>
+				<!-- /recruitPopFooter --></div>
+			<!-- /recruitPop --></div>
+		<!-- /recruitPopWrap --></div>
+	
+	<!-- ------------------------------------------------------------------------- -->
+	<div class="recruitPopWrap">
+		<div id="detail07-01" class="recruitPop">
+			<div class="header">
+				<p><img src="images/index_tx08.png" width="222" height="44" alt="07 よくあるご質問"></p>
+			</div>
+			<div class="scroll01">
+				<div class="borderBox02">
+					<div class="borderBox02inner">
+						<div class="titleGruop01">
+							<p class="ti04">当社についてのご質問</p>
+							<ul class="numberLink01">
+								<li><img src="images/ic01on.gif" width="25" height="25" alt="1"></li>
+								<li><a class="inline" href="#detail07-02"><img src="images/ic02.gif" width="25" height="25" alt="2" class="rollover"></a></li>
+							</ul>
+						</div>
+						<div class="faqList01 mb10">
+							<dl>
+								<dt>社員の平均年齢は？</dt>
+								<dd>31歳です。</dd>
+							</dl>
+							<dl>
+							  <dt>研修はありますか？</dt>
+								<dd>あります。配属前研修で「ハンドブック」をお渡しして、会社のことを知っていただき、ビジネスマナーなど社会人の基本をチェックします。<br>
+								  また、集合研修として、マネジメント・対人折衝力を学びます。<br>
+								  なお、プロジェクトへ参画する際に機器の使い方や指示書に従った行動を訓練する場合もあります。<br>
+								  また、技術によっては技術社員が率先する研修もあります。<br>
+							    （現在はVMware研修）</dd>
+							</dl>
+							<dl>
+							  <dt>残業は多いですか</dt>
+								<dd>残業は、職種によって変わります。<br>
+							    シフト勤務のような交代性の仕事は一般に少ないですが、時期的な要因やスケジュールの調整が必要になる仕事は忙しくなるときがありますが、会社としては残業を減らしていくことを推奨しています。</dd>
+							</dl>
+							<dl>
+							  <dt>休日は少ないですか?</dt>
+								<dd>休日は多い方だと思います。<br>
+								  基本的には完全週休2日制（土日と国民の休日が休み）です。<br>
+							    また、有給休暇取得率は高いです。</dd>
+							</dl>
+							<dl>
+							  <dt>社内のコミュニケーションはどうやっていますか？</dt>
+								<dd>定期的な所属部署による会議や個人業務の詳細を上司やメンバーと共有するための「ヒアリングシート」などがあり、半年に一度は、目標設定面談、全社総会といったイベントがあります。<br>
+								  年に一度は全社旅行、集合研修があり、懇親会などもその都度行っています。<br>
+								  フットサルや野球観戦などのサークル活動もあります。<br>
+								  これらの「しくみ」で、社員の目標・希望・変化や意見を会社に反映させ、社員の「良いところを伸ばす」促進をしています。</dd>
+							</dl>
+							<dl>
+							  <dt>能力育成の特徴は？</dt>
+								<dd>6つの目標を半期ごとに課長と面談して設定しています。<br>
+								  目標を立てて、努力して見直し、そして達成することで、成長し自信がついていき、また新しい課題に向けた目標を立てていきます。<br>
+							    このようなPDCAサイクルを回していきます。</dd>
+							</dl>
+							
+							<!-- /faqList01 --></div>
+						<div class="twoColumnLayout01">
+							<div class="colRight">
+								<p><a class="inline" href="#detail07-02" onfocus="this.blur();">採用についてのよくあるご質問も見る ＞</a></p>
+
+								<!-- /right --></div>
+							<!-- /twoColumnLayout01 --></div>
+						
+						<!-- /borderBox01inner --></div>
+					<!-- /borderBox01 --></div>
+				
+				<!-- /scroll01 --></div>
+			<div class="recruitPopFooter noborder">
+				<ul>
+					<li class="prev"><a class="inline" href="#detail06" onfocus="this.blur();">06.採用までの流れ</a></li>
+					<li class="current">07.よくあるご質問</li>
+					<li class="entry"><a href="../form/recruit.html">エントリーへ進む</a></li>
+				</ul>
+				<p class="entryButton"><a href="../form/recruit.html"><img src="../common/images/bt12.gif" width="91" height="91" alt="エントリー" class="rollover"></a></p>
+				<!-- /recruitPopFooter --></div>
+			<!-- /recruitPop --></div>
+		<!-- /recruitPopWrap --></div>
+	<!-- ------------------------------------------------------------------------- -->
+	<div class="recruitPopWrap">
+		<div id="detail07-02" class="recruitPop">
+			<div class="header">
+				<p><img src="images/index_tx08.png" width="222" height="44" alt="07 よくあるご質問"></p>
+			</div>
+			<div class="scroll01">
+				<div class="borderBox02">
+					<div class="borderBox02inner">
+						<div class="titleGruop01">
+							<p class="ti04">採用についてのご質問</p>
+							<ul class="numberLink01">
+								<li><a class="inline" href="#detail07-01"><img src="images/ic01.gif" width="25" height="25" alt="2" class="rollover"></a></li>
+								<li><img src="images/ic02on.gif" width="25" height="25" alt="1"></li>
+							</ul>
+						</div>
+						<div class="faqList01 mb10">
+							<dl>
+								<dt>中途採用は受け付けていますか？</dt>
+								<dd>はい。現在は募集中です。</dd>
+							</dl>
+							<dl>
+							  <dt>どのような人材を求めますか？</dt>
+								<dd>目標を持って『前向きに取り組める方』<br>
+								  また、プロジェクトの中でお客様やチームメンバー等多くの関係者と協力をして目的を達成ますので、協調性は求めます。<br>
+							    また入社後も技術を習得するための努力を怠らない方です。</dd>
+							</dl>
+						  <dl>
+							  <dt>必要な資格・有利な資格はありますか？</dt>
+								<dd>資格取得は推奨しています。<br>
+								  具体的には、ネットワークや無線通信などの資格は優遇されます。<br>
+								  また、自分の得意ジャンルで資格を取得することを会社がサポートする制度があります。<br>
+							    就業してからこの制度をご利用ください。</dd>
+							</dl>
+							<dl>
+								<dt>現在在職中で引継ぎもあります。入社時期を調整していただけることを前提に、<br>
+							    採用検討していただけますか？</dt>
+								<dd>はい。可能です。</dd>
+							</dl>
+							<!-- /faqList01 --></div>
+						<div class="twoColumnLayout01">
+							<div class="colRight">
+								<p><a class="inline" href="#detail07-01" onfocus="this.blur();">当社についてのよくあるご質問も見る ＞</a></p>
+								<!-- /right --></div>
+							<!-- /twoColumnLayout01 --></div>
+						
+						<!-- /borderBox01inner --></div>
+					<!-- /borderBox01 --></div>
+				
+				<!-- /scroll01 --></div>
+			<div class="recruitPopFooter noborder">
+				<ul>
+					<li class="prev"><a class="inline" href="#detail06" onfocus="this.blur();">06.採用までの流れ</a></li>
+					<li class="current">07.よくあるご質問</li>
+					<li class="entry"><a href="../form/recruit.html">エントリーへ進む</a></li>
+				</ul>
+				<p class="entryButton"><a href="../form/recruit.html"><img src="../common/images/bt12.gif" width="91" height="91" alt="エントリー" class="rollover"></a></p>
+				<!-- /recruitPopFooter --></div>
+			<!-- /recruitPop --></div>
+		<!-- /recruitPopWrap --></div>
+	<!-- ------------------------------------------------------------------------- -->
+	<div class="contentsWrap">
+		<div class="mainContentsWide">
+			<div class="section">
+				<div class="frameArea03">
+					<div class="frameArea03Inner">
+						<p class="aC mb15"><img src="images/index_tx01.gif" width="118" height="22" alt="エントリー"></p>
+						<p class="aC mb15">当社へ応募を希望される場合は、こちらから応募フォームにてエントリーください。</p>
+						<p class="aC"><a href="../form/recruit.html"><img src="images/index_bt01.gif" width="292" height="74" alt="応募・エントリーはこちら" class="rollover"></a></p>
+					</div>
+				</div>
+				<!-- /section --> 
+			</div>
+		</div>
+	</div>
+	<!-- InstanceEndEditable -->
+	<footer>
+		<div id="footerLogoArea">
+			<div class="footerInner">
+				<div class="columnLayout">
+					<div class="colLeft">
+						<p class="mt08"><img src="../common/images/footer_logo.png" width="207" height="33" alt="日本テクノクラーツ株式会社"></p>
+					</div>
+				</div>
+				<!-- /footerInner --> 
+			</div>
+			<!-- /footer --> 
+		</div>
+		<div id="footer">
+			<div class="footerInner">
+				<nav>
+					<div class="columnLayout">
+						<div class="colLeft fcol01">
+							<p class="heading05"><a href="../solution/index.html">ソリューションサービス</a></p>
+							<ul class="footerLink02">
+								<li><a href="../solution/system.html">システムインテグレーション</a></li>
+								<li><a href="../solution/privacy.html">プライバシーマーク取得支援</a></li>
+								<li><a href="../solution/netshop.html">商品データ移行</a></li>
+							</ul>
+						</div>
+						<div class="colLeft fcol02">
+							<p class="heading05"><a href="../company/index.html">会社情報</a></p>
+							<ul class="footerLink02">
+								<li><a href="../company/index.html">会社概要／アクセス</a></li>
+								<li><a href="../company/policy.html">企業理念</a></li>
+							</ul>
+						</div>
+						<div class="colLeft fcol03">
+							<p class="heading05"><a href="index.html">採用情報</a></p>
+							<ul class="footerLink02">
+								<li><a href="index.html">採用情報／エントリー受付</a></li>
+							</ul>
+						</div>
+						<div class="colLeft fcol04">
+							<ul class="footerLink01">
+								<li><a href="../inquiry/index.html">お問い合わせ</a></li>
+								<li><a href="../info/privacy.html">プライバシーポリシー</a></li>
+								<li><a href="../info/about.html">当サイトについて</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+				<!-- /footerInner --> 
+			</div>
+			<!-- /footer --> 
+		</div>
+		<div id="footer2">
+			<div class="footerInner">
+				<p id="copyright">&copy; NIHON TECHNOCRATS CORPORATION All right reserved 2013</p>
+				<!-- /footerInner --> 
+			</div>
+			<!-- /footer --> 
+		</div>
+		<div class="pagetop_FIX"><a href="#header"><img src="../common/images/bt01_btn.png" alt="このページの上部へ" width="51" height="51"></a></div>
+	</footer>
+	<!-- /whiteWrap --> 
+</div>
+</body>
+<!-- InstanceEnd -->
+</html>

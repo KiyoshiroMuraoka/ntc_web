@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="x-ua-compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Language" content="ja" />
+<script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="../js/jquery-iframe-auto-height.min.js"></script>
+<script type="text/javascript" src="../js/menu.js"></script><!--メニュー用js-->
+<script type="text/javascript" src="../js/pagetop.js"></script><!--トップへ戻る用js-->
+<script type="text/javascript" src="../js/allocation.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/style.css" media="all">
+<link rel="shortcut icon" href="../img/favicon.ico">
+<link rel="canonical" href="https://www.technocrats.jp/tatenpo/en" />
+<title>easyster【inquiry】</title>
+<script type="text/javascript">
+function ac(){var r=document.referrer,a=google.loader.ClientLocation;ti=document.title + '(en)';p=location.href.substring(location.href.lastIndexOf('/')+1, location.href.length);if(a)var e=a.address.region,t=a.address.city,o=a.address.country;var c={ref:r,region:e,city:t,country:o,page:p,title:ti};jQuery.ajax({async:!0,type:"GET",url:"https://www.technocrats.jp/tatenpo/ac.php",data:c})}
+</script>
+<script type="text/javascript" async src="https://www.google.com/jsapi?callback=ac"></script>
+</head>
+<body>
+<div class="main">
+<div id="contents">
+<!--予約エリア-->
+<!--パンくずここから-->
+<div class="pankuzu">
+	<ul class="breadcrumb" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+		<a href="./index.html" itemprop="url"><li><span itemprop="title">TOP</span></li></a>
+		<a href="contact.html" itemprop="url"><li><span itemprop="title">Contact Information</span></li></a>
+	</ul>
+</div>
+<!--パンくずここまで-->
+<div class="contents">
+<h1 class="pc"><img class="h1mark" src="../img/logo1.png">Contact Information</h1>
+<h1 class="sp"><img class="h1mark" src="../img/logo1.png">Contact Information</h1>
+<div class="cube">
+	<div class="document">
+		<h2 id="1"><img class="h2mark" src="../img/square_1.png">　<span class="h2">Contact Information</span></h2>
+		<div class="main" id="mailform">&nbsp;</div>
+		<script>
+				if(_ua.Mobile || _ua.Tablet){
+					document.getElementById("mailform").innerHTML="<a href=\"./contact/contact.php\" target=\"_blank\" class=\"smpcontact\">Contact us by smartphone.</a>";
+				}else{
+					document.getElementById("mailform").innerHTML="<iframe src=\"./contact/contact.php\" id=\"iframebody\" scrolling=\"no\" frameborder=\"no\"></iframe>";
+					$('#iframebody').iframeAutoHeight();
+				}
+			</script>
+	</div>
+</div>
+<div class="clear"></div>
+</div><!--contents end-->
+</div>
+	<img id="openMenu" src="../img/menu.png" alt="メニュー">
+	<div class="b02_slide_in">
+		<div><div>CONTACT</div></div>
+		<div></div>
+		<div><a href="./contact.html">CONTACT</a></div>
+	</div>
+	<div id="layerMenu">
+		<img id="closeMenu" src="../img/menu2.png" alt="閉じる">
+		<ul>
+		<li><a href="index.html#">TOP</a></li>
+		<li><a href="./index.html#service">service</a></li>
+		<li><a href="./index.html#property">function</a></li>
+		<li><a href="./index.html#plan">plan</a></li>
+		<li><a href="./contact.html">contact</a></li>
+		<li><a href="./index.html#profile">company profile</a></li>
+		<li><a href="./index.html#access">access</a></li>
+		</ul>
+	</div>
+</div><!--main end-->
+<address class="copy">
+	<a href="https://www.technocrats.jp/" target="blank">&copy;2012 Nihon Technocrats Corporation All Rights Reserved</a>
+</address>
+<!--footer end-->
+</body>
+</html>

@@ -1,0 +1,599 @@
+<style>
+body{
+	width:100%;
+	text-align:center;
+	margin:0 auto;
+	padding:0;
+}
+/*ヘッダー*/
+header{
+	width:100%;
+	height:80px;
+	margin:0 auto;
+	padding:0;
+	position:fixed;
+	top:0;
+	background-color:#fff;
+	z-index: 1000;
+}
+#fix_header{
+	width:960px;
+	margin:0 auto;
+	padding:0;
+	text-align:left;
+}
+.logo{
+	display:inline-block;
+	width:210px;
+	padding:0;
+	margin:0;
+	height:29px;
+}
+header ul{
+	display:inline-block;
+	width:700px;
+	vertical-align:top;
+	height:29px;
+}
+header li{
+	display:inline;
+	list-style:none;
+	font-size:0.9em;
+	margin:0 10px 5px 10px;
+	vertical-align:top;
+}
+header a{
+	color:#418fcc;
+	text-decoration:none;
+}
+.discription{
+	font-size:10px;
+	color:#aaa;
+	padding:0;
+	margin:15px 0 10px 0;
+}
+.translation{
+	float:right;
+	font-size:12px;
+}
+.btn_head{
+	display:inline;
+	margin:5px;
+	padding:5px;
+	border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+	border:1px solid #418fcc;
+}
+/*メイン*/
+#wrap{
+	width:100%;
+	margin:0 auto;
+	padding-top:40px;
+}
+section{
+	padding:0;
+	margin:0;
+}
+.inner{
+	width:960px;
+	margin:0 auto;
+	padding:20px 0;
+	border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+	margin-bottom:30px;
+}
+.bg-white{
+	background-color:#fff;
+}
+.bg-line{
+	border:3px solid #fff;
+}
+.column-1{
+	width:90%;
+	vertical-align:top;
+	padding:1%;
+	margin:0 auto;
+}
+.column-2{
+	width:42%;
+	display:inline-block;
+	vertical-align:top;
+	padding:0 1%;
+}
+.list{
+	width:60%;
+	vertical-align:top;
+	padding:1%;
+	margin:0 auto;
+}
+.column-3{
+	width:28%;
+	display:inline-block;
+	vertical-align:top;
+	padding:1%;
+	margin:1%;
+	border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+}
+h1{
+	font-size:4em;
+	font-weight:bold;
+	line-height:1.2;
+	color:fff;
+	letter-spacing:5px;
+	margin:0;
+	padding:80px 0 20px 0;
+}
+h2{
+	font-size:3em;
+	font-weight:bold;
+	padding:30px 0;
+	margin:0;
+}
+.ttl h2{
+	color:#fff;
+}
+h3{
+	font-size:2em;
+	font-weight:bold;
+	padding:0;
+	margin:30px 0;
+}
+
+.midashi{
+	font-size:1.5em;
+	font-weight:bold;
+	padding:5px;
+	
+	margin:5px 0;
+}
+.price{
+	font-size:2.5em;
+	font-weight:bold;
+	padding:5px;
+	color:#F39919;
+	line-height:1.2;
+	margin:5px 0;
+}
+.blue{
+	background-color:#418fcc;
+	color:#fff;
+}
+.copper{
+	border:1px solid #df7222;
+}
+.silver{
+	border:1px solid #9f9f9f;
+}
+.gold{
+	background-image:linear-gradient(to top left, #F7DE05, #DA8E00, #EDAC06, #F7DE05, #ECB802, #DAAF08, #B67B03);
+	height:150px;
+	
+}
+.gold p{
+	font-size:1.5em;
+	line-height:1.2;
+	font-weight:bold;
+}
+.large{
+	font-size:2em;
+}
+.list ul li{
+	font-size:1.5em;
+	line-height:2;
+	border-bottom:1px dashed #666;
+	text-align:left;
+}
+.white{
+	background-color:#fff;
+}
+.ttl_blue{
+	color:#418fcc;
+}
+.honbun{
+	font-size:1em;
+	line-height:1.4;
+	padding:0;
+	margin:5px 0;
+}
+.cap{
+	font-size:0.8em;
+	line-height:1.8;
+	padding:5px 0;
+}
+
+.left{
+	text-align:left;
+}
+
+
+.bg_blue{
+	background-color:#d8d8d8;
+	padding:40px 0;
+}
+
+.top_bg{
+	background-color:#418fcc;
+	background-image: repeating-linear-gradient(-45deg, transparent, transparent 10px, rgba(255,255,255,.2) 10px, rgba(255,255,255,.2) 20px);
+	height: 350px;
+}
+
+.linkbtn2{
+    border: solid 3px #F39919;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    padding:16px 34px;
+    text-decoration: none;
+    color:white;
+    display: inline-block;
+    font-weight:bold;
+    background-color:#F39919;
+}
+.linkbtn2:hover{
+    background-color:white;
+    color:#F39919;
+}
+.balloon {
+  position: relative;
+  width: 50%;
+  font-size:3em;
+  font-weight:bold;
+  /*height: 30px;*/
+  background-color: #fff;
+  text-align: center;
+  padding:10px;
+  margin:10px auto ;
+  -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.balloon .triangle {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  margin-left: -10px;
+  width: 0;
+  height: 0;
+  border-top: 10px solid #fff;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+.sp-line{
+	display:none;
+}
+
+/* smartphone
+* --------------------------------------- */
+@media screen and (max-width:480px) {
+header{
+	display:none;
+}
+
+#wrap {
+
+    padding:0;
+    margin:0 auto;
+    position:relative;
+    top:0px;
+    height:auto;
+}
+.inner{
+	width:90%;
+	margin:0 auto;
+	padding:10px 0;
+	border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+	margin-bottom:10px;
+}
+.column-1{
+	width:90%;
+	vertical-align:top;
+	padding:1%;
+	margin:0 auto;
+}
+.column-2{
+	width:90%;
+	display:block;
+	vertical-align:top;
+	padding:0 1%;
+	margin:0 auto;
+}
+.list{
+	width:90%;
+	vertical-align:top;
+	padding:1%;
+	margin:0 auto;
+}
+.column-3{
+	width:90%;
+	display:block;
+	vertical-align:top;
+	padding:1% 3%;
+	margin:3% auto;
+	border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+}
+.gold{
+	background-image:linear-gradient(to top left, #F7DE05, #DA8E00, #EDAC06, #F7DE05, #ECB802, #DAAF08, #B67B03);
+	height:auto;
+	
+}
+.gold p{
+	font-size:1.5em;
+	line-height:1.2;
+	font-weight:bold;
+	margin:0;
+	padding:5px 0;
+}
+.large{
+	font-size:1.5em;
+}
+.list ul li{
+	font-size:1.2em;
+	line-height:2;
+	border-bottom:1px dashed #666;
+	text-align:left;
+}
+h1{
+	font-size:2.2em;
+	font-weight:bold;
+	line-height:1.2;
+	color:fff;
+	letter-spacing:5px;
+	margin:0;
+	padding:10px 0 10px 0;
+}
+h2{
+	font-size:1.7em;
+	font-weight:bold;
+	padding:10px 0;
+	margin:0;
+}
+.ttl h2{
+	color:#fff;
+}
+h3{
+	font-size:1.5em;
+	font-weight:bold;
+	padding:0;
+	margin:10px 0;
+}
+.midashi{
+	font-size:1.2em;
+	font-weight:bold;
+	padding:5px;
+	
+	margin:5px 0;
+}
+.price{
+	font-size:2em;
+	font-weight:bold;
+	padding:5px;
+	color:#F39919;
+	line-height:1.2;
+	margin:5px 0;
+}
+.top_bg{
+	background-color:#418fcc;
+	background-image: repeating-linear-gradient(-45deg, transparent, transparent 10px, rgba(255,255,255,.2) 10px, rgba(255,255,255,.2) 20px);
+	height: auto;
+	padding:10px 0;
+}
+.balloon {
+  position: relative;
+  width: 50%;
+  font-size:1.5em;
+  font-weight:bold;
+  /*height: 30px;*/
+  background-color: #fff;
+  text-align: center;
+  padding:10px;
+  margin:10px auto ;
+  -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.sp-line{
+	display:block;
+}
+}
+</style>
+</head>
+<body>
+
+<!--ヘッダー-->
+<header>
+	<div id="fix_header">
+		<div class="translation"><a href="https://www.technocrats.jp/tatenpo/index.html"><p class="btn_head">日本語</p></a><a href="https://www.technocrats.jp/tatenpo/en/index.html"><p class="btn_head">English</p></a></div>
+		<p class="discription">新しい出店モールへの商品登録、複数店舗への月々の商品登録が一ヶ所へのデータ入力で終了！多店舗展開や越境ECにも対応！商品定期登録・商品移行サービス</p>
+		<div class="logo"><a href="https://www.technocrats.jp/tatenpo/index.html"><img src="https://www.technocrats.jp/tatenpo/img/logonew.gif" alt="イージースター"></a></div>
+		<ul>
+			<a href="https://www.technocrats.jp/tatenpo/index.html#d_service"><li>サービス概要</li></a>
+			<a href="https://www.technocrats.jp/tatenpo/index.html#d_plan"><li>プラン・料金</li></a>
+			<a href="https://www.technocrats.jp/tatenpo/index.html#d_demo"><li>デモンストレーション</li></a>
+			<a href="https://www.technocrats.jp/tatenpo/index.html#d_function"><li>特徴一覧</li></a>
+			<a href="https://www.technocrats.jp/tatenpo/index.html#d_voice"><li>お客様の声</li></a>
+			<a href="https://www.technocrats.jp/tatenpo/index.html#d_schedule"><li>契約後の流れ</li></a>
+			<a href="https://www.technocrats.jp/tatenpo/page/faq.html"><li>FAQ</li></a>
+		</ul>
+	</div>
+</header>
+
+<!--メイン-->
+<div id="wrap">
+
+
+<section class="top_bg">
+<h1>https化・<br class="sp-line">常時SSL化なら<br />イージースター！</h1>
+<a href="https://www.technocrats.jp/tatenpo/page/contact.html"><span class="linkbtn2">お申し込みはこちらから＞＞</span></a>
+<p>
+
+
+</p>
+</section>
+
+<section>
+	<div class="inner bg-white">
+		<div class="column-3 gold">
+			<p>楽天RMS<br />Service Square<br />ゴールドパートナー<br />認定！</p>
+		</div>
+		<div class="column-3 gold">
+			<p><span class="large">満足度4.7</span><br />（2017/08/18現在）<br />★★★★☆</p>
+		</div>
+		<div class="column-3 gold">
+			<p>楽天市場、<br />Yahoo!ショッピング<br />等の対応実績<br />1ヶ月300件以上！</p>
+		</div>
+	</div>
+</section>
+
+
+<section class="bg_blue">
+	<div class="inner bg-white">
+		<h3 class="blue">このような方々からご支持いただいております！</h3>
+		<div class="list">
+			<ul>
+				<li><i class="fa fa-check-square-o" aria-hidden="true"></i>専門家に代わりにやってほしい</li>
+				<li><i class="fa fa-check-square-o" aria-hidden="true"></i>作業ボリュームが大き過ぎる</li>
+				<li><i class="fa fa-check-square-o" aria-hidden="true"></i>作業時間を他のことに使いたい</li>
+				<li><i class="fa fa-check-square-o" aria-hidden="true"></i>他の業務に追われている</li>
+				<li><i class="fa fa-check-square-o" aria-hidden="true"></i>移行期間を短くしたい</li>
+				<li><i class="fa fa-check-square-o" aria-hidden="true"></i>急ぎ対応したい</li>
+			</ul>
+		</div>
+	</div>
+	
+	<div class="inner bg-line">
+		<h3 class="blue">安心してお申し込みください！</h3>
+		<p class="midashi">実は何をすればいいかよくわからない店舗様も、ご安心を。</p>
+		<p class="price">最短1営業日<br /><span class="large">10,000円～</span></p>
+			
+		<a href="#"><span class="linkbtn2">お申し込みはこちらから＞＞</span></a>
+	</div>
+
+</section>
+
+
+<section>
+	
+	<div class="inner">
+		<h3>対応可能ASP</h3>
+		
+		<div class="column-1">
+			<img src="img/partner.jpg" width="120" alt="楽天RMS">
+		</div>
+		
+		
+		<div class="column-2">
+			<img src="img/makeshop.jpg" alt="メイクショップ">
+		</div>
+		<div class="column-2">
+			<img src="img/ponparemall.jpg" alt="ポンパレモール">
+		</div>
+		
+	</div>	
+</section>
+
+
+<section class="bg_blue">
+
+		<div class="balloon">https化対応とは？
+			<div class="triangle"></div>
+		</div>
+		
+		<br />
+
+		<div class="inner bg-white">
+		
+		<h3 class="blue">https化</h3>
+		<div class="column-1">
+			<p class="midashi">ページ内のURLで「http://」となっているものを<br />「https://」に書き換えること</p>
+		</div>
+		
+		<h3 class="blue">https化がなぜ必要なの？</h3>
+		<div class="column-1">
+			<p class="midashi">SEOにとても大切</p>
+			<p class="left">Google公式ウェブマスターブログで「HTTPS ページが優先的にインデックスに登録されるようになる」ことが2015年12月18日に発表されました。<br />
+ざっくりいうと、セキュリティ強化、web全体の安全性を高めることが狙いです。<br />
+サイトがSSL化されたサイトかどうかということを、Googleの検索アルゴリズムが感知し検索結果に反映されていく、つまりSEOに大いに影響があるということになります。<br />
+楽天市場、ヤフーショッピング、ポンパレモールなどもモール全体として対応を急いでおり、店舗ページ全体のあらゆる画像やURLを「https」で始まるものに書き換えることが進んでいます。</p>
+		</div>
+		
+		<h3 class="blue">対応しないと一体どうなる？</h3>
+		<div class="column-1">
+			<p class="midashi">安心してサイト閲覧ができなくなる</p>
+			<p class="left">「セキュリティで保護されていない」という警告が出たり、表示されない画像が発生してしまう可能性があります。ページが見られない、まともに買い物しづらい店舗になってしまうということは、来客やページ閲覧の際にお店に不信感を抱き、購入を控えられてしまうことにつながる可能性があるわけです。せっかく入ったお客さんが去って行ってしまうのは避けたいところです。</p>
+		</div>
+
+</section>
+
+<section>
+	
+	<div class="inner">
+		<h2>価格</h2>
+		
+		<p class="midashi ttl_blue">管理画面から変更が必要な<br />TOPページやカテゴリページのURLを変更するプランです。</p>
+		<p class="price">基本価格<br /><span class="large">10,000円</span></p>
+		<p class="midashi">オプション価格5,000円～</p>
+		<p>※商品ページ、FTP接続での書き換えはオプションとなります。</p>
+		<a href="#"><span class="linkbtn2">お申し込みはこちらから＞＞</span></a>
+		
+	</div>	
+</section>
+
+<section class="bg_blue">
+	<div class="inner bg-line">
+		<h2>納品までの流れ</h2>
+		
+		<div class="column-3 bg-white">
+			<p class="midashi ttl_blue">STEP.1<br />発注</p>
+			<p class="left">弊社よりメールをお送りしますので、アカウント情報を記載の上ご返信ください。</p>
+		</div>
+		<div class="column-3 bg-white">
+			<p class="midashi ttl_blue">STEP.2<br />作業開始</p>
+			<p class="left">最短1営業日。※弊社の業務状況によってお時間をいただく場合がございます。</p>
+		</div>
+		<div class="column-3 bg-white">
+			<p class="midashi ttl_blue">STEP.3<br />納品</p>
+			<p class="left">作業終了後、メールにて作業終了を報告させていただきます。この際、文字数オーバーなどにより書き換えができなかった箇所に関しましても報告させていただきます。</p>
+		</div>
+		
+	</div>
+	
+	<a href="https://www.technocrats.jp/tatenpo/page/contact.html"><span class="linkbtn2">お申し込みはこちらから＞＞</span></a>
+	
+</section>
+
+
+</div>
+
+<section>
+	
+	<div class="inner">
+		<h2>お問い合わせ先</h2>
+		
+		<p class="midashi large">
+日本テクノクラーツ株式会社 ECコーディネート事業部<br />
+03-5829-6925<br />
+営業時間：平日09:00～18:00</p>
+		
+	</div>	
+</section>
+
+
+
+<!--フッター-->
+<div id="footer">
+
+
+
+
+</div>
+
+</body>
+</html>

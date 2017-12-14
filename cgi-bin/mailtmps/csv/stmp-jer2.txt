@@ -1,0 +1,1 @@
+<!--VALUE:CompanyName-->,<!--VALUE:y1-->-<!--VALUE:y2-->,<!--VALUE:ken-->,<!--VALUE:j1-->,<!--VALUE:tel1-->-<!--VALUE:tel2-->-<!--VALUE:tel3-->,<!--VALUE:TypeOfBusiness-->,<!--VALUE:position-->,<!--VALUE:name-->,<!--VALUE:kana-->,<!--VALUE:email-->,<!--VALUE:UrlAddress-->,<!--VALUE:Consultation-->

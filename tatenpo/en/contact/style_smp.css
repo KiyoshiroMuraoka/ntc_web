@@ -1,0 +1,190 @@
+body{
+	margin:0px;
+}
+.contact_form {
+color: #c0c0c0;
+}
+.textbox {
+border:0;
+padding:10px;
+font-size:40px;
+font-family:'Courier New', Tahoma;
+color:#aaa;
+border:solid 1px #ccc;
+margin:0 0 -10px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+-moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+-webkit-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
+box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+width: 580px;
+}
+.numbox {
+border:0;
+padding:10px;
+font-size:40px;
+font-family:'Courier New', Tahoma;
+color:#aaa;
+border:solid 1px #ccc;
+margin:0 0 -10px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+-moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+-webkit-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
+box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+width: 100px;
+}
+label.check {
+font-size:40px;
+}
+.boxmin{
+width: 280px;
+}
+.textmain {
+font-family:'メイリオ', 'Times New Roman';
+}
+.keyword {
+font-family:'Mangal';
+width:170px;
+text-align:center;
+vertical-align:top;
+margin-left:12px;
+}
+#errorDispaly {
+font-size:12px;
+color:#ff0000;
+font-family:'メイリオ', 'Times New Roman';
+}
+#contactForm{
+background: #FAFAFA;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    padding: 20px 8px 13px 50px;
+    border: 1px solid #ccc;
+font-family:'メイリオ', 'Times New Roman';
+font-size: 52px;
+    color: #727272;
+}
+#formArea {
+display: table;
+width: 100%;
+}
+#confirmArea {
+display: table;
+}
+.tr{
+display: table-row;
+height: 52px;
+}
+.tcell{
+width: 640px;
+padding: 0 0 0 100px;
+display: table-row;
+}
+.tcell-goods{
+font-size: 40px;
+padding-left: 30px;
+}
+.invisible{
+	display: none;
+}
+.submit{
+    border:1px solid #777;
+    padding: 4px 10px;
+    color: #fff;
+    cursor: pointer;
+    background: #428ec9;
+    border-radius: 5px;
+    text-align: center;
+     
+/* Webkit */
+    background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(#99c9e5),
+        to(#428ec9)
+        );
+    -webkit-border-radius: 5px;
+    -webkit-box-shadow: 1px 1px 1px #fff;
+         
+/* Firefox */
+    background: -moz-linear-gradient(
+        top,
+        #99c9e5,
+        #428ec9
+        );
+    -moz-border-radius: 5px;
+    -moz-box-shadow: 1px 1px 1px #fff;
+     
+/* IE */
+    filter:progid:DXImageTransform.Microsoft.gradient
+        (startColorstr=#ff99c9e5,endColorstr=#ff428ec9);
+    zoom: 1;
+}
+
+/* Stylish Check/Radio Box */
+
+.bg_checkbox li {
+    position: relative;
+    display: inline-block;
+    margin: 0 25px 0 0;
+    padding: 0;
+}
+ 
+.bg_checkbox input {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    width: 100%;  
+    height: 100%;
+}
+ 
+.bg_checkbox input[type="checkbox"] + label {
+    display: block;
+    background-image: url(./img/check_off.png);
+    background-size: 34px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding: 6px 0 0 21px;
+}
+ 
+.bg_checkbox input[type="checkbox"]:checked + label {
+    background-image: url(./img/check_on.png);
+}
+
+.bg_radiobox li {
+    position: relative;
+    display: inline-block;
+    margin: 0 30px 0 0;
+    padding: 0;
+}
+ 
+.bg_radiobox input {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    width: 100%;  
+    height: 100%;
+}
+ 
+.bg_radiobox input[type="radio"] + label {
+    display: block;
+    background-image: url(./img/radio_off.png);
+    background-size: 38px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding: 6px 0 0 22px;
+}
+
+.bg_radiobox input[type="radio"]:checked + label {
+    background-image: url(./img/radio_on.png);
+}
+
+/* image */
+.securimage {
+    zoom: 2.5;
+}

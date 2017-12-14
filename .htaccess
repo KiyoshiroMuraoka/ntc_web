@@ -1,0 +1,8 @@
+Redirect 301 /solutionservice/csv.html http://www.technocrats.jp/solution/netshop.html
+
+RewriteEngine on
+RewriteCond %{REQUEST_URI} /tatenpo/
+RewriteCond %{HTTPS} off
+RewriteCond %{THE_REQUEST} /tatenpo/index.html
+RewriteRule ^(.*)$ https://www.technocrats.jp/%{REQUEST_URI} [R,L]
+

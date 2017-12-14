@@ -1,0 +1,434 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Noto Sans Japanese", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, Meiryo, sans-serif;
+    color: #4e4e4e;
+}
+
+#contents {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#top-menu {
+    position: fixed;
+    top: 0px;
+    left: calc(50% - 600px/2);
+    width: 600px;
+    z-index: 9999;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#top-menu li a .button {
+    width: calc(100% / 5);
+    margin: 2px;
+}
+
+#main-contents table,
+#main-contents {
+    position: relative;
+    margin: 0 auto;
+}
+
+#main-contents.top {
+    top: 54px;
+    text-align: center;
+}
+
+#main-contents table.time-schedule {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.template,
+.time-table,
+.member {
+    position: relative;
+    top: 64px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.schedule,
+.date,
+.template-edit,
+.template-delete {
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+#err {
+    color: red;
+    border: 1px solid #4e4e4e;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 12px;
+    background-color: #ffc0cb;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 600px !important;
+    height: 24px;
+    margin: 0 auto;
+}
+
+#success {
+    color: #006400;
+    border: 1px solid #4e4e4e;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 12px;
+    background-color: aquamarine;
+    position: absolute;
+    top: 48px;
+    ;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 600px !important;
+    height: 24px;
+    margin: 0 auto;
+}
+
+body#template-add,
+body#template-edit,
+body#template-delete,
+body#member-add,
+body#member-edit,
+body#member-delete {
+    margin: 0 auto;
+}
+
+.template-add,
+.template-edit,
+.template-delete,
+.member-add,
+.member-edit,
+.member-delete {
+    margin-top: 112px !important;
+    width: 600px !important;
+    margin-bottom: 8px !important;
+}
+
+div.source-area {
+    border: 1px solid #4e4e4e;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 12px;
+    background-color: #79bbff;
+    color: #ffffff;
+}
+
+.click-area {
+    display: block;
+    background-color: #79bbff;
+    color: #ffffff;
+}
+
+#template-desc p {
+    color: #ffffff !important;
+}
+
+.source-area {
+    margin-bottom: 8px;
+}
+
+.source-area input[type="text"],
+.source-area textarea {
+    margin: 8px;
+    width: 550px;
+}
+
+.source-area textarea {
+    height: 200px;
+}
+
+.source-area input:focus,
+.source-area textarea:focus,
+input[name="template_name"]:focus,
+input[name="delivery_time"]:focus {
+    box-shadow: 0 0 7px #1abc9c;
+    border: 1px solid #1abc9c;
+}
+
+input[name="template_name"],
+input[name="delivery_time"] {
+    margin: 8px;
+}
+
+input[name="template_name"] {
+    width: 420px !important;
+}
+
+input[name="time_table_name"] {
+    width: 400px !important;
+}
+
+input[name="delivery_time"] {
+    margin-bottom: 0px;
+}
+
+.template-add #register,
+.member-add #register {
+    display: block;
+    width: 240px;
+    margin: 0 auto;
+}
+
+select#template_name {
+    margin-bottom: 8px;
+}
+
+.stop-send {
+    font-size: 24px;
+    text-align: center;
+}
+
+#gradient-style {
+    width: 600px !important;
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+}
+
+#gradient-style.time-schedule {
+    margin-left: auto !important;
+    margin-top: auto !important;
+}
+
+#gradient-style th:nth-of-type(5),
+#gradient-style th:nth-of-type(4) {
+    text-align: center;
+}
+
+.delete {
+    text-align: center;
+}
+
+#page {
+    display: none;
+}
+
+#prev,
+#next {
+    cursor: pointer;
+}
+
+#prev {
+    float: left;
+}
+
+#next {
+    float: right;
+}
+
+#next:after {
+    clear: both;
+}
+
+#gradient-style {
+    margin-bottom: 8px !important;
+}
+
+/* 登録画面 */
+
+#user-add,
+p.err {
+    text-align: center;
+}
+
+#user-add {
+    border: 1px solid #4e4e4e;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 12px;
+    background-color: #79bbff;
+    color: #ffffff;
+    width: 400px;
+    margin: 0 auto;
+}
+
+#user-add table tr td {
+    color: #ffffff;
+}
+
+#user-add form {
+    margin-bottom: 0px;
+}
+
+/* 汎用デザイン */
+
+a.button {
+    display: inline-block;
+    width: 116px;
+    margin: 0 auto;
+}
+
+a.fix {
+    width: 160px;
+}
+
+.button {
+    box-shadow: inset 0px 1px 0px 0px #cae3fc;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #4197ee));
+    background: -moz-linear-gradient( center top, #79bbff 5%, #4197ee 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#4197ee');
+    background-color: #79bbff;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    text-indent: 0;
+    border: 1px solid #469df5;
+    display: inline-block;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    height: 40px;
+    line-height: 40px;
+    width: 134px;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 0px #287ace;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4197ee), color-stop(1, #79bbff));
+    background: -moz-linear-gradient( center top, #4197ee 5%, #79bbff 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#4197ee', endColorstr='#79bbff');
+    background-color: #4197ee;
+}
+
+.button:active {
+    position: relative;
+    top: 1px;
+}
+
+.button:disabled {
+    cursor: not-allowed;
+}
+
+.button2 {
+    box-shadow: inset 0px 1px 0px 0px #cae3fc;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #4197ee));
+    background: -moz-linear-gradient( center top, #79bbff 5%, #4197ee 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#4197ee');
+    background-color: #79bbff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-indent: 0;
+    border: 1px solid #469df5;
+    display: inline-block;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    height: 24px;
+    line-height: 22px;
+    width: 48px;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 0px #287ace;
+    cursor: pointer;
+}
+
+.button2:hover {
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4197ee), color-stop(1, #79bbff));
+    background: -moz-linear-gradient( center top, #4197ee 5%, #79bbff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4197ee', endColorstr='#79bbff');
+    background-color: #4197ee;
+}
+
+.button2:active {
+    position: relative;
+    top: 1px;
+}
+
+.button2:disabled {
+    cursor: not-allowed;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+.checkbox {
+    -webkit-transition: background-color 0.2s linear;
+    transition: background-color 0.2s linear;
+    position: relative;
+    display: inline-block;
+    padding: 0 0 0 34px;
+    vertical-align: middle;
+    cursor: pointer;
+    line-height: 17px;
+    vertical-align: middle;
+    color: #ffffff;
+}
+
+.checkbox:hover:after {
+    border-color: #0171bd;
+}
+
+.checkbox:after {
+    -webkit-transition: border-color 0.2s linear;
+    transition: border-color 0.2s linear;
+    position: absolute;
+    top: 50%;
+    left: 8px;
+    display: block;
+    margin-top: -10px;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #ffffff;
+    border-radius: 6px;
+    content: '';
+}
+
+.checkbox:before {
+    -webkit-transition: opacity 0.2s linear;
+    transition: opacity 0.2s linear;
+    position: absolute;
+    top: 50%;
+    left: 14px;
+    display: block;
+    margin-top: -7px;
+    width: 5px;
+    height: 9px;
+    border-right: 3px solid #0171bd;
+    border-bottom: 3px solid #0171bd;
+    content: '';
+    opacity: 0;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+input[type=checkbox]:checked + .checkbox:before {
+    opacity: 1;
+}

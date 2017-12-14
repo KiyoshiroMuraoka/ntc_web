@@ -1,0 +1,28 @@
+.profile{
+	width:100%;
+}
+.profile table{
+	margin:0 auto;
+	width:700px;
+	font-size: 90%;
+}
+.profile table td{
+	padding:6px;
+	border-bottom:1px solid #dddddd;
+}
+.t-pro{
+	width:150px;
+	font-weight:bold;
+}
+.tops2 >div{
+	float: right;
+	margin-left:10px;
+	margin-right:10px;
+}
+.tops1{
+	padding-left:0px;
+	padding-right:30px;
+}
+.topright img{
+	margin-top:0px;
+}
