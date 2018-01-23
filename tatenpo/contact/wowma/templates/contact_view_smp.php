@@ -138,7 +138,7 @@
                     </div>
                     <div class="tcell">
                         <span class="tcell-l" style="vertical-align: top;"><label for="introbody">Wowma!の紹介時テンプレート<br />ご記入欄</label></span>
-                        <span class="tcell-r"><textarea name="body" id="introbody" cols="50" rows="8" class="form-control textbox textmain" placeholder="紹介の場合は、こちらにテンプレートをコピー＆ペーストをお願い致します。"><?php echo $introbody; ?></textarea></span>
+                        <span class="tcell-r"><textarea name="introbody" id="introbody" cols="50" rows="8" class="form-control textbox textmain" placeholder="紹介の場合は、こちらにテンプレートをコピー＆ペーストをお願い致します。"><?php echo $introbody; ?></textarea></span>
                     </div>
                     <div class="tcell">
                         <span><label for="item">対象商品点数（目安）</label></span>
