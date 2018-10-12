@@ -1,6 +1,6 @@
 /**!
  * @preserve Color animation 1.6.0
- * http://www.bitstorm.org/jquery/color-animation/
+ * https://www.bitstorm.org/jquery/color-animation/
  * Copyright 2011, 2013 Edwin Martin
  * Released under the MIT and GPL licenses.
  */
@@ -9,7 +9,7 @@
 	/**
 	 * Check whether the browser supports RGBA color mode.
 	 *
-	 * Author Mehdi Kabab <http://pioupioum.fr>
+	 * Author Mehdi Kabab <https://pioupioum.fr>
 	 * @return {boolean} True if the browser support RGBA. False otherwise.
 	 */
 	function isRGBACapable() {
@@ -111,7 +111,7 @@
 
 	// Some named colors to work with, added by Bradley Ayers
 	// From Interface by Stefan Petre
-	// http://interface.eyecon.ro/
+	// https://interface.eyecon.ro/
 	var colors = {
 		'aqua': [0,255,255,1],
 		'azure': [240,255,255,1],

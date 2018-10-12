@@ -2,10 +2,10 @@
     ajaxzip3.js ---- AjaxZip3 郵便番号→住所変換ライブラリ
 
     Copyright (c) 2008-2015 Ninkigumi Co.,Ltd.
-    http://ajaxzip3.github.io/
+    https://ajaxzip3.github.io/
 
     Copyright (c) 2006-2007 Kawasaki Yusuke <u-suke [at] kawa.net>
-    http://www.kawa.net/works/ajax/AjaxZip2/AjaxZip2.html
+    https://www.kawa.net/works/ajax/AjaxZip2/AjaxZip2.html
 
     Permission is hereby granted, free of charge, to any person
     obtaining a copy of this software and associated documentation

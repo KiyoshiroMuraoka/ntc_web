@@ -32,11 +32,11 @@
  * to inform users that the changes are not a part of the original software.<br /><br />
  *
  * If you found this script useful, please take a quick moment to rate it.<br />
- * http://www.hotscripts.com/rate/49400.html  Thanks.
+ * https://www.hotscripts.com/rate/49400.html  Thanks.
  *
- * @link http://www.phpcaptcha.org Securimage PHP CAPTCHA
- * @link http://www.phpcaptcha.org/latest.zip Download Latest Version
- * @link http://www.phpcaptcha.org/Securimage_Docs/ Online Documentation
+ * @link https://www.phpcaptcha.org Securimage PHP CAPTCHA
+ * @link https://www.phpcaptcha.org/latest.zip Download Latest Version
+ * @link https://www.phpcaptcha.org/Securimage_Docs/ Online Documentation
  * @copyright 2013 Drew Phillips
  * @author Drew Phillips <drew@drew-phillips.com>
  * @version 3.5.2 (Feb 15, 2014)

@@ -34,11 +34,11 @@
  * to inform users that the changes are not a part of the original software.
  *
  * If you found this script useful, please take a quick moment to rate it.
- * http://www.hotscripts.com/rate/49400.html  Thanks.
+ * https://www.hotscripts.com/rate/49400.html  Thanks.
  *
- * @link http://www.phpcaptcha.org Securimage PHP CAPTCHA
- * @link http://www.phpcaptcha.org/latest.zip Download Latest Version
- * @link http://www.phpcaptcha.org/Securimage_Docs/ Online Documentation
+ * @link https://www.phpcaptcha.org Securimage PHP CAPTCHA
+ * @link https://www.phpcaptcha.org/latest.zip Download Latest Version
+ * @link https://www.phpcaptcha.org/Securimage_Docs/ Online Documentation
  * @copyright 2015 Drew Phillips
  * @author Drew Phillips <drew@drew-phillips.com>
  * @version 3.6.1 (Oct 1, 2015)
@@ -103,7 +103,7 @@
 
  3.2RC1
  - New audio captcha code.  Faster, fully dynamic audio, full WAV support
-   (Paul Voegler, Drew Phillips) <http://voegler.eu/pub/audio>
+   (Paul Voegler, Drew Phillips) <https://voegler.eu/pub/audio>
  - New Flash audio streaming button.  User defined image and size supported
  - Additional options for customizing captcha (noise_level, send_headers,
    no_exit, no_session, display_value
@@ -141,7 +141,7 @@
 
  2.0.1
  - Add support for browsers with cookies disabled (requires php5, sqlite) maps users to md5 hashed ip addresses and md5 hashed codes for security
- - Add fallback to gd fonts if ttf support is not enabled or font file not found (Mike Challis http://www.642weather.com/weather/scripts.php)
+ - Add fallback to gd fonts if ttf support is not enabled or font file not found (Mike Challis https://www.642weather.com/weather/scripts.php)
  - Check for previous definition of image type constants (Mike Challis)
  - Fix mime type settings for audio output
  - Fixed color allocation issues with multiple colors and background images, consolidate allocation to one function
@@ -672,7 +672,7 @@ class Securimage
      * The method and threshold (or gain factor) used to normalize the mixing
      * with background noise.
      *
-     * See http://www.voegler.eu/pub/audio/ for more information.
+     * See https://www.voegler.eu/pub/audio/ for more information.
      *
      * Default: 0.6
      *

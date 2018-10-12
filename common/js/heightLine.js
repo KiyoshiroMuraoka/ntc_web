@@ -5,7 +5,7 @@
  *  MIT-style license. 
  *  
  *  2007 Kazuma Nishihata 
- *  http://www.webcreativepark.net
+ *  https://www.webcreativepark.net
  *  
  *--------------------------------------------------------------------------*/
 new function(){

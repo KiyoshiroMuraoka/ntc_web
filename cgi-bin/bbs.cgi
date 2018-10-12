@@ -15,7 +15,7 @@ $common->read_parse(*argv);
 $bbsid = $argv{'bbsid'};
 $bbsid =~ s/\[(\$\w+)\]/$1/g;
 
-$IMGDIR = "http://private1.asp.mewave.com/cobalt-images";
+$IMGDIR = "https://private1.asp.mewave.com/cobalt-images";
 $CONFDIR = '../cgi-conf';
 $DATA_FILE = "bbs_data_$bbsid.csv";
 $TMPL_FILE = "bbs_tmpl_$bbsid.html";
@@ -368,7 +368,7 @@ if ($func eq 'reply' or $func eq 'delete' or $func eq 'update') {
         close DATA;
 }
 
-$url = 'http://' unless ($url);
+$url = 'https://' unless ($url);
 
 #################################################################
 # âÊñ ï\é¶
@@ -479,7 +479,7 @@ while (<DATA>) {
                 $subject = rconv($subject);
                 $article = rconv($article);
                 $url     = rconv($url);
-                if ($url and $url ne 'http://') {
+                if ($url and $url ne 'https://') {
                         $url = "<B>ä÷òAURL:</B>Å@<A HREF='$url' TARGET='_new_$vid'>$url</A>";
                 }
                 else {

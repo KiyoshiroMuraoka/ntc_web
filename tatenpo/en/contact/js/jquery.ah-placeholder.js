@@ -2,13 +2,13 @@
  * jQuery ah-placeholder plugin 1.2
  *
  * https://github.com/ahomu/jquery.ah-placeholder
- * http://havelog.ayumusato.com/develop/javascript/e189-jquery-plugin-placeholder.html
+ * https://havelog.ayumusato.com/develop/javascript/e189-jquery-plugin-placeholder.html
  *
- * Copyright (c) 2011 Ayumu Sato ( http://havelog.ayumusato.com )
+ * Copyright (c) 2011 Ayumu Sato ( https://havelog.ayumusato.com )
  *
  * Dual licensed under the MIT and GPL licenses:
- *   http://www.opensource.org/licenses/mit-license.php
- *   http://www.gnu.org/licenses/gpl.html
+ *   https://www.opensource.org/licenses/mit-license.php
+ *   https://www.gnu.org/licenses/gpl.html
  */
 (function($) {
 

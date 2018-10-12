@@ -8,7 +8,7 @@
 #  今のところ特に問題点はありませんが、不具合等がありましたら下記までご連絡ください。
 #  MailAddress: info@php-factory.net
 #  name: K.Numata
-#  HP: http://www.php-factory.net/
+#  HP: https://www.php-factory.net/
 #
 #  重要！！サイトでチェックボックスを使用する場合のみですが。。。
 #  チェックボックスを使用する場合はinputタグに記述するname属性の値を必ず配列の形にしてください。
@@ -33,7 +33,7 @@
 //---------------------------　必須設定　必ず設定してください　-----------------------
 
 //サイトのトップページのURL　※デフォルトでは送信完了後に「トップページへ戻る」ボタンが表示されますので
-$site_top = "http://www.technocrats.jp/";
+$site_top = "https://www.technocrats.jp/";
 
 // 管理者メールアドレス ※メールを受け取るメールアドレス(複数指定する場合は「,」で区切ってください)
 $to = "pmark-contact@technocrats.jp";
@@ -79,7 +79,7 @@ $confirmDsp = 1;
 $jumpPage = 1;
 
 // 送信完了後に表示するページURL（上記で1を設定した場合のみ）※httpから始まるURLで指定ください。
-$thanksPage = "http://www.technocrats.jp/confirm/pMark.html";
+$thanksPage = "https://www.technocrats.jp/confirm/pMark.html";
 
 // 必須入力項目を設定する(する=1, しない=0)
 $esse = 1;
@@ -131,7 +131,7 @@ $mailSignature = <<< FOOTER
  
 TEL：03-5835-5421
 FAX：03-5835-5422
-URL：http://www.technocrats.jp
+URL：https://www.technocrats.jp
 E-mail：pmark-contact@technocrats.jp
 ━━━━━━━━━━━━━━━━━━
 
@@ -395,7 +395,7 @@ else if($confirmDsp == 1){
 			<div id="headerInner">
 				<p class="logo"><a href="../index.html"><img src="../common/images/logo01.png" alt="日本テクノクラーツ株式会社" width="250" height="36"></a></p>
 				<div id="siteSearch">
-					<form action="http://www.google.com/cse">
+					<form action="https://www.google.com/cse">
 						<span id="srchtxtBg">
 							<input type="hidden" name="cx" value="002981879892081928293:pkfmkdducru">
 						<input name="q" id="srchtxt" type="text" class="jq-placeholder" title="サイト内検索">
@@ -612,8 +612,8 @@ if(($jumpPage == 0 && $sendmail == 1) || ($jumpPage == 0 && ($confirmDsp == 0 &&
 
 /* ▼▼▼送信完了画面のレイアウト　編集可 ※送信完了後に指定のページに移動しない場合のみ表示▼▼▼　*/
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>お問い合わせ完了画面</title>
