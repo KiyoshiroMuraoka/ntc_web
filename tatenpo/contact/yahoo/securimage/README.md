@@ -17,7 +17,7 @@ The latest version can always be found at [phpcaptcha.org](https://www.phpcaptch
 ## Documentation:
 
 Online documentation of the class, methods, and variables can be found 
-at http://www.phpcaptcha.org/Securimage_Docs/
+at https://www.phpcaptcha.org/Securimage_Docs/
 
 ## Requirements:
 
@@ -103,7 +103,7 @@ Script
 
     The WavFile.php class used in Securimage by Drew Phillips and Paul Voegler
     is used under the BSD License.  See WavFile.php for details.
-    Many thanks to Paul Voegler (http://www.voegler.eu/) for contributing to
+    Many thanks to Paul Voegler (https://www.voegler.eu/) for contributing to
     Securimage.
 Script
 ---------------------------------------------------------------------------
@@ -126,7 +126,7 @@ Portions of Securimage contain code from Han-Kwang Nienhuys' PHP captcha
     modification. Redistribution under other licenses is expressly allowed.
     Other licenses include GPL 2 or higher, BSD, and non-free licenses.
     The original, unrestricted version can be obtained from
-    http://www.lagom.nl/linux/hkcaptcha/
+    https://www.lagom.nl/linux/hkcaptcha/
     
 ---------------------------------------------------------------------------
 
@@ -158,7 +158,7 @@ Portions of securimage_play.swf use the PopForge flash library for playing audio
      *
      * PopForge is an ActionScript3 code sandbox developed by Andre Michelle
      * and Joa Ebert
-     * http://sandbox.popforge.de
+     * https://sandbox.popforge.de
      *
      * PopforgeAS3Audio is free software; you can redistribute it and/or modify
      * it under the terms of the GNU General Public License as published by
@@ -171,7 +171,7 @@ Portions of securimage_play.swf use the PopForge flash library for playing audio
      * GNU General Public License for more details.
      *
      * You should have received a copy of the GNU General Public License
-     * along with this program. If not, see <http://www.gnu.org/licenses/>
+     * along with this program. If not, see <https://www.gnu.org/licenses/>
      */
      
 --------------------------------------------------------------------------
@@ -180,16 +180,16 @@ Portions of securimage_play.swf use the PopForge flash library for playing audio
 
 Some graphics used are from the Humility Icon Pack by WorLord
 
-     License: GNU/GPL (http://findicons.com/pack/1723/humility)
-     http://findicons.com/icon/192558/gnome_volume_control
-     http://findicons.com/icon/192562/gtk_refresh
+     License: GNU/GPL (https://findicons.com/pack/1723/humility)
+     https://findicons.com/icon/192558/gnome_volume_control
+     https://findicons.com/icon/192562/gtk_refresh
 
 --------------------------------------------------------------------------
 
 
 **Background noise sound files are from SoundJay.com**
 
-http://www.soundjay.com/tos.html
+https://www.soundjay.com/tos.html
      
      All sound effects on this website are created by us and protected under
      the copyright laws, international treaty provisions and other applicable

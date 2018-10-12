@@ -1,4 +1,4 @@
-Redirect 301 /solutionservice/csv.html http://www.technocrats.jp/solution/netshop.html
+Redirect 301 /solutionservice/csv.html https://www.technocrats.jp/solution/netshop.html
 
 RewriteEngine on
 RewriteCond %{REQUEST_URI} /tatenpo/

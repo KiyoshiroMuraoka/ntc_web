@@ -1,13 +1,13 @@
 /*!
 	Colorbox v1.4.27 - 2013-07-16
 	jQuery lightbox and modal window plugin
-	(c) 2013 Jack Moore - http://www.jacklmoore.com/colorbox
-	license: http://www.opensource.org/licenses/mit-license.php
+	(c) 2013 Jack Moore - https://www.jacklmoore.com/colorbox
+	license: https://www.opensource.org/licenses/mit-license.php
 */
 (function ($, document, window) {
 	var
 	// Default settings object.
-	// See http://jacklmoore.com/colorbox for details.
+	// See https://jacklmoore.com/colorbox for details.
 	defaults = {
 		transition: "elastic",
 		speed: 300,
@@ -153,7 +153,7 @@
 	}
 	
 	// Get the window height using innerHeight when available to avoid an issue with iOS
-	// http://bugs.jquery.com/ticket/6724
+	// https://bugs.jquery.com/ticket/6724
 	function winheight() {
 		return window.innerHeight ? window.innerHeight : $(window).height();
 	}
@@ -457,7 +457,7 @@
 	function addBindings() {
 		function clickHandler(e) {
 			// ignore non-left-mouse-clicks and clicks modified with ctrl / command, shift, or alt.
-			// See: http://jacklmoore.com/notes/click-events/
+			// See: https://jacklmoore.com/notes/click-events/
 			if (!(e.which > 1 || e.shiftKey || e.altKey || e.metaKey || e.ctrlKey)) {
 				e.preventDefault();
 				launch(this);

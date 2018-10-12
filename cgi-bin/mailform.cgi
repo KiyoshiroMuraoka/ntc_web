@@ -20,7 +20,7 @@ $FALSE  = 0;
 
 $common->read_parse(*argv);
 
-$IMGDIR = "http://private1.asp.mewave.com/cobalt-images";
+$IMGDIR = "https://private1.asp.mewave.com/cobalt-images";
 
 $ERR_REMOTE_HOST_REPLY  = -9000;
 $MSG{'-9000'}           = "サーバから以下の応答がありました。";

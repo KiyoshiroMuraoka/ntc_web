@@ -35,7 +35,7 @@
 *
 * @copyright 2014 Drew Phillips
 * @author Drew Phillips <drew@drew-phillips.com>
-* @author Paul Voegler <http://www.voegler.eu/>
+* @author Paul Voegler <https://www.voegler.eu/>
 * @version 1.1.1 (Sep 2015)
 * @package PHPWavUtils
 * @license BSD License
@@ -59,7 +59,7 @@
 *     - Support for 18 channels of audio
 *     - Ability to read an offset from a file to reduce memory footprint with large files
 *     - Single-pass audio filter processing
-*     - Highly accurate and efficient mix and normalization filters (http://www.voegler.eu/pub/audio/)
+*     - Highly accurate and efficient mix and normalization filters (https://www.voegler.eu/pub/audio/)
 *     - Utility filters for degrading audio, and inserting silence
 *
 *   0.6 (4/12/2012)
@@ -415,7 +415,7 @@ class WavFile
 
     /**
      * Normalizes a float audio sample. Maximum input range assumed for compression is [-2, 2].
-     * See http://www.voegler.eu/pub/audio/ for more information.
+     * See https://www.voegler.eu/pub/audio/ for more information.
      *
      * @param float $sampleFloat  (Required) The float sample to normalize.
      * @param float $threshold  (Required) The threshold or gain factor for normalizing the amplitude. <ul>
@@ -872,7 +872,7 @@ class WavFile
 
     /**
      * Construct a wav header from this object. Includes "fact" chunk if necessary.
-     * http://www-mmsp.ece.mcgill.ca/documents/audioformats/wave/wave.html
+     * https://www-mmsp.ece.mcgill.ca/documents/audioformats/wave/wave.html
      *
      * @return string  The RIFF header data.
      */
@@ -1053,7 +1053,7 @@ class WavFile
 
     /**
      * Parse a wav header.
-     * http://www-mmsp.ece.mcgill.ca/documents/audioformats/wave/wave.html
+     * https://www-mmsp.ece.mcgill.ca/documents/audioformats/wave/wave.html
      *
      * @throws WavFormatException
      * @throws WavFileException
