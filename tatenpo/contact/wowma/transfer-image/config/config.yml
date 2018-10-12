@@ -1,0 +1,18 @@
+config:
+    to_email: wm-contact@technocrats.jp
+    to_subject: 【イージースター】 画像移行申し込みがありました
+    auto_reply: true
+    auto_reply_subject: お申込み完了のお知らせ（受付番号：<AcceptID>）
+    auto_reply_name: イージースター
+    auto_reply_cc_email: kcf-imageproject@kddi-cf.com
+    auto_reply_email: ご連絡先メールアドレス
+    file: true
+    file_allow_extension: zip,rar,7z,csv
+    file_max_size: 536870912
+    file_retention_period: 345600
+    smtp: true
+    smtp_host: ssl://wx29.wadax.ne.jp
+    smtp_port: 465
+    smtp_protocol: SMTP_AUTH
+    smtp_user: wm-contact@technocrats.jp
+    smtp_password: jknRdv3Bm7ci

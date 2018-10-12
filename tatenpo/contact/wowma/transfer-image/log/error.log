@@ -1,0 +1,145 @@
+[20-Apr-2018 09:01:39] PHP Notice:  Undefined variable: acceptId in C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php on line 932
+[20-Apr-2018 09:01:39] PHP Stack trace:
+[20-Apr-2018 09:01:39] PHP   1. {main}() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:0
+[20-Apr-2018 09:01:39] PHP   2. TransmitMail->run() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:13
+[20-Apr-2018 09:01:39] PHP   3. TransmitMail->setTemplateProperty() C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php:272
+[20-Apr-2018 09:01:58] PHP Notice:  Undefined variable: acceptId in C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php on line 932
+[20-Apr-2018 09:01:58] PHP Stack trace:
+[20-Apr-2018 09:01:58] PHP   1. {main}() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:0
+[20-Apr-2018 09:01:58] PHP   2. TransmitMail->run() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:13
+[20-Apr-2018 09:01:58] PHP   3. TransmitMail->setTemplateProperty() C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php:272
+[20-Apr-2018 09:02:14] PHP Notice:  Undefined variable: acceptId in C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php on line 932
+[20-Apr-2018 09:02:14] PHP Stack trace:
+[20-Apr-2018 09:02:14] PHP   1. {main}() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:0
+[20-Apr-2018 09:02:14] PHP   2. TransmitMail->run() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:13
+[20-Apr-2018 09:02:14] PHP   3. TransmitMail->setTemplateProperty() C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php:272
+[20-Apr-2018 09:02:16] PHP Notice:  Undefined variable: acceptId in C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php on line 932
+[20-Apr-2018 09:02:16] PHP Stack trace:
+[20-Apr-2018 09:02:16] PHP   1. {main}() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:0
+[20-Apr-2018 09:02:16] PHP   2. TransmitMail->run() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:13
+[20-Apr-2018 09:02:16] PHP   3. TransmitMail->setTemplateProperty() C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php:272
+[20-Apr-2018 09:04:55] PHP Notice:  Undefined variable: acceptId in C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php on line 1049
+[20-Apr-2018 09:04:55] PHP Stack trace:
+[20-Apr-2018 09:04:55] PHP   1. {main}() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:0
+[20-Apr-2018 09:04:55] PHP   2. TransmitMail->run() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:13
+[20-Apr-2018 09:04:55] PHP   3. TransmitMail->setTemplateAndSendMail() C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php:279
+[20-Apr-2018 09:04:58] PHP Notice:  Undefined variable: acceptId in C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php on line 1049
+[20-Apr-2018 09:04:58] PHP Stack trace:
+[20-Apr-2018 09:04:58] PHP   1. {main}() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:0
+[20-Apr-2018 09:04:58] PHP   2. TransmitMail->run() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:13
+[20-Apr-2018 09:04:58] PHP   3. TransmitMail->setTemplateAndSendMail() C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php:279
+[20-Apr-2018 09:29:59] PHP Notice:  Undefined variable: acceptId in C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php on line 1049
+[20-Apr-2018 09:29:59] PHP Stack trace:
+[20-Apr-2018 09:29:59] PHP   1. {main}() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:0
+[20-Apr-2018 09:29:59] PHP   2. TransmitMail->run() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:13
+[20-Apr-2018 09:29:59] PHP   3. TransmitMail->setTemplateAndSendMail() C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php:279
+[20-Apr-2018 09:32:54] PHP Notice:  Undefined variable: acceptId in C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php on line 1049
+[20-Apr-2018 09:32:54] PHP Stack trace:
+[20-Apr-2018 09:32:54] PHP   1. {main}() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:0
+[20-Apr-2018 09:32:54] PHP   2. TransmitMail->run() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:13
+[20-Apr-2018 09:32:54] PHP   3. TransmitMail->setTemplateAndSendMail() C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php:279
+[20-Apr-2018 10:16:33] PHP Notice:  Undefined variable: acceptId in C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php on line 1049
+[20-Apr-2018 10:16:33] PHP Stack trace:
+[20-Apr-2018 10:16:33] PHP   1. {main}() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:0
+[20-Apr-2018 10:16:33] PHP   2. TransmitMail->run() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:13
+[20-Apr-2018 10:16:33] PHP   3. TransmitMail->setTemplateAndSendMail() C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php:279
+[20-Apr-2018 13:35:50] PHP Notice:  Undefined variable: acceptId in C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php on line 1049
+[20-Apr-2018 13:35:50] PHP Stack trace:
+[20-Apr-2018 13:35:50] PHP   1. {main}() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:0
+[20-Apr-2018 13:35:50] PHP   2. TransmitMail->run() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:13
+[20-Apr-2018 13:35:50] PHP   3. TransmitMail->setTemplateAndSendMail() C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php:279
+[20-Apr-2018 13:36:44] PHP Notice:  Undefined variable: acceptId in C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php on line 1036
+[20-Apr-2018 13:36:44] PHP Stack trace:
+[20-Apr-2018 13:36:44] PHP   1. {main}() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:0
+[20-Apr-2018 13:36:44] PHP   2. TransmitMail->run() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:13
+[20-Apr-2018 13:36:44] PHP   3. TransmitMail->setTemplateAndSendMail() C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php:279
+[20-Apr-2018 13:50:18] PHP Notice:  Undefined variable: acceptId in C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php on line 1052
+[20-Apr-2018 13:50:18] PHP Stack trace:
+[20-Apr-2018 13:50:18] PHP   1. {main}() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:0
+[20-Apr-2018 13:50:18] PHP   2. TransmitMail->run() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:13
+[20-Apr-2018 13:50:18] PHP   3. TransmitMail->setTemplateAndSendMail() C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php:282
+[20-Apr-2018 13:50:42] PHP Notice:  Undefined variable: acceptId in C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php on line 1039
+[20-Apr-2018 13:50:42] PHP Stack trace:
+[20-Apr-2018 13:50:42] PHP   1. {main}() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:0
+[20-Apr-2018 13:50:42] PHP   2. TransmitMail->run() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:13
+[20-Apr-2018 13:50:42] PHP   3. TransmitMail->setTemplateAndSendMail() C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php:282
+[20-Apr-2018 13:51:44] PHP Notice:  Undefined variable: acceptId in C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php on line 1052
+[20-Apr-2018 13:51:44] PHP Stack trace:
+[20-Apr-2018 13:51:44] PHP   1. {main}() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:0
+[20-Apr-2018 13:51:44] PHP   2. TransmitMail->run() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:13
+[20-Apr-2018 13:51:44] PHP   3. TransmitMail->setTemplateAndSendMail() C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php:282
+[20-Apr-2018 14:00:38] PHP Notice:  Undefined variable: acceptId in C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php on line 1049
+[20-Apr-2018 14:00:38] PHP Stack trace:
+[20-Apr-2018 14:00:38] PHP   1. {main}() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:0
+[20-Apr-2018 14:00:38] PHP   2. TransmitMail->run() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:13
+[20-Apr-2018 14:00:38] PHP   3. TransmitMail->setTemplateAndSendMail() C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php:279
+[20-Apr-2018 14:01:12] PHP Notice:  Undefined variable: acceptId in C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php on line 1036
+[20-Apr-2018 14:01:12] PHP Stack trace:
+[20-Apr-2018 14:01:12] PHP   1. {main}() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:0
+[20-Apr-2018 14:01:12] PHP   2. TransmitMail->run() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:13
+[20-Apr-2018 14:01:12] PHP   3. TransmitMail->setTemplateAndSendMail() C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php:279
+[20-Apr-2018 14:10:16] PHP Notice:  Undefined variable: acceptId in C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php on line 1049
+[20-Apr-2018 14:10:16] PHP Stack trace:
+[20-Apr-2018 14:10:16] PHP   1. {main}() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:0
+[20-Apr-2018 14:10:16] PHP   2. TransmitMail->run() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:13
+[20-Apr-2018 14:10:16] PHP   3. TransmitMail->setTemplateAndSendMail() C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php:279
+[20-Apr-2018 14:10:37] PHP Notice:  Undefined variable: acceptId in C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php on line 1036
+[20-Apr-2018 14:10:37] PHP Stack trace:
+[20-Apr-2018 14:10:37] PHP   1. {main}() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:0
+[20-Apr-2018 14:10:37] PHP   2. TransmitMail->run() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:13
+[20-Apr-2018 14:10:37] PHP   3. TransmitMail->setTemplateAndSendMail() C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php:279
+[20-Apr-2018 14:14:27] PHP Notice:  Undefined variable: acceptId in C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php on line 1049
+[20-Apr-2018 14:14:27] PHP Stack trace:
+[20-Apr-2018 14:14:27] PHP   1. {main}() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:0
+[20-Apr-2018 14:14:27] PHP   2. TransmitMail->run() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:13
+[20-Apr-2018 14:14:27] PHP   3. TransmitMail->setTemplateAndSendMail() C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php:279
+[20-Apr-2018 14:14:57] PHP Notice:  Undefined variable: acceptId in C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php on line 1036
+[20-Apr-2018 14:14:57] PHP Stack trace:
+[20-Apr-2018 14:14:57] PHP   1. {main}() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:0
+[20-Apr-2018 14:14:57] PHP   2. TransmitMail->run() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:13
+[20-Apr-2018 14:14:57] PHP   3. TransmitMail->setTemplateAndSendMail() C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php:279
+[20-Apr-2018 14:23:23] PHP Notice:  Undefined variable: acceptId in C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php on line 1049
+[20-Apr-2018 14:23:23] PHP Stack trace:
+[20-Apr-2018 14:23:23] PHP   1. {main}() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:0
+[20-Apr-2018 14:23:23] PHP   2. TransmitMail->run() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:13
+[20-Apr-2018 14:23:23] PHP   3. TransmitMail->setTemplateAndSendMail() C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php:279
+[20-Apr-2018 14:23:44] PHP Notice:  Undefined variable: acceptId in C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php on line 1036
+[20-Apr-2018 14:23:44] PHP Stack trace:
+[20-Apr-2018 14:23:44] PHP   1. {main}() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:0
+[20-Apr-2018 14:23:44] PHP   2. TransmitMail->run() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:13
+[20-Apr-2018 14:23:44] PHP   3. TransmitMail->setTemplateAndSendMail() C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php:279
+[20-Apr-2018 14:25:09] PHP Notice:  Undefined variable: acceptId in C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php on line 1049
+[20-Apr-2018 14:25:09] PHP Stack trace:
+[20-Apr-2018 14:25:09] PHP   1. {main}() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:0
+[20-Apr-2018 14:25:09] PHP   2. TransmitMail->run() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:13
+[20-Apr-2018 14:25:09] PHP   3. TransmitMail->setTemplateAndSendMail() C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php:279
+[20-Apr-2018 15:02:52] PHP Notice:  Undefined variable: acceptId in C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php on line 1036
+[20-Apr-2018 15:02:52] PHP Stack trace:
+[20-Apr-2018 15:02:52] PHP   1. {main}() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:0
+[20-Apr-2018 15:02:52] PHP   2. TransmitMail->run() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:13
+[20-Apr-2018 15:02:52] PHP   3. TransmitMail->setTemplateAndSendMail() C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php:279
+[20-Apr-2018 15:04:38] PHP Notice:  Undefined variable: acceptId in C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php on line 1049
+[20-Apr-2018 15:04:38] PHP Stack trace:
+[20-Apr-2018 15:04:38] PHP   1. {main}() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:0
+[20-Apr-2018 15:04:38] PHP   2. TransmitMail->run() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:13
+[20-Apr-2018 15:04:38] PHP   3. TransmitMail->setTemplateAndSendMail() C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php:279
+[20-Apr-2018 15:04:56] PHP Notice:  Undefined variable: acceptId in C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php on line 1036
+[20-Apr-2018 15:04:56] PHP Stack trace:
+[20-Apr-2018 15:04:56] PHP   1. {main}() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:0
+[20-Apr-2018 15:04:56] PHP   2. TransmitMail->run() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:13
+[20-Apr-2018 15:04:56] PHP   3. TransmitMail->setTemplateAndSendMail() C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php:279
+[20-Apr-2018 15:06:03] PHP Notice:  Undefined variable: acceptId in C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php on line 1049
+[20-Apr-2018 15:06:03] PHP Stack trace:
+[20-Apr-2018 15:06:03] PHP   1. {main}() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:0
+[20-Apr-2018 15:06:03] PHP   2. TransmitMail->run() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:13
+[20-Apr-2018 15:06:03] PHP   3. TransmitMail->setTemplateAndSendMail() C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php:279
+[20-Apr-2018 15:06:22] PHP Notice:  Undefined variable: acceptId in C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php on line 1036
+[20-Apr-2018 15:06:22] PHP Stack trace:
+[20-Apr-2018 15:06:22] PHP   1. {main}() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:0
+[20-Apr-2018 15:06:22] PHP   2. TransmitMail->run() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:13
+[20-Apr-2018 15:06:22] PHP   3. TransmitMail->setTemplateAndSendMail() C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php:279
+[20-Apr-2018 15:06:45] PHP Notice:  Undefined variable: acceptId in C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php on line 1049
+[20-Apr-2018 15:06:45] PHP Stack trace:
+[20-Apr-2018 15:06:45] PHP   1. {main}() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:0
+[20-Apr-2018 15:06:45] PHP   2. TransmitMail->run() C:\xampp\htdocs\wowma_form\TransmitMail-master\index.php:13
+[20-Apr-2018 15:06:45] PHP   3. TransmitMail->setTemplateAndSendMail() C:\xampp\htdocs\wowma_form\TransmitMail-master\lib\TransmitMail.php:279
