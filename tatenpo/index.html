@@ -28,8 +28,11 @@
         <!--ヘッダー-->
         <header>
             <div id="fix_header">
-                <div class="top_button"><a href="page/contact.html"><p class="btn_head">お問い合わせ</p></a><a href="index.html"><p class="btn_head">日本語</p></a><a href="en/index.html"><p class="btn_head">English</p></a></div>
-                <p class="discription">新しい出店モールへの商品登録、複数店舗への月々の商品登録が一ヶ所へのデータ入力で終了！多店舗展開や越境ECにも対応！商品定期登録・商品移行サービス</p>
+                <div style="float: left;">
+                    <p class="discription">新しい出店モールへの商品登録、複数店舗への月々の商品登録が一ヶ所へのデータ入力で終了！多店舗展開や越境ECにも対応！商品定期登録・商品移行サービス</p>
+                </div>
+                <div class="top_button"><a href="page/contact.html"><p class="btn_head inquiry">お問い合わせ</p></a></div>
+                <div style="clear: both;">
                 <a href="index.html"><h1><img src="img/logonew.gif" alt="イージースター"></h1></a>
                 <ul>
                     <a href="#" onclick="$('#d_service').animatescroll({scrollSpeed:1000, easing:'easeOutBounce', padding:80});"><li>サービス概要</li></a>
@@ -40,51 +43,56 @@
                     <a href="#" onclick="$('#d_schedule').animatescroll({scrollSpeed:1000, easing:'easeOutBounce', padding:80});"><li>契約後の流れ</li></a>
                     <a href="page/faq.html"><li>FAQ</li></a>
                 </ul>
+                </div>
             </div>
         </header>
         <!--メイン-->
         <div id="wrap">
             <section class="ttl top_image">
                 <p class="main_ttl">SPEEDY ＆ AUTOMATIC</p>
-                <a href="page/contact.html"><span class="linkbtn2">今すぐ申し込み＞＞</span></a>
+                <a href="page/contact.html"><span class="linkbtn2">今すぐ申し込み</span></a>
             </section>
             <br /><a href="lp/https.html">楽天市場、ポンパレモール、MakeShopのSSL化対応でお困りの方はこちらをご覧ください</a><br />
             <h2>MEDIA</h2>
             <section>
                 <div class="inner">
                     <div class="column-3">
-                        <img src="img/partner.jpg" width="35%">
-                        <p class="cap"><a href="https://service.rms.rakuten.co.jp/product/0078-0002/1/" target="_blank">RMSサービススクエアに<br />登録されました！</p>
+                        <a href="https://service.rms.rakuten.co.jp/product/0078-0002/1/" target="_blank">
+                            <img src="img/partner.jpg" width="40%"><p class="cap">RMSサービススクエアに<br />登録されました</p>
+                        </a>
                     </div>
                     <div class="column-3">
-                        <img src="img/ec_mikata_banner.png" width="80%">
-                        <p class="cap"><a href="https://www.ecnomikata.com/support_company/?company_id=80" target="_blank">ＥＣのミカタに<br />掲載されました。＞＞</a></p>
+                        <a href="https://service.rms.rakuten.co.jp/product/0078-0002/1/" target="_blank">
+                            <img src="img/goldservice.jpg" width="40%"><p class="cap">RMSサービススクエアにて<br />GOLDに認定されました</p>
+                        </a>
                     </div>
                     <div class="column-3">
-                        <img src="img/b_300_100.jpg" width="80%">
-                        <p class="cap"><a href="https://www.ecnomikata.com/diagram/" target="_blank">ＥＣ業界相関図に<br />掲載されました！＞＞</a><p/>
+                        <a href="https://service.rms.rakuten.co.jp/product/0078-0004/1/" target="_blank">
+                            <img src="img/goldservice2018.jpg" width="40%"><p class="cap">RMSサービススクエアにて<br />GOLDに認定されました</p>
+                        </a>
                     </div>
-                    <div class="column-3">
-                        <img src="img/goldservice.jpg" width="60%">
-                        <p class="cap"><a href="https://service.rms.rakuten.co.jp/product/0078-0002/1/" target="_blank">RMSサービススクエアにて<br />GOLDに認定されました＞＞</a><p/>
+                    <div class="column-2">
+                        <a href="https://www.ecnomikata.com/support_company/?company_id=80" target="_blank">
+                            <img src="img/ec_mikata_banner.png" width="80%"><p class="cap">ＥＣのミカタに掲載されました</p>
+                        </a>
                     </div>
                 </div>
             </section>
 
-            <div id='d_service' class="ttl top_service">
+            <div id="d_service" class="ttl top_service">
                 <h2>SERVICE</h2>
             </div>
             <section class="bg_blue">
                 <div class="inner bg-white">
                     <h3>イージースターの2つのサービス</h3>
                     <div class="column-2">
-                        <p class="midashi blue">商品定期登録サービス<p>
-                        <p class="honbun">定期的に複数の店舗へ商品登録！<p>
+                        <p class="midashi blue">商品定期登録サービス</p>
+                        <p class="honbun">定期的に複数の店舗へ商品登録！</p>
                             <img src="img/service_01.png">
                     </div>
                     <div class="column-2">
-                        <p class="midashi blue">商品移行サービス<p>
-                        <p class="honbun">別の店舗へ商品データを完全移行！<p>
+                        <p class="midashi blue">商品移行サービス</p>
+                        <p class="honbun">別の店舗へ商品データを完全移行！</p>
                             <img src="img/service_02.png">
                     </div>
                 </div>
@@ -92,165 +100,155 @@
                     <h3>サービスの特徴</h3>
                     <div class="column-3">
                         <img src="img/service_03.png">
-                        <p class="midashi">専任アドバイザーがサポート<p>
+                        <p class="midashi">専任アドバイザーがサポート</p>
                     </div>
                     <div class="column-3">
                         <img src="img/service_04.png">
-                        <p class="midashi">簡単で機能的なシステムで一括登録<p>
+                        <p class="midashi">簡単で機能的なシステムで一括登録</p>
                     </div>
                     <div class="column-3">
                         <img src="img/service_05.png">
-                        <p class="midashi">新規の出店、移行も最短3日～<p>
+                        <p class="midashi">新規の出店、移行も最短3日から</p>
                     </div>
                     <div class="column-3">
                         <img src="img/service_06.png">
-                        <p class="midashi">ロボットエラーコレクション機能<p>
-                        <p class="honbun">入力ミスを瞬時に収集しリスト化<p>
+                        <p class="midashi">自動エラーチェック機能</p>
+                        <p class="honbun">入力ミスを瞬時に収集しリスト化</p>
                     </div>
-                    <div class="column-3">
-                        <img src="img/service_07.png">
-                        <p class="midashi">ピクチャーレジスターシステム<p>
-                        <p class="honbun">データを自動取得し<br />画像登録ミスを自動判断ステム<p>
-                    </div>
+
                     <div class="column-3">
                         <img src="img/service_08.png">
-                        <p class="midashi">カテゴリー自動連携システム<p>
-                        <p class="honbun">ショップ内カテゴリーを<br />ボーダレス自動判断<p>
+                        <p class="midashi">カテゴリー自動連携システム</p>
+                        <p class="honbun">ショップ内カテゴリーを<br />ボーダレスに自動判断</p>
                     </div>
                 </div>
-                <a href="page/property.html"><span class="linkbtn2">詳しく見る＞＞</span></a>	
+                <a href="page/property.html"><span class="linkbtn2">詳しく見る</span></a>
             </section>
 
-            <div id='d_plan' class="ttl top_plan">
+            <div id="d_plan" class="ttl top_plan">
                 <h2>PLAN</h2>
             </div>
             <section>
                 <div class="inner">
-                    <h3>目的に合わせた3つのプラン</h3>
-                    <div class="column-3">
+                    <h3></h3>
+                    <!-- <div class="column-3">
                         <img src="img/plan3.png">
-                        <p class="midashi copper">ライト<p>
-                        <p class="honbun">コストを抑えてリーズナブルに<br />基本テンプレートで簡単登録<p>
+                        <p class="midashi copper">ライト</p>
+                        <p class="honbun">コストを抑えてリーズナブルに<br />基本テンプレートで簡単登録</p>
                     </div>
                     <div class="column-3">
                         <img src="img/plan2.png">
-                        <p class="midashi silver">スタンダード<p>
-                        <p class="honbun">コストもデザインも大事！<br />デザインを際立たせて<p>
+                        <p class="midashi silver">スタンダード</p>
+                        <p class="honbun">コストもデザインも大事！<br />デザインを際立たせて</p>
                     </div>
                     <div class="column-3">
                         <img src="img/plan1.png">
-                        <p class="midashi gold">プロフェッショナル<p>
-                        <p class="honbun">商品ページで他社と差を！<br />越境・スマホ・SEO<p>
-                    </div>
+                        <p class="midashi gold">プロフェッショナル</p>
+                        <p class="honbun">商品ページで他社と差を！<br />越境・スマホ・SEO</p>
+                    </div> -->
                 </div>
                 <table class="plan">
                     <tr>
                         <th><span class="plan_line">定期登録</span><br />9,800円～/店舗</th>
-                        <th><span class="plan_line">定期登録</span><br />40,000円～/店舗</th>
-                        <th><span class="plan_line">定期登録</span><br />応相談</th>
-                    </tr>
-                    <tr>
-                        <td colspan="3"><span class="plan_line">商品移行</span><br />150円～/1商品</td>
+                        <td><span class="plan_line">商品移行</span><br />150円～/1商品</td>
                     </tr>
                 </table>
-                <a href="page/price.html"><span class="linkbtn2">詳しく見る＞＞</span></a>
+                <!-- <a href="page/price.html"><span class="linkbtn2">詳しく見る</span></a> -->
 
                 <div class="inner bg-white">
-                    <div class="column-2">
-                        <p class="midashi">商品定期登録サービス<p>
-                            <a href="page/plan/teiki_plan.html"><span class="linkbtn2">プランを一覧で比較する＞＞</span></a>
+                    <div class="column-2" style="margin-right:85px">
+                        <p class="midashi">商品定期登録サービス</p>
+                            <a href="page/service_teiki.html"><span class="linkbtn2 plan_btn">サービス内容</span></a>
+                            <a href="page/plan/teiki_plan.html"><span class="linkbtn2 plan_btn">機能一覧</span></a>
                     </div>
                     <div class="column-2">
-                        <p class="midashi">商品移行サービス<p>
-                            <a href="page/plan/ikou_plan.html"><span class="linkbtn3">プランを一覧で比較する＞＞</span></a>
+                        <p class="midashi">商品移行サービス</p>
+                            <a href="page/service_ikou.html"><span class="linkbtn3 plan_btn">サービス内容</span></a>
+                            <a href="page/plan/ikou_plan.html"><span class="linkbtn3 plan_btn">機能一覧</span></a>
                     </div>
-                </div>	
+                </div>
             </section>
 
-            <div id='d_function' class="ttl top_function">
+            <div id="d_function" class="ttl top_function">
                 <h2>FUNCTION</h2>
             </div>
             <section class="bg_blue">
                 <div class="inner">
                     <h3>特徴一覧</h3>
                     <div class="column-3">
-                        <p class="midashi white">簡単入力設定<p>
-                        <p class="cap">何店舗運営していても、<br />1つの商品の入力場所は1行だけ。<p>
+                        <p class="midashi white">簡単入力設定</p>
+                        <p class="cap">何店舗運営していても、<br />1つの商品の入力場所は1行だけ。</p>
                     </div>
                     <div class="column-3">
-                        <p class="midashi white">店舗別出品設定<p>
-                        <p class="cap">楽天では「出品する」、<br />Yahooでは「出品しない」等、<br />商品毎に出品店舗を設定できます。<br />また、配送設定等の個別設定も<br />行うことができます。<p>
+                        <p class="midashi white">店舗別出品設定</p>
+                        <p class="cap">楽天では「出品する」、<br />Yahooでは「出品しない」等、<br />商品毎に出品店舗を設定できます。<br />また、配送設定等の個別設定も<br />行うことができます。</p>
                     </div>
                     <div class="column-3">
-                        <p class="midashi white">入力項目削減設定<p>
-                        <p class="cap">入力項目削減設定<br />入力必須項目とそうでない項目を<br />お客様毎に設定することにより、<br />商品の入力時間を極限まで削減します。<p>
+                        <p class="midashi white">入力項目削減設定</p>
+                        <p class="cap">入力項目削減設定<br />入力必須項目とそうでない項目を<br />お客様毎に設定することにより、<br />商品の入力時間を極限まで削減します。</p>
                     </div>
                     <div class="column-3">
-                        <p class="midashi white">一括改定機能<p>
-                        <p class="cap">税込み設定や送料設定などをモール<br />ごとに一括で設定することが可能。<br />特定商品のみ別設定も可。<p>
+                        <p class="midashi white">一括改定機能</p>
+                        <p class="cap">税込み設定や送料設定などをモール<br />ごとに一括で設定することが可能。<br />特定商品のみ別設定も可。</p>
                     </div>
                     <div class="column-3">
-                        <p class="midashi white">文字数制限<p>
-                        <p class="cap">モールに登録する際に文字数が<br />オーバーしてしまう場合の<br />アラート機能。<p>
+                        <p class="midashi white">文字数制限</p>
+                        <p class="cap">モールに登録する際に文字数が<br />オーバーしてしまう場合の<br />アラート機能。</p>
                     </div>
                     <div class="column-3">
-                        <p class="midashi white">機種依存文字チェック<p>
-                        <p class="cap">一般的に使用が制限されている<br />機種依存文字をチェックし、<br />お知らせする機能。<p>
+                        <p class="midashi white">機種依存文字チェック</p>
+                        <p class="cap">一般的に使用が制限されている<br />機種依存文字をチェックし、<br />お知らせする機能。</p>
                     </div>
                     <div class="column-3">
-                        <p class="midashi white">半角カタカナチェック<p>
-                        <p class="cap">機種依存文字と同様、<br />一般的に使用が制限されている<br />半角カタカナをチェックし、<br />お知らせする機能。<p>
+                        <p class="midashi white">半角カタカナチェック</p>
+                        <p class="cap">機種依存文字と同様、<br />一般的に使用が制限されている<br />半角カタカナをチェックし、<br />お知らせする機能。</p>
                     </div>
                     <div class="column-3">
-                        <p class="midashi white">入力アシスト機能<p>
-                        <p class="cap">入力した内容や、<br />事前に取り決めした内容に基づき、<br />入力の手間を省けるようアシストします。<p>
+                        <p class="midashi white">入力アシスト機能</p>
+                        <p class="cap">入力した内容や、<br />事前に取り決めした内容に基づき、<br />入力の手間を省けるようアシストします。</p>
                     </div>
                     <div class="column-3">
-                        <p class="midashi white">データ管理支援<p>
-                        <p class="cap">商品管理番号のルールや<br />画像の名前などをパターン化し<br />以降商品管理が容易に。<p>
+                        <p class="midashi white">データ管理支援</p>
+                        <p class="cap">商品管理番号のルールや<br />画像の名前などをパターン化し<br />以降商品管理が容易に。</p>
                     </div>
                     <div class="column-2">
-                        <p class="midashi white">ロボットエラーコレクション機能<p>
-                        <p class="cap">入力ミスを瞬時に収集しリストにして簡単確認<p>
+                        <p class="midashi white">自動エラーチェック機能</p>
+                        <p class="cap">入力ミスを瞬時に収集しリストにして簡単確認</p>
                     </div>
                     <div class="column-2">
-                        <p class="midashi white">カテゴリー自動連携システム<p>
-                        <p class="cap">ショップのカテゴリー、モールの<br />カテゴリーIDをボーダレスに自動で判断<p>
+                        <p class="midashi white">カテゴリー自動連携システム</p>
+                        <p class="cap">ショップのカテゴリー、モールの<br />カテゴリーIDをボーダレスに自動で判断</p>
                     </div>
                     <div class="column-2">
-                        <p class="midashi white">プレビュー機能<p>
-                        <p class="cap">商品を登録した際の表示をショートカットキーで<br />確認することができます。<p>
-                    </div>
-                    <div class="column-2">
-                        <p class="midashi white">ピクチャーレジスターシステム<p>
-                        <p class="cap">全モールの画像を自動で取得し画像の<br />有無とサイズを確認します。<p>
+                        <p class="midashi white">プレビュー機能</p>
+                        <p class="cap">商品を登録した際の表示をショートカットキーで<br />確認することができます。</p>
                     </div>
                     <div class="column">
-                        <p class="midashi white">楽天商品タグ＆Yahooスペック入力支援機能<p>
-                        <p class="cap">楽天RMSやYahooストアクリエイターProにログインすることなく、<br />タグやスペックを選択できるウィンドウを表示することができます。<p>
+                        <p class="midashi white">楽天商品タグ＆Yahooスペック入力支援機能</p>
+                        <p class="cap">楽天RMSやYahooストアクリエイターProにログインすることなく、<br />タグやスペックを選択できるウィンドウを表示することができます。</p>
                     </div>
-                </div>	
+                </div>
             </section>
 
-            <div id='d_voice' class="ttl top_voice">
+            <div id="d_voice" class="ttl top_voice">
                 <h2>CUSTOMER'S VOICE</h2>
             </div>
             <section>
                 <div class="inner">
                     <h3>お客様の声</h3>
                     <div class="column-2">
-                        <p class="midashi silver">ニューバッグワカマツ様（鹿児島県）<br />定期登録利用 楽天エキスポ受賞<br />5店舗利用<br />楽天 Yahoo! Wowma! Amazon マルチドメインカート<p>
-                        <p class="cap left">イージースターを選んだ理由は、「登録用シート」に入力するだけで、すべての店舗へ商品登録できることでした。 すべてのモールを一括管理できるようになり、在庫管理ができるようになりました。<br /><br />また、サービスバナー（送料無料、定型外対応等）を入力時に選択するので挿入のし忘れなどが激減しました。 また「登録用シート」によって、新規商品の登録をすべてのモールで同時にできるので、モール毎の反応の違いの分析ができるようにもなりました。 コストパフォーマンスも大きいです。 商品登録に関する悩みや相談にも対応してもらえています。ロケーションの遠さをスカイプなどで補いつつ、協業しています。<p>
+                        <p class="midashi silver">ニューバッグワカマツ様（鹿児島県）<br />定期登録利用 楽天エキスポ受賞<br />5店舗利用<br />楽天 Yahoo! Wowma! Amazon マルチドメインカート</p>
+                        <p class="cap left">イージースターを選んだ理由は、「登録用シート」に入力するだけで、すべての店舗へ商品登録できることでした。 すべてのモールを一括管理できるようになり、在庫管理ができるようになりました。<br /><br />また、サービスバナー（送料無料、定型外対応等）を入力時に選択するので挿入のし忘れなどが激減しました。 また「登録用シート」によって、新規商品の登録をすべてのモールで同時にできるので、モール毎の反応の違いの分析ができるようにもなりました。 コストパフォーマンスも大きいです。 商品登録に関する悩みや相談にも対応してもらえています。ロケーションの遠さをスカイプなどで補いつつ、協業しています。</p>
                     </div>
                     <div class="column-2">
-                        <p class="midashi silver">インターナショナルスワングループ様<br />（滋賀県）<br />定期登録利用<br />4店舗利用<br />楽天 Yahoo! Wowma! Amazon<p>
-                        <p class="cap left">イージースターの導入の理由は、多店舗に入力する時間や、モール毎に新規・変更を反映するタイムラグを減らすためでした。 1つの「登録用シート」を作ってメールを送るだけで、すべてのモールに同時に商品が登録されて、驚くほど楽になりました。<br /><br />また、商品情報入力も今までのように一つ一つのモールに入力するより、「登録用シート」に入力する方が 簡単で早くできるだけでなく、様々な工夫がされていて、より間違いがない入力ができるようになったこともびっくりです。 滋賀と秋葉原の距離を感じずに作業ができています。<p>
+                        <p class="midashi silver">インターナショナルスワングループ様<br />（滋賀県）<br />定期登録利用<br />4店舗利用<br />楽天 Yahoo! Wowma! Amazon</p>
+                        <p class="cap left">イージースターの導入の理由は、多店舗に入力する時間や、モール毎に新規・変更を反映するタイムラグを減らすためでした。 1つの「登録用シート」を作ってメールを送るだけで、すべてのモールに同時に商品が登録されて、驚くほど楽になりました。<br /><br />また、商品情報入力も今までのように一つ一つのモールに入力するより、「登録用シート」に入力する方が 簡単で早くできるだけでなく、様々な工夫がされていて、より間違いがない入力ができるようになったこともびっくりです。 滋賀と秋葉原の距離を感じずに作業ができています。</p>
                     </div>
-                    <a href="page/voice.html"><span class="linkbtn2">もっと見る＞＞</span></a>
+                    <a href="page/voice.html"><span class="linkbtn2">もっと見る</span></a>
                 </div>
             </section>
 
-            <div id='d_schedule' class="ttl top_schedule">
+            <div id="d_schedule" class="ttl top_schedule">
                 <h2>SCHEDULE</h2>
             </div>
             <section class="bg_blue">
@@ -258,10 +256,10 @@
                     <h3>契約後の流れ</h3>
                     <img src="img/schedule_01.png">
                 </div>
-                <a href="page/process.html"><span class="linkbtn2">詳しく見る＞＞</span></a>
+                <a href="page/process.html"><span class="linkbtn2">詳しく見る</span></a>
             </section>
 
-            <div id='d_demo' class="ttl top_demo">
+            <div id="d_demo" class="ttl top_demo">
                 <h2>DEMONSTRATION</h2>
             </div>
             <section>
@@ -271,7 +269,7 @@
                         <img src="img/img06.png" width="100%">
                     </div>
                     <div class="column-2">
-                        <p class="cap left">商品定期登録で使う「登録用シート」のデモンストレーションとなります。<br />デモンストレーション当日に弊社から画面共有用URLをメールにてお送りいたしますのでブラウザよりご覧ください。 弊社スタッフと会話しながら、共有画面をご覧いただきます。 お客様毎に分かりやすい商品を例にご説明いたします。<br />詳しい機能やカスタマイズ可能範囲を確認することができます。所用時間はおよそ30分。<br />デモンストレーションを受けられた方に対して、後日お試し用の「登録用シート」をお渡ししています。 「登録用シート」の利便性をぜひご自身でご体感ください。<p>
+                        <p class="cap left">商品定期登録で使う「登録用シート」のデモンストレーションとなります。<br />デモンストレーション当日に弊社から画面共有用URLをメールにてお送りいたしますのでブラウザよりご覧ください。 弊社スタッフと会話しながら、共有画面をご覧いただきます。 お客様毎に分かりやすい商品を例にご説明いたします。<br />詳しい機能やカスタマイズ可能範囲を確認することができます。所用時間はおよそ30分。<br />デモンストレーションを受けられた方に対して、後日お試し用の「登録用シート」をお渡ししています。 「登録用シート」の利便性をぜひご自身でご体感ください。</p>
                     </div>
                 </div>
             </section>

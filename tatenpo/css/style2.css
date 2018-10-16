@@ -41,7 +41,7 @@ header li{
     display:inline;
     list-style:none;
     font-size:0.9em;
-    margin:0 10px 5px 10px;
+    margin:0 5px 5px 5px;
     vertical-align:top;
 }
 header a{
@@ -57,6 +57,7 @@ header a{
 .top_button{
     float:right;
     font-size:12px;
+    margin:15px 0 5px 0;
 }
 .btn_head{
     display:inline;
@@ -66,6 +67,17 @@ header a{
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border:1px solid #418fcc;
+}
+.inquiry{
+    padding-left: 10px;
+    letter-spacing: 10px;
+    background-color: #F39919;
+    border-color:  #F39919;
+    color: #fff;
+}
+.inquiry:hover{
+    background-color:white;
+    color:#F39919;
 }
 /*メイン*/
 #wrap{
@@ -246,6 +258,8 @@ h3{
     display: inline-block;
     font-weight:bold;
     background-color:#F39919;
+    letter-spacing: 6px;
+
 }
 .linkbtn2:hover{
     background-color:white;
@@ -262,10 +276,15 @@ h3{
     display: inline-block;
     font-weight:bold;
     background-color:#418FCC;
+    letter-spacing: 6px;
 }
 .linkbtn3:hover{
     background-color:white;
     color:#418FCC;
+}
+.plan_btn{
+    width: 150px;
+    margin-bottom: 10px;
 }
 /*フッターのスタイル ここから*/
 .footer{
@@ -376,13 +395,13 @@ h3{
 }
 .footer_list li:after{
     content:'';
-    display:block; 
-    position:absolute; 
+    display:block;
+    position:absolute;
     background:#000000;
     width:9px;
-    height:9px; 
-    top:5px; 
-    left:5px; 
+    height:9px;
+    top:5px;
+    left:5px;
     transform:rotate(-45deg);
     -webkit-transform:rotate(-45deg);
     -o-transform:rotate(-45deg);
