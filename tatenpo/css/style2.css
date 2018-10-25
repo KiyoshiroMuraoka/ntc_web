@@ -198,6 +198,7 @@ h3{
 .top_plan{
     background-image:url('../img/ttl_plan.jpg');
     height: 220px;
+    margin-bottom: 20px;
 }
 .top_function{
     background-image:url('../img/ttl_function.jpg');
