@@ -180,7 +180,7 @@ a{
     left:auto;
     display: block;
     width: 66px;
-    hegiht:66px;
+    height: 66px;
     margin-left:920px;
     padding-bottom: 5px;
 }
@@ -350,10 +350,10 @@ ul > li > p {
 	height:480px;
 }
 .color1{
-	color: #0066ff; 
+	color: #0066ff;
 }
 .color2{
-	color: #ff0000; 
+	color: #ff0000;
 }
 .inline{
 	display:inline-block;
@@ -415,12 +415,12 @@ div.info > div:nth-child(1) > div {
 	border: 1px solid #19283C;
 	z-index: 0;
 	margin: 0px 5px 5px 0px;
-	border-radius: 50px; 
+	border-radius: 50px;
 }
 div.info > div:nth-child(1) > div:before {
 	content: "";
 	position: absolute;
-	top: 100%; 
+	top: 100%;
 	right: 60px;
 	margin-top: 0px;
 	width: 0px;
@@ -461,12 +461,12 @@ div.info > div:nth-child(2) > div {
 	border: 1px solid #19283C;
 	z-index: 0;
 	margin: 0px 0px 5px 5px;
-	border-radius: 50px; 
+	border-radius: 50px;
 }
 div.info > div:nth-child(2) > div:before {
 	content: "";
 	position: absolute;
-	top: 100%; 
+	top: 100%;
 	left: 60px;
 	margin-top: 0px;
 	width: 0px;
@@ -507,12 +507,12 @@ div.info > div:nth-child(4) > div {
 	border: 1px solid #19283C;
 	z-index: 0;
 	margin: 5px 5px 0px 0px;
-	border-radius: 50px; 
+	border-radius: 50px;
 }
 div.info > div:nth-child(4) > div:before {
 	content: "";
 	position: absolute;
-	top: 55px; 
+	top: 55px;
 	left: 100%;
 	margin-top: -11px;
 	margin-left: -1px;
@@ -559,12 +559,12 @@ div.info > div:nth-child(6) > div {
 	border: 1px solid #19283C;
 	z-index: 0;
 	margin: 5px 0px 0px 5px;
-	border-radius: 50px; 
+	border-radius: 50px;
 }
 div.info > div:nth-child(6) > div:before {
 	content: "";
 	position: absolute;
-	top: 55px; 
+	top: 55px;
 	left: -21px;
 	margin-top: -12px;
 	width: 0px;
@@ -606,7 +606,7 @@ figcaption {
 	-webkit-transition: .3s;
 	transition: .3s;
 	opacity: 0;
-	text-align: center; 
+	text-align: center;
 }
 figcaption li{
 	margin:10px 0px 10px 0px;
@@ -626,8 +626,8 @@ figcaption li{
 figure:hover figcaption {
 	opacity: 1;
 }
-.clearLeft { 
-clear: left; 
+.clearLeft {
+clear: left;
 }
 .chara{
 	margin-left:40px;
@@ -732,12 +732,12 @@ clear: left;
 	border: 1px solid #19283C;
 	z-index: 0;
 	margin: 0px 0px 0px 50px;
-	border-radius: 10px; 
+	border-radius: 10px;
 }
 .fukidasi:before {
 	content: "";
 	position: absolute;
-	top: 50%; 
+	top: 50%;
 	left: -10px;
 	margin-top: -11px;
 	width: 0px;
@@ -836,8 +836,8 @@ hr + p{
 
 /*テーブルのスタイル ここから*/
 .plan{
-	border: 1px #000000 solid; 
-	border-collapse: collapse; 
+	border: 1px #000000 solid;
+	border-collapse: collapse;
 	width: 100%;
 }
 .plan td{
@@ -968,13 +968,13 @@ hr + p{
 }
 .footer_list li:after{
 	content:'';
-	display:block; 
-	position:absolute; 
+	display:block;
+	position:absolute;
 	background:#000000;
 	width:9px;
-	height:9px; 
-	top:5px; 
-	left:5px; 
+	height:9px;
+	top:5px;
+	left:5px;
 	transform:rotate(-45deg);
 	-webkit-transform:rotate(-45deg);
 	-o-transform:rotate(-45deg);
@@ -1244,9 +1244,9 @@ div.document dl:nth-of-type(2n+1){
 }
 .linkbtn{
 	border: 2px solid #008ff4;
-	border-radius: 20px;        /* CSS3草案 */  
-    -webkit-border-radius: 20px;    /* Safari,Google Chrome用 */  
-    -moz-border-radius: 20px;   /* Firefox用*/  
+	border-radius: 20px;        /* CSS3草案 */
+    -webkit-border-radius: 20px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 20px;   /* Firefox用*/
     padding:5px 10px;
     margin:5px;
     text-decoration: none;
@@ -1397,7 +1397,7 @@ div.document dl:nth-of-type(2n+1){
 	}
 	.leftbox{
 		float:none;
-		
+
 	}
 	.rightbox{
 		float:none;
@@ -1409,7 +1409,7 @@ div.document dl:nth-of-type(2n+1){
 	}
 	h2 + p{
 		line-height: 150%;
-		
+
 	}
 	p{
 		line-height: 140%;
@@ -1560,7 +1560,7 @@ div.document dl:nth-of-type(2n+1){
 		width: 100%;
 	}
 	div.info > div:nth-child(1) > div:before {
-		top: 55px; 
+		top: 55px;
 		left: 100%;
 		margin-top: -11px;
 		margin-left: -1px;
@@ -1585,7 +1585,7 @@ div.document dl:nth-of-type(2n+1){
 		width: 100%;
 	}
 	div.info > div:nth-child(2) > div:before {
-		top: 55px; 
+		top: 55px;
 		left: 100%;
 		margin-top: -11px;
 		margin-left: -1px;
@@ -1618,7 +1618,7 @@ div.document dl:nth-of-type(2n+1){
 		width: 100%;
 	}
 	div.info > div:nth-child(6) > div:before {
-		top: 55px; 
+		top: 55px;
 		left: 100%;
 		margin-top: -11px;
 		margin-left: -1px;
@@ -1691,7 +1691,7 @@ div.document dl:nth-of-type(2n+1){
 	    margin-left:80%;
 	}
 	/*トップへのボタンのスタイル ここまで*/
-	
+
 	/*コンタクトボタン ここから*/
 	.b02_slide_in {
 	    margin-left: 160px;
@@ -1708,9 +1708,9 @@ div.document dl:nth-of-type(2n+1){
 	}
 	.b02_slide_in div:nth-child(2) {
 	    left: -150px;
-	} 
+	}
 	/*コンタクトボタン ここまで*/
-	
+
 	/*faqのスタイル ここから*/
 	.accordionLister{
 		cursor: pointer;
@@ -1819,13 +1819,13 @@ div.document dl:nth-of-type(2n+1){
 	}
 	.footer_list_sp li:after{
 		content:'';
-		display:block; 
-		position:absolute; 
+		display:block;
+		position:absolute;
 		background:#000000;
 		width:27px;
-		height:27px; 
-		top:10px;  
-		left:5px; 
+		height:27px;
+		top:10px;
+		left:5px;
 		transform:rotate(-45deg);
 		-webkit-transform:rotate(-45deg);
 		-o-transform:rotate(-45deg);
