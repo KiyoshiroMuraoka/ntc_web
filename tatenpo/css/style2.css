@@ -382,10 +382,10 @@ h3{
 .news a:active{
     color:#1e90ff;
 }
-.ec_logo + div{
+/* .ec_logo + div{
 }
 .rms_logo + div{
-}
+} */
 .footer_list li{
     list-style-type:none !important;
     list-style-image:none !important;

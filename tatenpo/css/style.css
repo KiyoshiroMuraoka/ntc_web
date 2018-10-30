@@ -954,10 +954,10 @@ hr + p{
 .news a:active{
 	color:#1e90ff;
 }
-.ec_logo + div{
+/* .ec_logo + div{
 }
 .rms_logo + div{
-}
+} */
 .footer_list li{
 	list-style-type:none !important;
 	list-style-image:none !important;
@@ -1106,8 +1106,8 @@ div.document dl:nth-of-type(2n+1){
 	margin-top:20px;
 	margin-left:10px;
 }
-.toptitle> a> img{
-}
+/* .toptitle> a> img{
+} */
 .topright{
 	float:right;
 	width:350px;
@@ -1447,8 +1447,8 @@ div.document dl:nth-of-type(2n+1){
 	    width: 100%;
 	    height: 100%;
 	}
-	.s1,.s2{
-	}
+	/* .s1,.s2{
+	} */
 	.s1 > div,.s2 > div{
 		outline-width:1px;
 		padding:10px;
@@ -1650,7 +1650,7 @@ div.document dl:nth-of-type(2n+1){
 	}
 	#ikpsmp{
 		display: inline;
-		width: 40%;
+		/* width: 40%; */
 	}
 	.ikpcol{
 		border: solid 1px;
@@ -1836,8 +1836,8 @@ div.document dl:nth-of-type(2n+1){
 	.ec_logo_sp{
 		height:150px;
 	}
-	.copy{
-	}
+	/* .copy{
+	} */
 
 	/*フッター ここまで*/
 	/*パンくずのスタイル ここから*/
@@ -1874,8 +1874,8 @@ div.document dl:nth-of-type(2n+1){
 	.client > img{
 		height: 140px;
 	}
-	.status{
-	}
+	/* .status{
+	} */
 	.voice a{
 		margin:10px 0px 0px 20px;
 	}
@@ -1895,10 +1895,10 @@ div.document dl:nth-of-type(2n+1){
 	.sitemap li{
 		margin: 5px 0px 5px 50px;
 	}
-	.client li {
+	/* .client li {
 	}
 	.client > div > a > b{
-	}
+	} */
 	.fukidasi{
 		padding:15px 20px;
 	}
