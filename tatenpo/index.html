@@ -7,8 +7,8 @@
         <meta http-equiv="Content-Script-Type" content="text/javascript" />
         <meta http-equiv="Expires" content="604800" />
         <meta http-equiv="Content-Language" content="ja" />
-        <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-        <script type="text/javascript" src="./js/animatescroll.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js" defer></script>
+        <script type="text/javascript" src="./js/animatescroll.min.js" defer></script>
         <link rel="shortcut icon" href="./img/favicon.ico" />
         <link rel="canonical" href="https://www.technocrats.jp/tatenpo" />
         <meta name="Keywords" content="商品,一括,登録,多店舗計画,多店舗展開,複数店舗,データ移行,商品登録,楽天市場,Yahoo!ショッピング,アマゾン,ビッターズ,マルチドメインカート,楽天,Yahooショッピング,Amazon,bidders,auショッピングモール,au ショッピングモール,MDC,EC CUBE,Eストア,ショップサーブ,ECCUBE,カラーミーショップ,MakeShop,メイクショップ,ebay,助ネコ,ECサイト,Eコマース,越境EC" />
@@ -19,7 +19,7 @@
         <script type="text/javascript">
 	    function ac(){var r=document.referrer,a=google.loader.ClientLocation;ti=document.title;p=location.href.substring(location.href.lastIndexOf("/")+1,location.href.length);if(a){var e=a.address.region,t=a.address.city,o=a.address.country}var c={ref:r,region:e,city:t,country:o,page:p,title:ti};jQuery.ajax({async:!0,type:"GET",url:"https://www.technocrats.jp/tatenpo/ac.php",data:c})};
         </script>
-        <script type="text/javascript" async src="https://www.google.com/jsapi?callback=ac"></script>
+        <script type="text/javascript" src="https://www.google.com/jsapi?callback=ac" async></script>
         <script>
             (function(i,s,o,g,r,a,m){i.GoogleAnalyticsObject=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create","UA-42863547-4","auto");ga("send","pageview");
         </script>
@@ -74,6 +74,11 @@
                     <div class="column-2">
                         <a href="https://www.ecnomikata.com/support_company/?company_id=80" target="_blank">
                             <img src="img/ec_mikata_banner.png" width="80%"><p class="cap">ＥＣのミカタに掲載されました</p>
+                        </a>
+                    </div>
+                    <div class="column-2">
+                        <a href="https://www.ebay.co.jp/" target="_blank">
+                            <img src="img/ebay_logo_rgb.jpg" alt="Bayセラーサポート企業に認定"><p class="cap">eBayセラーサポート企業に認定されました</p>
                         </a>
                     </div>
                 </div>
@@ -261,7 +266,6 @@
             </address>
         </div>
         <!--footer end-->
-
         <script>
             var cb = function () {
                 var l = document.createElement('link');
