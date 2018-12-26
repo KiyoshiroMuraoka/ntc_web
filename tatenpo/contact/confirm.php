@@ -1,6 +1,6 @@
 <?php
   const RECAPTCHA__API = 'https://www.google.com/recaptcha/api/siteverify';
-  const RECAPTCHA_SKEY = '6LfxKDwUAAAAAAJv0HYFKN-tdjNi_GfIm8oIIkMv';
+  const RECAPTCHA_SKEY = '';
   session_start();    //セッションを開始
 
   require 'functions.php';   //テンプレートエンジンの読み込み

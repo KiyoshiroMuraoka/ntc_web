@@ -122,7 +122,7 @@
 
 TEL：03-5835-5421
 FAX：03-5835-5422
-URL：http://www.technocrats.jp
+URL：https://www.technocrats.jp
 E-mail：ec-contact@technocrats.jp
 ━━━━━━━━━━━━━━━━━━
 EOD;
@@ -163,7 +163,7 @@ EOD;
 
 TEL：03-5835-5421
 FAX：03-5835-5422
-URL：http://www.technocrats.jp
+URL：https://www.technocrats.jp
 E-mail：ec-contact@technocrats.jp
 ━━━━━━━━━━━━━━━━━━
 EOD;
