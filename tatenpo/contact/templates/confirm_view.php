@@ -121,6 +121,7 @@
 	<span class="tcell-l">内容：</span>
                 <span class="tcell-r"><?php echo $body; ?></span>
                 </span>
+<?php if ($agreement == "yes"){echo '<span class="tcell-l">個人情報の取り扱いに関して：</span><span class="tcell-r" style="width:480px;">同意する</span>';} ?>
                 <!--end of #confirmArea-->
             </div>
             <div align="center">

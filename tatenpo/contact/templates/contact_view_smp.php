@@ -189,6 +189,55 @@
                     <br />
                     <br />
 
+                      <div class="q-row invisible" id="row_body">
+                      <span class="tcell-l" style="vertical-align: top;"><label for="body">個人情報の取り扱いに関して</label></span>
+                      <span class="tcell-r"><textarea name="nobody" id="nobody" cols="50" rows="7" class="form-control textbox textbox2 textmain" readonly>ご提供いただく個人情報の取り扱いについて
+
+■ 事業者の氏名または名称
+
+日本テクノクラーツ株式会社
+
+■ 個人情報保護管理者
+
+日本テクノクラーツ株式会社　総務人事部部長、電話番号 03-5835-5421
+
+■ 個人情報の利用目的
+
+取得した個人情報は、お問い合せ対応のために利用いたします。
+
+■ 個人情報の第三者提供について
+
+本人の同意がある場合または法令に基づく場合を除き、取得した個人情報を第三者に提供することはありません。
+
+■ 個人情報の取扱いの委託について
+
+取得した個人情報を委託することはありません。
+
+■ 開示対象個人情報の開示等および問合せ窓口について
+
+本人からの求めにより、弊社が本件により取得した開示対象個人情報の利用目的の通知・開示・内容の訂正・追加または削除・利用の停止・消去（「開示等」といいます。）に応じます。
+
+■ 個人情報を入力するにあたっての注意事項
+
+電話番号の入力は任意となっております。電話番号をご入力いただけない場合には、電子メールでのご連絡が取れないときに、電話を差し上げることができず、お問合せに対応できないことがあります。
+
+■ 本人が容易に認識できない方法による個人情報の取得
+
+クッキーやウェブビーコン等を用いるなどして、本人が容易に認識できない方法による個人情報の取得は行っておりません。
+
+■ 個人情報の安全管理措置について
+
+取得した個人情報については、漏えい、滅失またはき損の防止と是正、その他個人情報の安全管理のために必要かつ適切な措置を講じます。このサイトは、SSL（Secure Socket Layer）による暗号化措置を講じています。
+
+</textarea><br /><br />
+■ 個人情報保護方針<br>
+<a href="https://www.technocrats.jp/info/privacy.html" target="_blank">弊社個人情報保護方針につきましてはこちら</a></span>
+
+                      <br /><span class="tcell-l"></span>
+                      <span class="tcell-r"><ul class="bg_checkbox">
+                      <span id="agree" class="chk_output invisible"><li><input type="checkbox" name="agreement" value="yes" class="form-control source validate[required]" /><label for="output-1" class="check">&nbsp;「提供いただく個人情報の取り扱いについて」に同意</label></li></span><br /></ul></span>
+                    </div>
+
                     <div class="tcell">
                         <span>認証<!--認証（reCAPTCHA ）--></span>
                         <div class="g-recaptcha" data-sitekey="6LfxKDwUAAAAAIVlNSZUcVIZQwPSEWL63aS6jvc9"></div>

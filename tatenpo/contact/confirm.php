@@ -1,6 +1,6 @@
 <?php
   const RECAPTCHA__API = 'https://www.google.com/recaptcha/api/siteverify';
-  const RECAPTCHA_SKEY = '';
+  const RECAPTCHA_SKEY = '6LfxKDwUAAAAAAJv0HYFKN-tdjNi_GfIm8oIIkMv';
   session_start();    //セッションを開始
 
   require 'functions.php';   //テンプレートエンジンの読み込み
@@ -60,6 +60,7 @@
   // $startdate2 = trim($startdate2);
   $discussion = trim($discussion);
   $body = trim($body);
+  $agree = filter_input(INPUT_POST, 'agreement');
 
   //エラーメッセージを保存する配列の初期化
   $error = array();
@@ -139,6 +140,7 @@
     // $_SESSION['startdate2'] = $startdate2;
     $_SESSION['discussion'] = $discussion;
     $_SESSION['body'] = $body;
+    $_SESSION['agreement'] = $agreement;
       //確認画面を表示
     display('confirm_view.php', $data);
   }

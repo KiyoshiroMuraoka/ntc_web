@@ -22,6 +22,9 @@ box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
 .textbox {
 width: 290px;
 }
+.textbox2 {
+width: 450px !important;
+}
 .numbox {
 width: 100px;
 }
